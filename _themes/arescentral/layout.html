@@ -1,0 +1,51 @@
+{% extends "basic/layout.html" %}
+
+{%- block extrahead %}
+<link rel="alternate" type="application/atom+xml" href="{{ atom_link }}"/>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+{% endblock %}
+
+{%- block header %}
+<a id="header" href="{{ pathto("index") }}">{{ docstitle }}</a>
+{% endblock %}
+
+{%- block relbar1 %}
+<hr/>
+<ul id="navigation">
+    {% if pathto("index") == "#" %}
+    <li>{{ _("Home") }}</li>
+    {% else %}
+    <li><a href="{{ pathto("index") }}">{{ _("Home") }}</a></li>
+    {% endif %}
+
+    {% if pathto("about") == "#" %}
+    <li>{{ _("About") }}</li>
+    {% else %}
+    <li><a href="{{ pathto("about") }}">{{ _("About") }}</a></li>
+    {% endif %}
+
+    {% if pathto("antares") == "#" %}
+    <li>{{ _("Antares") }}</li>
+    {% else %}
+    <li><a href="{{ pathto("antares") }}">{{ _("Antares") }}</a></li>
+    {% endif %}
+
+    <li><a href="http://xsera.org/">{{ _("Xsera") }}</a></li>
+    <li><a href="http://www.ambrosiasw.com/forums/index.php?showforum=88">{{ _("Forums") }}</a></li>
+</ul>
+<hr/>
+{% endblock %}
+
+{%- block document %}
+{% if "date" in meta %}
+{{ meta["date"]|date_html }}
+<div class="article">
+{{ super() }}
+</div>
+{% else %}
+{{ super() }}
+{% endif %}
+{% endblock %}
+
+{%- block relbar2 %}
+{% endblock %}

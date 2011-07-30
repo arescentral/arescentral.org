@@ -1,0 +1,14 @@
+:orphan:
+:Date:      2011-01-17
+:Author:    Chris Pickel <sfiera@gmail.com>
+
+Antares 0.3.1 Released
+======================
+
+`Antares 0.3.1`_ has been released. This is a hotfix release, fixing two
+related issues:
+
+* Issue 40 ("Hold Position" triggers arrive action.)
+* Issue 53 (Quitting during Make Way Level)
+
+..  _Antares 0.3.1: http://downloads.arescentral.org/Antares/Antares-0.3.1.zip

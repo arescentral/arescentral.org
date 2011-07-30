@@ -1,0 +1,175 @@
+@import url("basic.css");
+
+html {
+    background: white;
+    font: normal 0.9em sans-serif;
+    line-spacing: 1.5em;
+}
+body {
+    max-width: 50em;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+#header {
+    font: normal 3em sans-serif;
+    color: hsl(0, 0%, 30%);
+    margin: 0 0.5em;
+}
+#navigation {
+    display: block;
+    margin: 0 0.75em;
+    padding: 0.375em;
+}
+#navigation li {
+    display: inline;
+    padding: 0 0.375em;
+}
+hr {
+    border: 1px solid hsl(0, 0%, 80%);
+    border-width: 1px 0 0 0;
+    margin: 0 0.75em;
+}
+a:link {
+    text-decoration: none;
+    color: {{ theme_accentcolor }};
+}
+a:visited {
+    color: {{ theme_darkaccentcolor }};
+}
+a:hover {
+    text-decoration: underline;
+}
+a[href^="http://"] {
+    padding-right: 12px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAFZJREFUeF59z4EJADEIQ1F36k7u5E7ZKXeUQPACJ3wK7UNokVxVk9kHnQH7bY9hbDyDhNXgjpRLqFlo4M2GgfyJHhjq8V4agfrgPQX3JtJQGbofmCHgA/nAKks+JAjFAAAAAElFTkSuQmCC) center right no-repeat;
+}
+a[href^="https://"] {
+    padding-right: 12px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIVJREFUeF6tjzsKg0AQhi09mimsFJLCzpNYCGKbK3gAtfUIljaCoKCCZIs8MMV2v+yCg8siWlh8zOtjhjEAEFmeIopDQtTrTJNEZIxhWysiNfULJFJjDzGnba/aBt4+wAuBzD+tg6a8SVkXf4GET96xmDxNzP39IvE/PPDtXIyVpYinv14A5F0laJ8oYFgAAAAASUVORK5CYII=) center right no-repeat;
+}
+a[href^="mailto:"] {
+    padding-right: 12px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKBAMAAAB/HNKOAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADBQTFRF////////iIqF9vb26urpycfDvb275eXj2djV+/v4srKy6efio6GcqKejsa6q8fDtVM9qIQAAAAF0Uk5TAEDm2GYAAABOSURBVHheBcExDkAwGIDRL43NpJOt6a9hMdVilP8gklqsHMJmt4qeyeI03oNSNkCrAIU/7YTWbwp0zz4rTXZHxF/9YA15HTG4+4NFRNofUBMMOBBNZngAAAAASUVORK5CYII=) center right no-repeat;
+}
+a[href$=".zip"] {
+    padding-right: 12px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAQAAAAnOwc2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAExJREFUeF5VyEEKwCAMAMH83o/0LT6kFHqQYqkevG1jIITs3kaQgn+A7A29ujnw5NKrsaPCrTegBBrRMzYeXkbGzsdkZRwsPWMUmEd+CkSgVeVp2OkAAAAASUVORK5CYII=) center right no-repeat;
+}
+a.image-reference {
+    padding: 0;
+    background: none;
+}
+
+.article,
+.licensed {
+    position: relative;
+    padding: 0 0 0 12em;
+}
+.section {
+    margin-bottom: 3em;
+}
+.section .section,
+.licensed {
+    margin-bottom: 2em;
+}
+
+.document {
+    position: relative;
+}
+
+.article-date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: hsl(0, 0%, 85%);
+    color: hsl(0, 0%, 50%);
+    width: 9.75em;
+    text-transform: uppercase;
+}
+.article-date .month-day {
+    background: {{ theme_accentcolor }};
+    color: white;
+    float: right;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.25em;
+    width: 2.125em;
+    padding: 0.25em 0.5em;
+}
+.article-date .year,
+.article-date .month,
+.article-date .day,
+.article-date .month-day {
+    display: block;
+}
+.article-date .year {
+    font-size: 2.5em;
+    line-height: 1em;
+    padding: 0.1em 0.25em;
+}
+
+div.license {
+    position: absolute;
+    left: 0;
+    background: hsl(0, 0%, 85%);
+    color: hsl(0, 0%, 50%);
+    width: 9.75em;
+    text-transform: uppercase;
+}
+span.license {
+    background: {{ theme_accentcolor }};
+    color: white;
+    float: right;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.25em;
+    width: 2.125em;
+    padding: 0.875em 0.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: hsl(0, 0%, 30%);
+    line-height: 1em;
+    padding: 0.25em 0;
+    font-weight: normal;
+    margin: 1em 0 0 0;
+    clear: both;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+p {
+    text-align: justify;
+}
+.footer {
+    text-align: center;
+}
+a.headerlink {
+    font-size: 0.8em;
+    padding: 0 4px;
+    text-decoration: none;
+}
+a.headerlink:hover {
+    background-color: {{ theme_accentcolor }};
+    color: white;
+}
+a.internal em {
+    font-style: normal;
+}
+
+.screenshot {
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
