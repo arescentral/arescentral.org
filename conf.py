@@ -43,7 +43,7 @@ master_doc = "index"
 
 # General information about the project.
 project = u"Ares Central"
-copyright = u"2011, arescentral.org"
+copyright = u"2011, Ares Central"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
