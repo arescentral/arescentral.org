@@ -6,34 +6,39 @@
 {% endblock %}
 
 {%- block header %}
-<a id="header" href="{{ pathto("index") }}">{{ docstitle }}</a>
+<div id="header">
+    <a class="home" href="{{ pathto("index") }}">{{ docstitle }}</a>
+    <hr/>
+    <ul id="navigation">
+        {% if pathto("index") == "#" %}
+        <li><span>{{ _("Home") }}</span></li>
+        {% else %}
+        <li><a href="{{ pathto("index") }}">{{ _("Home") }}</a></li>
+        {% endif %}
+
+        {% if pathto("about") == "#" %}
+        <li><span>{{ _("About") }}</span></li>
+        {% else %}
+        <li><a href="{{ pathto("about") }}">{{ _("About") }}</a></li>
+        {% endif %}
+
+        {% if pathto("antares") == "#" %}
+        <li><span>{{ _("Antares") }}</span></li>
+        {% else %}
+        <li><a href="{{ pathto("antares") }}">{{ _("Antares") }}</a></li>
+        {% endif %}
+
+        <li><a href="http://xsera.org/">{{ _("Xsera") }}</a></li>
+        <li><a href="http://www.ambrosiasw.com/forums/index.php?showforum=88">{{ _("Forums") }}</a></li>
+    </ul>
+    <hr/>
+</div>
 {% endblock %}
 
 {%- block relbar1 %}
-<hr/>
-<ul id="navigation">
-    {% if pathto("index") == "#" %}
-    <li>{{ _("Home") }}</li>
-    {% else %}
-    <li><a href="{{ pathto("index") }}">{{ _("Home") }}</a></li>
-    {% endif %}
+{% endblock %}
 
-    {% if pathto("about") == "#" %}
-    <li>{{ _("About") }}</li>
-    {% else %}
-    <li><a href="{{ pathto("about") }}">{{ _("About") }}</a></li>
-    {% endif %}
-
-    {% if pathto("antares") == "#" %}
-    <li>{{ _("Antares") }}</li>
-    {% else %}
-    <li><a href="{{ pathto("antares") }}">{{ _("Antares") }}</a></li>
-    {% endif %}
-
-    <li><a href="http://xsera.org/">{{ _("Xsera") }}</a></li>
-    <li><a href="http://www.ambrosiasw.com/forums/index.php?showforum=88">{{ _("Forums") }}</a></li>
-</ul>
-<hr/>
+{%- block relbar2 %}
 {% endblock %}
 
 {%- block document %}
@@ -45,7 +50,4 @@
 {% else %}
 {{ super() }}
 {% endif %}
-{% endblock %}
-
-{%- block relbar2 %}
 {% endblock %}

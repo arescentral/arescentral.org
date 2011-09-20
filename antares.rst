@@ -27,15 +27,15 @@ licensed under the |gpl2|.
 Screenshots
 -----------
 
-..  image:: http://farm3.static.flickr.com/2606/4103057024_0b577de0a2_t.jpg
+..  image:: http://farm3.static.flickr.com/2606/4103057024_0b577de0a2_m.jpg
     :target: http://www.flickr.com/photos/sfiera/4103057024/in/pool-1519223@N24/
     :class: screenshot
 
-..  image:: http://farm3.static.flickr.com/2742/4102298687_8c2e12276b_t.jpg
+..  image:: http://farm3.static.flickr.com/2742/4102298687_8c2e12276b_m.jpg
     :target: http://www.flickr.com/photos/sfiera/4102298687/in/pool-1519223@N24/
     :class: screenshot
 
-..  image:: http://farm3.static.flickr.com/2597/4103065046_f52a39003f_t.jpg
+..  image:: http://farm3.static.flickr.com/2597/4103065046_f52a39003f_m.jpg
     :target: http://www.flickr.com/photos/sfiera/4103065046/in/pool-1519223@N24/
     :class: screenshot
 
@@ -43,3 +43,5 @@ Videos
 ------
 
 ..  youtube:: 4s44qu5zgXE
+    :aspect: 16:9
+    :width: 100%

@@ -3,38 +3,52 @@
 html {
     background: white;
     font: normal 0.9em sans-serif;
-    line-spacing: 1.5em;
 }
 body {
-    max-width: 50em;
-    margin: 2em auto;
-    padding: 1em;
+    position: relative;
+    margin: 1.5em;
 }
 
 #header {
-    font: normal 3em sans-serif;
+    position: fixed;
+    top: 1.5em;
+    left: 1.5em;
+    width: 20em;
+}
+#header .home {
+    font-size: 3em;
     color: hsl(0, 0%, 30%);
-    margin: 0 0.5em;
+    margin: 0 0.25em;
 }
 #navigation {
     display: block;
-    margin: 0 0.75em;
+    margin: 0;
     padding: 0.375em;
 }
 #navigation li {
-    display: inline;
+    display: block;
     padding: 0 0.375em;
+}
+#navigation li a,
+#navigation li span {
+    font-size: 1.25em;
+    display: block;
 }
 hr {
     border: 1px solid hsl(0, 0%, 80%);
     border-width: 1px 0 0 0;
-    margin: 0 0.75em;
+    margin: 0;
+}
+.document {
+    margin-left: 21.5em;
+    max-width: 50em;
 }
 a:link {
     text-decoration: none;
     color: {{ theme_accentcolor }};
 }
 a:visited {
+    text-decoration: none;
     color: {{ theme_darkaccentcolor }};
 }
 a:hover {
@@ -61,16 +75,10 @@ a.image-reference {
     background: none;
 }
 
-.article,
-.licensed {
-    position: relative;
-    padding: 0 0 0 12em;
-}
 .section {
     margin-bottom: 3em;
 }
-.section .section,
-.licensed {
+.section .section {
     margin-bottom: 2em;
 }
 
@@ -79,23 +87,26 @@ a.image-reference {
 }
 
 .article-date {
-    position: absolute;
-    top: 0;
-    left: 0;
+    float: left;
+    position: relative;
+    margin-right: 1em;
     background: hsl(0, 0%, 85%);
     color: hsl(0, 0%, 50%);
-    width: 9.75em;
+    width: 5.75em;
     text-transform: uppercase;
 }
 .article-date .month-day {
     background: {{ theme_accentcolor }};
     color: white;
-    float: right;
-    font-size: 1em;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 2.125em;
+    font-size: 0.6em;
     font-weight: bold;
     text-align: center;
     line-height: 1.25em;
-    width: 2.125em;
     padding: 0.25em 0.5em;
 }
 .article-date .year,
@@ -105,29 +116,9 @@ a.image-reference {
     display: block;
 }
 .article-date .year {
-    font-size: 2.5em;
+    font-size: 1.5em;
     line-height: 1em;
     padding: 0.1em 0.25em;
-}
-
-div.license {
-    position: absolute;
-    left: 0;
-    background: hsl(0, 0%, 85%);
-    color: hsl(0, 0%, 50%);
-    width: 9.75em;
-    text-transform: uppercase;
-}
-span.license {
-    background: {{ theme_accentcolor }};
-    color: white;
-    float: right;
-    font-size: 1em;
-    font-weight: bold;
-    text-align: center;
-    line-height: 1.25em;
-    width: 2.125em;
-    padding: 0.875em 0.5em;
 }
 
 h1,
@@ -137,39 +128,76 @@ h4,
 h5,
 h6 {
     color: hsl(0, 0%, 30%);
-    line-height: 1em;
-    padding: 0.25em 0;
     font-weight: normal;
-    margin: 1em 0 0 0;
+    margin: 1em 0 0.25em 0;
+    line-height: 1em;
     clear: both;
 }
 h1 {
     font-size: 2em;
+    clear: none;
 }
 h2 {
     font-size: 1.5em;
 }
 p {
+    line-height: 1.25em;
     text-align: justify;
 }
 .footer {
     text-align: center;
 }
-a.headerlink {
-    font-size: 0.8em;
-    padding: 0 4px;
-    text-decoration: none;
-}
-a.headerlink:hover {
-    background-color: {{ theme_accentcolor }};
-    color: white;
-}
 a.internal em {
     font-style: normal;
 }
 
-.screenshot {
+.image-reference .screenshot {
     float: left;
-    margin-right: 1em;
+    width: 32%;
+    margin-right: 2%;
     margin-bottom: 1em;
+}
+.image-reference:nth-child(3n+1) .screenshot {
+    margin-right: 0;
+}
+
+@media (max-width: 800px) {
+    #header {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: auto;
+    }
+    #navigation li {
+        display: inline;
+        width: 20%;
+    }
+    #navigation li a,
+    #navigation li span {
+        display: inline;
+    }
+    .document {
+        margin-left: 0;
+        max-width: auto;
+    }
+}
+@media (max-width: 420px) {
+    #navigation li {
+        display: block;
+        width: 100%;
+    }
+    #navigation li a,
+    #navigation li span {
+        display: block;
+    }
+    .image-reference .screenshot,
+    .image-reference:nth-child(3n+1) .screenshot {
+        float: left;
+        width: 48%;
+        margin-right: 4%;
+        margin-bottom: 1em;
+    }
+    .image-reference:nth-child(2n+1) .screenshot {
+        margin-right: 0;
+    }
 }
