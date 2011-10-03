@@ -12,3 +12,5 @@ related issues:
 * Issue 53 (Quitting during Make Way Level)
 
 ..  _Antares 0.3.1: http://downloads.arescentral.org/Antares/Antares-0.3.1.zip
+
+..  -*- tab-width: 4; fill-column: 72 -*-

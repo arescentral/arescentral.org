@@ -62,3 +62,5 @@ the extensions ``feed``, by Dan MacKinlay, ``articlelist``, by Keegan
 Carruthers-Smith, and ``issuetracker``, by Sebastian Wiesner.
 
 ..  _Sphinx: http://sphinx.pocoo.org/
+
+..  -*- tab-width: 4; fill-column: 72 -*-

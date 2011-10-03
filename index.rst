@@ -10,3 +10,5 @@ News
 ----
 
 ..  articlelist::
+
+..  -*- tab-width: 4; fill-column: 72 -*-

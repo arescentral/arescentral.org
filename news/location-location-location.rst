@@ -16,3 +16,5 @@ urls ƒ"* which comes with the game has two links to it (one for Netscape
 and one for Internet Explorer), and now those same locations will lead
 to here, the new home of Ares on the web. We're proud to be keeping the
 tradition unbroken
+
+..  -*- tab-width: 4; fill-column: 72 -*-

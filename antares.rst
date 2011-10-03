@@ -45,3 +45,5 @@ Videos
 ..  youtube:: 4s44qu5zgXE
     :aspect: 16:9
     :width: 100%
+
+..  -*- tab-width: 4; fill-column: 72 -*-
