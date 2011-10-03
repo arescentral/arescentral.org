@@ -4,7 +4,7 @@ About
 =====
 
 Ares is a tactical space-combat game, combining elements of both arcade
-shoters and real-time strategy games.
+shooters and real-time strategy games.
 
 History
 -------
