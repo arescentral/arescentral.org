@@ -13,16 +13,24 @@ modern computers.
 Antares has a `Google Code project page`_. Bugs and feature requests
 should be submitted to its `issue tracker`_.
 
-The latest version of Antares is 0.3.1, released 16 January, 2011. It is
-licensed under the |gpl2|.
+The latest version of Antares is 0.4.0, released 03 October, 2011. It is
+licensed under the |lgpl3|.
 
-* Download `Antares 0.3.1 for Mac OS X`_.
-* Download the `Antares 0.3.1 sources`_.
+* Download `Antares 0.4.0 for Mac OS X`_.
+* Download the `Antares 0.4.0 sources`_.
 
 ..  _Google Code project page: http://code.google.com/p/antares/
 ..  _issue tracker: http://code.google.com/p/antares/issues/list
-..  _Antares 0.3.1 for Mac OS X: http://downloads.arescentral.org/Antares/Antares-0.3.1.zip
-..  _Antares 0.3.1 sources: http://downloads.arescentral.org/Antares/Antares-Source-0.3.1.zip
+..  _Antares 0.4.0 for Mac OS X: http://downloads.arescentral.org/Antares/Antares-0.4.0.zip
+..  _Antares 0.4.0 sources: http://downloads.arescentral.org/Antares/Antares-Source-0.4.0.zip
+
+More Information
+----------------
+
+..  toctree::
+    :maxdepth: 1
+
+    antares/contributing
 
 Screenshots
 -----------

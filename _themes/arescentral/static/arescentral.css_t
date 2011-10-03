@@ -140,8 +140,14 @@ h1 {
 h2 {
     font-size: 1.5em;
 }
+h3 {
+    font-size: 1.25em;
+}
 p {
     line-height: 1.25em;
+    text-align: justify;
+}
+ol, ul {
     text-align: justify;
 }
 .footer {
@@ -159,6 +165,16 @@ a.internal em {
 }
 .image-reference:nth-child(3n+1) .screenshot {
     margin-right: 0;
+}
+
+.highlight {
+    padding: 0.5em;
+    background: hsl(0, 0%, 90%) !important;
+    border-left: 0.75em solid {{ theme_accentcolor }};
+    margin: 1em;
+}
+pre {
+    margin: 0;
 }
 
 @media (max-width: 800px) {
@@ -181,6 +197,7 @@ a.internal em {
         max-width: auto;
     }
 }
+
 @media (max-width: 420px) {
     #navigation li {
         display: block;
