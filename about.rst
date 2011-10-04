@@ -20,18 +20,19 @@ platform.
 
 In November 2008, with the permission of Ambrosia, Nathan Lamont
 released the source code of the game as open-source software under the
-|gpl2|. In addition, much of the media was released under Creative
-Commons licenses. This led to the creation of two projects aiming to
-bring the Ares experience back: `Xsera`_, a complete reimplementation
-which uses the original game as a reference, and :doc:`antares`, which
-is a direct port of the old game.
+|gpl2|, later expanded to provide the option of the |lgpl3|.  In
+addition, much of the media was released under Creative Commons
+licenses. This led to the creation of two projects aiming to bring the
+Ares experience back: `Xsera`_, a complete reimplementation which uses
+the original game as a reference, and :doc:`antares`, which is a direct
+port of the old game.
 
 Open source release
 -------------------
 
-The `Ares source code`_ is licensed under the |gpl2|. This code forms
-the spriritual basis for `Xsera`_, and is directly adapted in
-:doc:`antares`.
+The `Ares source code`_ is licensed under the |gpl2| and the |lgpl3|.
+This code forms the spriritual basis for `Xsera`_, and is directly
+adapted in :doc:`antares`.
 
 The `Ares media`_ (text, images, sounds, and music) are distributed
 separately from the game engine and are licensed under the
