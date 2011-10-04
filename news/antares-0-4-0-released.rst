@@ -5,8 +5,7 @@
 Antares 0.4.0 Released
 ======================
 
-`Antares 0.4.0`_ has been released. This is a hotfix release, fixing two
-related issues:
+`Antares 0.4.0`_ has been released. This release fixes several issues:
 
 * Issue 18 (Briefing points clipped at edge of map)
 * Issue 20 (Smearing in third tutorial)
