@@ -10,8 +10,9 @@ in 2008.  Antares is an extremely faithful reproduction of the original
 Ares experience, making changes only as necessary to support running on
 modern computers.
 
-Antares has a `Google Code project page`_. Bugs and feature requests
-should be submitted to its `issue tracker`_.
+Antares has a `Google Code project page`_ and an `official repository on
+GitHub`_. Bugs and feature requests should be submitted to its `issue
+tracker`_.
 
 The latest version of Antares is 0.5.1, released 02 November, 2011. It is
 licensed under the |lgpl3|.
@@ -20,6 +21,7 @@ licensed under the |lgpl3|.
 * Download the `Antares 0.5.1 sources`_.
 
 ..  _Google Code project page: http://code.google.com/p/antares/
+..  _official repository on GitHub: https://github.com/arescentral/antares
 ..  _issue tracker: http://code.google.com/p/antares/issues/list
 ..  _Antares 0.5.1 for Mac OS X: http://downloads.arescentral.org/Antares/Antares-0.5.1.zip
 ..  _Antares 0.5.1 sources: http://downloads.arescentral.org/Antares/Antares-Source-0.5.1.zip
