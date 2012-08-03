@@ -46,6 +46,21 @@ Formatting
 
         #endif  // ANTARES_OBISH_AMBASSADOR_THRNTZ_HPP_
 
+*   After the copyright header and include guards, all files should
+    start with ``#include`` directives: first the corresponding header,
+    then system includes, then project includes; with each group sorted
+    and separated by blank lines::
+
+        #include "obish/ambassador-thrntz.hpp"
+
+        #include <stdint.h>
+        #include <string>
+
+        #include "game/globals.hpp"
+        #include "obish/obiard.hpp"
+
+        // content of "obish/ambassador-thrntz.cpp"
+
 *   Don't indent namespace blocks.  Add a matching comment at the close
     of each namespace::
 
@@ -153,8 +168,8 @@ Comments
         // You should have received a copy of the GNU Lesser General Public
         // License along with Antares.  If not, see http://www.gnu.org/licenses/
 
-    In header files, this should be the very first thing, before even
-    the include guards.
+    This should be the very first thing in all files, before even the
+    include guards or includes.
 
 Language Features
 -----------------
