@@ -16,14 +16,24 @@ body {
     bottom: 0;
     width: 20em;
     padding: 1.5em;
-    background: #eee;
-    border: 1px solid hsl(0, 0%, 75%);
-    border-width: 0 1px 0 0;
+    border: 0 solid {{ theme_darkaccentcolor }};
+    border-top-width: 1em;
 }
 #header .home {
     font-size: 3em;
     color: hsl(0, 0%, 30%);
     margin: 0 0.25em;
+}
+#header .border {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #eee;
+    border: 0 solid rgba(0, 0, 0, 0.2);
+    border-width: 0 1px 0 0;
 }
 #navigation {
     display: block;
@@ -47,9 +57,13 @@ hr {
 .document, .footer {
     margin-left: 23em;
     padding: 1.5em;
+    border: 0 solid {{ theme_accentcolor }};
 }
 .documentwrapper, .footer {
     max-width: 50em;
+}
+.document {
+    border-top-width: 1em;
 }
 a:link {
     text-decoration: none;
@@ -192,7 +206,12 @@ pre {
         top: 0;
         left: 0;
         width: auto;
+    }
+    #header .border {
         border-width: 0 0 1px 0;
+    }
+    #header, .document, .footer {
+        border-width: 0 0 0 1em;
     }
     #navigation li {
         display: inline;
