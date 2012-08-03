@@ -8,12 +8,12 @@ To build Antares from source, follow these instructions:
 1.  Use ``git`` to create a clone of the `official Antares repository`_,
     and check out the ``develop`` branch::
 
-        $ git clone git://github.com/arescentral/antares.git
+        $ git clone https://code.google.com/p/antares/
         $ cd antares
         $ git checkout develop
 
     If you have a GitHub account, you may prefer to `fork the project`_
-    and then clone your fork.
+    from its `mirror on GitHub`_ and then clone your fork.
 
 2.  Check out the submodules::
 
@@ -68,7 +68,8 @@ To build Antares from source, follow these instructions:
 
     Antares does not currently use the ``install`` target.
 
-..  _official antares repository: https://github.com/arescentral/antares
+..  _official antares repository: https://code.google.com/p/antares/source/
 ..  _fork the project: http://help.github.com/fork-a-repo/
+..  _mirror on GitHub: https://github.com/arescentral/antares
 
 ..  -*- tab-width: 4; fill-column: 72 -*-
