@@ -10,7 +10,7 @@ There are plenty of ways to help out with Antares:
   try winning (or losing) levels in unusual ways.
 * Join the `development mailing list`_ to discuss bugs and feature
   requests.
-* Join the `#antares IRC channel`_ on Ambrosia's IRC server.
+* Join the `#arescentral IRC channel`_ on `Freenode`_.
 * Grab the source code and start hacking.  Contribute back patches to
   fix problems and implement new behavior.
 
@@ -25,7 +25,8 @@ For more detail on how to help, browse the following sections.
     contributing/style
 
 ..  _issue tracker: http://code.google.com/p/antares/issues/list
-..  _#antares irc channel: irc://irc.ambrosiasw.com:6667/#antares
+..  _#arescentral irc channel: irc://irc.freenode.net:6667/#arescentral
+..  _Freenode: http://freenode.net/
 ..  _development mailing list: https://groups.google.com/a/arescentral.org/group/antares-dev
 
 ..  -*- tab-width: 4; fill-column: 72 -*-
