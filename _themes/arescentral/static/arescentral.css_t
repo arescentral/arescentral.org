@@ -6,14 +6,19 @@ html {
 }
 body {
     position: relative;
-    margin: 1.5em;
+    margin: 0;
 }
 
 #header {
     position: fixed;
-    top: 1.5em;
-    left: 1.5em;
+    top: 0;
+    left: 0;
+    bottom: 0;
     width: 20em;
+    padding: 1.5em;
+    background: #eee;
+    border: 1px solid hsl(0, 0%, 75%);
+    border-width: 0 1px 0 0;
 }
 #header .home {
     font-size: 3em;
@@ -35,12 +40,15 @@ body {
     display: block;
 }
 hr {
-    border: 1px solid hsl(0, 0%, 80%);
+    border: 1px solid hsl(0, 0%, 75%);
     border-width: 1px 0 0 0;
     margin: 0;
 }
-.document {
-    margin-left: 21.5em;
+.document, .footer {
+    margin-left: 23em;
+    padding: 1.5em;
+}
+.documentwrapper, .footer {
     max-width: 50em;
 }
 a:link {
@@ -136,6 +144,7 @@ h6 {
 h1 {
     font-size: 2em;
     clear: none;
+    margin-top: 0;
 }
 h2 {
     font-size: 1.5em;
@@ -183,6 +192,7 @@ pre {
         top: 0;
         left: 0;
         width: auto;
+        border-width: 0 0 1px 0;
     }
     #navigation li {
         display: inline;
@@ -192,8 +202,10 @@ pre {
     #navigation li span {
         display: inline;
     }
-    .document {
+    .document, .footer {
         margin-left: 0;
+    }
+    .documentwrapper, .footer {
         max-width: none;
     }
 }
