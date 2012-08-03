@@ -177,7 +177,7 @@ pre {
     margin: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 50em) {
     #header {
         position: relative;
         top: 0;
@@ -194,11 +194,11 @@ pre {
     }
     .document {
         margin-left: 0;
-        max-width: auto;
+        max-width: none;
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 28em) {
     #navigation li {
         display: block;
         width: 100%;
