@@ -97,11 +97,6 @@ rst_epilog = """
 
 html_theme_path = ["_themes"]
 html_theme = "arescentral"
-html_theme_options = {
-    "accentcolor": "hsl(0, 66%, 50%)",
-    "darkaccentcolor": "hsl(0, 66%, 33%)",
-    "nosidebar": True,
-}
 
 html_title = "Ares Central"
 #html_short_title = None

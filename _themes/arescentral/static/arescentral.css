@@ -248,16 +248,16 @@ pre {
 }
 
 #header {
-    border-color: hsl(300, 66%, 44%);
+    border-color: hsl(0, 66%, 33%);
 }
 .document, .footer, .highlight {
-    border-color: hsl(300, 66%, 66%);
+    border-color: hsl(0, 66%, 50%);
 }
 a:link {
-    color: hsl(300, 66%, 66%);
+    color: hsl(0, 66%, 50%);
 }
 a:visited {
-    color: hsl(300, 66%, 44%);
+    color: hsl(0, 66%, 33%);
 }
 
 .antares #header {
