@@ -229,7 +229,7 @@ pre {
 @media (max-width: 28em) {
     #navigation li {
         display: block;
-        width: 100%;
+        width: auto;
     }
     #navigation li a,
     #navigation li span {
