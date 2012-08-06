@@ -115,7 +115,6 @@ a.image-reference {
     text-transform: uppercase;
 }
 .article-date .month-day {
-    background: {{ theme_accentcolor }};
     color: white;
     position: absolute;
     top: 0;
@@ -190,7 +189,8 @@ a.internal em {
 .highlight {
     padding: 0.5em;
     background: hsl(0, 0%, 90%) !important;
-    border-left: 0.75em solid {{ theme_accentcolor }};
+    border-width: 0 0 0 0.75em;
+    border-style: solid;
     margin: 1em;
 }
 pre {
@@ -250,8 +250,13 @@ pre {
 #header {
     border-color: hsl(0, 66%, 33%);
 }
-.document, .footer, .highlight {
+.document,
+.footer,
+.highlight {
     border-color: hsl(0, 66%, 50%);
+}
+.article-date .month-day {
+    background: hsl(0, 66%, 50%);
 }
 a:link {
     color: hsl(0, 66%, 50%);
@@ -263,8 +268,13 @@ a:visited {
 .antares #header {
     border-color: hsl(120, 25%, 30%);
 }
-.antares .document, .antares .footer, .antares .highlight {
+.antares .document,
+.antares .footer,
+.antares .highlight {
     border-color: hsl(120, 25%, 45%);
+}
+.antares .article-date .month-day {
+    background: hsl(120, 25%, 45%);;
 }
 .antares a:link {
     color: hsl(120, 25%, 45%);
