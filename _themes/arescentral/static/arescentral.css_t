@@ -18,8 +18,8 @@ body {
     width: 20em;
     padding: 1.5em;
     background: #eee;
-    border: 0 solid {{ theme_darkaccentcolor }};
-    border-top-width: 1em;
+    border-style: solid;
+    border-width: 1em 0 0 0;
     outline: 1px solid rgba(0, 0, 0, 0.2);
 }
 #header .home {
@@ -29,8 +29,8 @@ body {
 }
 #navigation {
     display: block;
-    margin: 0;
-    padding: 0.375em;
+    padding: 0;
+    margin: 0 0.375em 0.375em 0.375em;
 }
 #navigation li {
     display: block;
@@ -44,12 +44,19 @@ body {
 hr {
     border: 1px solid hsl(0, 0%, 75%);
     border-width: 1px 0 0 0;
-    margin: 0;
+    margin: 0 0 0.375em 0;
+}
+.related ul {
+    text-align: left;
+}
+.related li {
+    white-space: nowrap;
 }
 .document, .footer {
+    border-width: 0;
+    border-style: solid;
     margin-left: 23em;
     padding: 1.5em;
-    border: 0 solid {{ theme_accentcolor }};
 }
 .documentwrapper, .footer {
     max-width: 50em;
@@ -59,11 +66,9 @@ hr {
 }
 a:link {
     text-decoration: none;
-    color: {{ theme_accentcolor }};
 }
 a:visited {
     text-decoration: none;
-    color: {{ theme_darkaccentcolor }};
 }
 a:hover {
     text-decoration: underline;
@@ -240,4 +245,30 @@ pre {
     .image-reference:nth-child(2n+1) .screenshot {
         margin-right: 0;
     }
+}
+
+#header {
+    border-color: {{ theme_darkaccentcolor }};
+}
+.document, .footer, .highlight {
+    border-color: {{ theme_accentcolor }};
+}
+a:link {
+    color: {{ theme_accentcolor }};
+}
+a:visited {
+    color: {{ theme_darkaccentcolor }};
+}
+
+.antares #header {
+    border-color: hsl(120, 25%, 30%);
+}
+.antares .document, .antares .footer, .antares .highlight {
+    border-color: hsl(120, 25%, 45%);
+}
+.antares a:link {
+    color: hsl(120, 25%, 45%);
+}
+.antares a:visited {
+    color: hsl(120, 25%, 30%);
 }

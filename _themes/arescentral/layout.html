@@ -6,6 +6,7 @@
 {% endblock %}
 
 {%- block header %}
+<div {% if pagename %} class="{{ pagename|replace("/", " ") }}"{% endif %}>
 <div id="header">
     <a class="home" href="{{ pathto("index") }}">{{ docstitle }}</a>
     <hr/>
@@ -32,6 +33,7 @@
         <li><a href="http://www.ambrosiasw.com/forums/index.php?showforum=88">{{ _("Forums") }}</a></li>
     </ul>
     <hr/>
+    {{ relbar() }}
 </div>
 {% endblock %}
 
@@ -50,4 +52,9 @@
 {% else %}
 {{ super() }}
 {% endif %}
+{% endblock %}
+
+{% block footer %}
+{{ super() }}
+</div>
 {% endblock %}

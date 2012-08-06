@@ -11,4 +11,10 @@ News
 
 ..  articlelist::
 
+..  toctree::
+    :hidden:
+
+    about
+    antares
+
 ..  -*- tab-width: 4; fill-column: 72 -*-
