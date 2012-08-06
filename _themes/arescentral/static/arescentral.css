@@ -248,16 +248,16 @@ pre {
 }
 
 #header {
-    border-color: {{ theme_darkaccentcolor }};
+    border-color: hsl(300, 66%, 44%);
 }
 .document, .footer, .highlight {
-    border-color: {{ theme_accentcolor }};
+    border-color: hsl(300, 66%, 66%);
 }
 a:link {
-    color: {{ theme_accentcolor }};
+    color: hsl(300, 66%, 66%);
 }
 a:visited {
-    color: {{ theme_darkaccentcolor }};
+    color: hsl(300, 66%, 44%);
 }
 
 .antares #header {
