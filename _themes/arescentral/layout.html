@@ -30,7 +30,12 @@
         {% endif %}
 
         <li><a href="http://xsera.org/">{{ _("Xsera") }}</a></li>
-        <li><a href="http://www.ambrosiasw.com/forums/index.php?showforum=88">{{ _("Forums") }}</a></li>
+
+        {% if pathto("links") == "#" %}
+        <li><span>{{ _("Links") }}</span></li>
+        {% else %}
+        <li><a href="{{ pathto("links") }}">{{ _("Links") }}</a></li>
+        {% endif %}
     </ul>
     <hr/>
     {{ relbar() }}
