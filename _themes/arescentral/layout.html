@@ -8,37 +8,39 @@
 {%- block header %}
 <div {% if pagename %} class="{{ pagename|replace("/", " ") }}"{% endif %}>
 <div id="header">
-    <a class="home" href="{{ pathto("index") }}">{{ docstitle }}</a>
-    <hr/>
-    <ul id="navigation">
-        {% if pathto("index") == "#" %}
-        <li><span>{{ _("Home") }}</span></li>
-        {% else %}
-        <li><a href="{{ pathto("index") }}">{{ _("Home") }}</a></li>
-        {% endif %}
+    <div class="content">
+        <a class="home" href="{{ pathto("index") }}">{{ docstitle }}</a>
+        <hr/>
+        <ul id="navigation">
+            {% if pathto("index") == "#" %}
+            <li><span>{{ _("Home") }}</span></li>
+            {% else %}
+            <li><a href="{{ pathto("index") }}">{{ _("Home") }}</a></li>
+            {% endif %}
 
-        {% if pathto("about") == "#" %}
-        <li><span>{{ _("About") }}</span></li>
-        {% else %}
-        <li><a href="{{ pathto("about") }}">{{ _("About") }}</a></li>
-        {% endif %}
+            {% if pathto("about") == "#" %}
+            <li><span>{{ _("About") }}</span></li>
+            {% else %}
+            <li><a href="{{ pathto("about") }}">{{ _("About") }}</a></li>
+            {% endif %}
 
-        {% if pathto("antares") == "#" %}
-        <li><span>{{ _("Antares") }}</span></li>
-        {% else %}
-        <li><a href="{{ pathto("antares") }}">{{ _("Antares") }}</a></li>
-        {% endif %}
+            {% if pathto("antares") == "#" %}
+            <li><span>{{ _("Antares") }}</span></li>
+            {% else %}
+            <li><a href="{{ pathto("antares") }}">{{ _("Antares") }}</a></li>
+            {% endif %}
 
-        <li><a href="http://xsera.org/">{{ _("Xsera") }}</a></li>
+            <li><a href="http://xsera.org/">{{ _("Xsera") }}</a></li>
 
-        {% if pathto("links") == "#" %}
-        <li><span>{{ _("Links") }}</span></li>
-        {% else %}
-        <li><a href="{{ pathto("links") }}">{{ _("Links") }}</a></li>
-        {% endif %}
-    </ul>
-    <hr/>
-    {{ relbar() }}
+            {% if pathto("links") == "#" %}
+            <li><span>{{ _("Links") }}</span></li>
+            {% else %}
+            <li><a href="{{ pathto("links") }}">{{ _("Links") }}</a></li>
+            {% endif %}
+        </ul>
+        <hr/>
+        {{ relbar() }}
+    </div>
 </div>
 {% endblock %}
 

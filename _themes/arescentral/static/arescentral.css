@@ -15,12 +15,17 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 20em;
-    padding: 1.5em;
+    width: 23em;
     background: #eee;
+    border-width: 0 1px 0 0;
     border-style: solid;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+#header .content {
+    margin: 0 -1px 0 0;
+    padding: 1.5em;
     border-width: 1em 0 0 0;
-    outline: 1px solid rgba(0, 0, 0, 0.2);
+    border-style: solid;
 }
 #header .home {
     font-size: 3em;
@@ -204,11 +209,14 @@ pre {
         left: 0;
         width: auto;
     }
-    #header .border {
+    #header {
         border-width: 0 0 1px 0;
     }
-    #header, .document, .footer {
+    #header .content, .document, .footer {
         border-width: 0 0 0 1em;
+    }
+    #header .content {
+        margin: 0 0 -1px 0;
     }
     #navigation li {
         display: inline;
@@ -247,7 +255,7 @@ pre {
     }
 }
 
-#header {
+#header .content {
     border-color: hsl(0, 66%, 33%);
 }
 .document,
@@ -265,7 +273,7 @@ a:visited {
     color: hsl(0, 66%, 33%);
 }
 
-.antares #header {
+.antares #header .content {
     border-color: hsl(120, 25%, 30%);
 }
 .antares .document,
