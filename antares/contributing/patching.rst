@@ -7,7 +7,7 @@ Requirements
 Before submitting a patch, please check the following:
 
 1.  Your patch branches from or applies cleanly to the ``develop``
-    branch of the repository, and is not branched not from ``master``.
+    branch of the repository.
 2.  Your code conforms to the :ref:`style guidelines`.
 3.  You have run the tests, and all of them pass.
 4.  If you've never committed to Antares before, your first commit must
