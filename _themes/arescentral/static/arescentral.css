@@ -110,40 +110,6 @@ a.image-reference {
     position: relative;
 }
 
-.article-date {
-    float: left;
-    position: relative;
-    margin-right: 1em;
-    background: hsl(0, 0%, 85%);
-    color: hsl(0, 0%, 50%);
-    width: 5.75em;
-    text-transform: uppercase;
-}
-.article-date .month-day {
-    color: white;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 2.125em;
-    font-size: 0.6em;
-    font-weight: bold;
-    text-align: center;
-    line-height: 1.25em;
-    padding: 0.25em 0.5em;
-}
-.article-date .year,
-.article-date .month,
-.article-date .day,
-.article-date .month-day {
-    display: block;
-}
-.article-date .year {
-    font-size: 1.5em;
-    line-height: 1em;
-    padding: 0.1em 0.25em;
-}
-
 h1,
 h2,
 h3,
@@ -189,6 +155,13 @@ a.headerlink:link {
 }
 a.headerlink:hover {
     color: white !important;
+}
+.meta {
+    margin: -0.5em 0 0 0;
+    font-size: 90%;
+}
+.meta span {
+    margin: 0 1em 0 0;
 }
 
 .image-reference .screenshot {
@@ -273,7 +246,6 @@ pre {
 .highlight {
     border-color: hsl(0, 66%, 50%);
 }
-.article-date .month-day,
 a.headerlink:hover {
     background: hsl(0, 66%, 50%);
 }
@@ -292,7 +264,6 @@ a:visited {
 .antares .highlight {
     border-color: hsl(120, 25%, 45%);
 }
-.antares .article-date .month-day,
 .antares a.headerlink:hover {
     background: hsl(120, 25%, 45%);;
 }

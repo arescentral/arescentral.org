@@ -25,12 +25,12 @@ extensions = [
     "ext.articlelist",
     "ext.feed",
     "ext.issuetracker",
+    "ext.meta",
     "ext.youtube",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
-template_bridge = 'ext.template_helpers.TemplateBridge'
 
 # The suffix of source filenames.
 source_suffix = ".rst"

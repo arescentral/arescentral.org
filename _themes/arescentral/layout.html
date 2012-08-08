@@ -163,23 +163,12 @@
 {%- block content %}
   <div class="document">
 {%- block document %}
-
-    {% if "date" in meta %}
-      {{ meta["date"]|date_html }}
-      <div class="article">
-    {% endif %}
-
     <div class="documentwrapper">
       <div class="body">
         {% block body %} {% endblock %}
       </div>
     </div>
-
-    {% if "date" in meta %}
-      </div>
-    {% endif %}
 {%- endblock %}
-
   </div>
 {%- endblock %}
 
