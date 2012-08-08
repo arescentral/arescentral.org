@@ -181,10 +181,9 @@
     <link rel="alternate" type="application/atom+xml" href="{{ atom_link }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
   </head>
-  <body>
+  <body class="{{ pagename|replace("/", " ") }}">
 
 {%- block header %}
-    <div {% if pagename %} class="{{ pagename|replace("/", " ") }}"{% endif %}>
     <div id="header">
       <div class="content">
         <a class="home" href="{{ pathto("index") }}">{{ docstitle }}</a>
@@ -247,8 +246,6 @@
     {%- if show_sphinx %}
       {% trans sphinx_version=sphinx_version|e %}Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> {{ sphinx_version }}.{% endtrans %}
     {%- endif %}
-  </div>
-
   </div>
 {%- endblock %}
 
