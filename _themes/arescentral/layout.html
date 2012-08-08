@@ -44,6 +44,14 @@
   {%- set titlesuffix = "" %}
 {%- endif %}
 
+{%- macro link(path, title) %}
+  {% if pathto(path) == "#" %}
+  <li><span>{{ _(title) }}</span></li>
+  {% else %}
+  <li><a href="{{ pathto(path) }}">{{ _(title) }}</a></li>
+  {% endif %}
+{%- endmacro %}
+
 {%- macro relbar() %}
     <div class="related">
       <h3>{{ _('Navigation') }}</h3>
@@ -182,31 +190,11 @@
         <a class="home" href="{{ pathto("index") }}">{{ docstitle }}</a>
         <hr/>
         <ul id="navigation">
-          {% if pathto("index") == "#" %}
-          <li><span>{{ _("Home") }}</span></li>
-          {% else %}
-          <li><a href="{{ pathto("index") }}">{{ _("Home") }}</a></li>
-          {% endif %}
-
-          {% if pathto("about") == "#" %}
-          <li><span>{{ _("About") }}</span></li>
-          {% else %}
-          <li><a href="{{ pathto("about") }}">{{ _("About") }}</a></li>
-          {% endif %}
-
-          {% if pathto("antares") == "#" %}
-          <li><span>{{ _("Antares") }}</span></li>
-          {% else %}
-          <li><a href="{{ pathto("antares") }}">{{ _("Antares") }}</a></li>
-          {% endif %}
-
+          <li>{{ link("index", "Home") }}</li>
+          <li>{{ link("about", "About") }}</li>
+          <li>{{ link("antares", "Antares") }}</li>
           <li><a href="http://xsera.org/">{{ _("Xsera") }}</a></li>
-
-          {% if pathto("links") == "#" %}
-          <li><span>{{ _("Links") }}</span></li>
-          {% else %}
-          <li><a href="{{ pathto("links") }}">{{ _("Links") }}</a></li>
-          {% endif %}
+          <li>{{ link("links", "Links") }}</li>
         </ul>
         <hr/>
         {{ relbar() }}
