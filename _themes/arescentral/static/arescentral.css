@@ -175,6 +175,7 @@ ol, ul {
     text-align: justify;
 }
 .footer {
+    clear: both;
     text-align: center;
 }
 a.internal em {
