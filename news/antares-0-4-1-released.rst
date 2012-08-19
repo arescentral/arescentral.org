@@ -1,6 +1,6 @@
 :orphan:
-:Date:      2011-10-07
-:Author:    Chris Pickel <sfiera@gmail.com>
+:date:      2011-10-07
+:author:    Chris Pickel <sfiera@gmail.com>
 
 Antares 0.4.1 Released
 ======================

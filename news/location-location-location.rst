@@ -1,6 +1,6 @@
 :orphan:
-:Date:      2010-11-03
-:Author:    Chris Pickel <sfiera@gmail.com>
+:date:      2010-11-03
+:author:    Chris Pickel <sfiera@gmail.com>
 
 Location, Location, Location
 ============================
