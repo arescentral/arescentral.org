@@ -122,7 +122,7 @@ html_use_index = False
 
 html_show_sourcelink = False
 
-html_add_permalinks = False
+html_add_permalinks = True
 
 #html_use_opensearch = ""
 

@@ -181,6 +181,15 @@ ol, ul {
 a.internal em {
     font-style: normal;
 }
+a.headerlink:link {
+    text-decoration: none;
+    font-size: 75%;
+    padding: 0 0.25em;
+    margin: 0 0 0 0.25em;
+}
+a.headerlink:hover {
+    color: white !important;
+}
 
 .image-reference .screenshot {
     float: left;
@@ -264,7 +273,8 @@ pre {
 .highlight {
     border-color: hsl(0, 66%, 50%);
 }
-.article-date .month-day {
+.article-date .month-day,
+a.headerlink:hover {
     background: hsl(0, 66%, 50%);
 }
 a:link {
@@ -282,7 +292,8 @@ a:visited {
 .antares .highlight {
     border-color: hsl(120, 25%, 45%);
 }
-.antares .article-date .month-day {
+.antares .article-date .month-day,
+.antares a.headerlink:hover {
     background: hsl(120, 25%, 45%);;
 }
 .antares a:link {

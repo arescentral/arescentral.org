@@ -2,5 +2,6 @@ Changes from upstream version:
 * Add "atom_link" to all pages' context, not just those with dates.
 * Generate an Atom feed instead of RSS.
 * Link to "dirhtml" instead of "html" output, with "/" at the end, not ".html".
+* Remove .headerlink nodes.
 
 This extension is licensed under the 2-clause BSD license.

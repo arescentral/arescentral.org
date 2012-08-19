@@ -1,33 +1,42 @@
-diff -ru ../sphinx-contrib/feed/sphinxcontrib/feed/__init__.py lib/feed/__init__.py
---- ../sphinx-contrib/feed/sphinxcontrib/feed/__init__.py	2011-09-02 08:11:08.000000000 -0400
-+++ lib/feed/__init__.py	2011-09-07 08:39:38.000000000 -0400
-@@ -59,6 +59,8 @@
+--- ../sphinx-contrib/feed/sphinxcontrib/feed/__init__.py	2012-08-08 10:08:22.000000000 -0400
++++ ext/feed/__init__.py	2012-08-19 09:14:49.000000000 -0400
+@@ -156,6 +156,8 @@
+     """
+     global feed_entries
      from absolutify_urls import absolutify
-     metadata = app.builder.env.metadata.get(pagename, {})
-     
++    from remove_nodes import remove_nodes
 +    ctx['atom_link'] = app.builder.env.feed_url 
-+
-     if 'date' not in metadata:
-         return #don't index dateless articles
-     try:
-@@ -74,7 +76,7 @@
+     env = app.builder.env
+     metadata = env.metadata.get(docname, {})
+     pub_date = get_date_for_article(env, docname)
+@@ -166,12 +168,16 @@
      #     author_name=None, author_link=None, pubdate=None, comments=None,
      #     unique_id=None, enclosure=None, categories=(), item_copyright=None,
      #     ttl=None,
 -    link = app.config.feed_base_url + '/' + ctx['current_page_name'] + ctx['file_suffix']
 +    link = app.config.feed_base_url + '/' + ctx['current_page_name'] + '/'
++    description = ctx.get('body')
++    description = remove_nodes(description, "h1")
++    description = remove_nodes(description, "a.headerlink")
++    description = absolutify(description, link)
      item = {
        'title': ctx.get('title'),
        'link': link,
-@@ -87,7 +89,6 @@
-     feed_entries[nice_name(pagename, pub_date)] = item
+       'unique_id': link,
+-      'description': absolutify(ctx.get('body'), link),
++      'description': description,
+       'pubdate': pub_date
+     }
+     if 'author' in metadata:
+@@ -180,7 +186,6 @@
+     feed_entries[dated_name(docname, pub_date)] = item
      
      #Now, useful variables to keep in context
 -    ctx['rss_link'] = app.builder.env.feed_url 
      ctx['pub_date'] = pub_date
  
  def remove_dead_feed_item(app, env, docname):
-@@ -119,7 +120,7 @@
+@@ -212,7 +217,7 @@
          feed_dict['language'] = app.config.language
      if app.config.copyright:
          feed_dict['feed_copyright'] = app.config.copyright
