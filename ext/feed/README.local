@@ -3,5 +3,7 @@ Changes from upstream version:
 * Generate an Atom feed instead of RSS.
 * Link to "dirhtml" instead of "html" output, with "/" at the end, not ".html".
 * Remove .headerlink nodes.
+* Add "feed_date_format" config option for "latest" directive.
+* Print date on same line in "latest" directive.
 
 This extension is licensed under the 2-clause BSD license.

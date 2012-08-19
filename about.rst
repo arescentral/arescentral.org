@@ -57,8 +57,8 @@ This Site
 
 Except where otherwise noted, content on this site is licensed under the
 |cc-by-nc-sa|.  This site was written using `Sphinx`_ and incorporates
-the extensions ``feed``, by Dan MacKinlay, ``articlelist``, by Keegan
-Carruthers-Smith, and ``issuetracker``, by Sebastian Wiesner.
+the extensions ``feed``, by Dan MacKinlay, and ``issuetracker``, by
+Sebastian Wiesner.
 
 ..  _Sphinx: http://sphinx.pocoo.org/
 

@@ -35,6 +35,7 @@ def setup(app):
     app.add_config_value('feed_base_url', '', 'html')
     app.add_config_value('feed_description', '', 'html')
     app.add_config_value('feed_filename', 'rss.xml', 'html')
+    app.add_config_value('feed_date_format', '%Y/%m/%d', 'html')
     
     app.add_directive('latest', Latest)
     app.add_node(latest)
@@ -98,9 +99,9 @@ def process_latest_toc(app, doctree, fromdocname):
                 fromdocname, docname)
             newnode.append(innernode)
             para += newnode
-            para += nodes.Text(' ', ' ')
-            stringdate = date.strftime('%Y/%m/%d')
-            date_wrapper = nodes.container(classes=['feed-article-date'])
+            para += nodes.Text(', ', ', ')
+            stringdate = date.strftime(app.config.feed_date_format)
+            date_wrapper = nodes.inline(classes=['feed-article-date'])
             date_wrapper += nodes.Text(stringdate, stringdate)
             para += date_wrapper
 

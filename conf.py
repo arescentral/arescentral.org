@@ -22,7 +22,6 @@ sys.path.insert(0, os.path.abspath("."))
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named "sphinx.ext.*") or your custom ones.
 extensions = [
-    "ext.articlelist",
     "ext.feed",
     "ext.issuetracker",
     "ext.meta",
@@ -134,6 +133,7 @@ htmlhelp_basename = "AresCentral"
 feed_title = u"News — Ares Central"
 feed_base_url = "http://arescentral.org"
 feed_filename = "news.atom"
+feed_date_format = "%B %d %Y"
 
 issuetracker = "google code"
 issuetracker_project = "antares"

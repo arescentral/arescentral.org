@@ -9,7 +9,10 @@ Home
 News
 ----
 
-..  articlelist::
+..  latest::
+    :glob:
+
+    news/*
 
 ..  toctree::
     :hidden:
