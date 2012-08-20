@@ -15,15 +15,12 @@ submitted to its `issue tracker`_.
 The latest version of Antares is 0.5.1, released 02 November, 2011. It is
 licensed under the |lgpl3|.
 
-* Download `Antares 0.5.1 for Mac OS X`_.
-* Download the `Antares 0.5.1 sources`_.
+..  include:: /release.rsti
 
 ..  _project page: https://code.google.com/p/antares/
 ..  _official repository: https://code.google.com/p/antares/source/
 ..  _mirror on GitHub: https://github.com/arescentral/antares
 ..  _issue tracker: https://code.google.com/p/antares/issues/list
-..  _Antares 0.5.1 for Mac OS X: http://downloads.arescentral.org/Antares/Antares-0.5.1.zip
-..  _Antares 0.5.1 sources: http://downloads.arescentral.org/Antares/Antares-Source-0.5.1.zip
 
 More Information
 ----------------
@@ -32,6 +29,7 @@ More Information
     :maxdepth: 1
 
     antares/contributing
+    antares/faq
 
 Screenshots
 -----------

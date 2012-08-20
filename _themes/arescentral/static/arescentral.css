@@ -99,6 +99,20 @@ a.image-reference {
     background: none;
 }
 
+#contents {
+    padding: 0;
+}
+#contents ul {
+    margin: 0.5em;
+    padding: 0;
+}
+#contents ul ul {
+    margin: 0;
+    padding: 0 0 0 1em;
+}
+#contents li {
+    list-style: none;
+}
 .section {
     margin-bottom: 3em;
 }
