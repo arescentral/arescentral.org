@@ -29,6 +29,7 @@ clean:
 
 html:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	cp -f htaccess $(BUILDDIR)/html/.htaccess
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 

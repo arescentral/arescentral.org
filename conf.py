@@ -22,6 +22,7 @@ sys.path.insert(0, os.path.abspath("."))
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named "sphinx.ext.*") or your custom ones.
 extensions = [
+    "ext.compress",
     "ext.feed",
     "ext.issuetracker",
     "ext.meta",
@@ -102,10 +103,7 @@ html_title = "Ares Central"
 #html_logo = None
 html_favicon = "favicon.ico"
 
-html_static_path = [
-    "_static",
-    "_static/.htaccess",
-]
+html_static_path = ["_static"]
 
 #html_last_updated_fmt = "%b %d, %Y"
 #html_show_sphinx = True
