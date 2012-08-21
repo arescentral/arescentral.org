@@ -1,3 +1,4 @@
+AddDefaultCharset UTF-8
 Header add Vary Accept-Encoding
 
 ExpiresActive on
