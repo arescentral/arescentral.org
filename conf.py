@@ -122,6 +122,7 @@ html_domain_indices = False
 html_use_index = False
 #html_split_index = False
 
+html_copy_source = False
 html_show_sourcelink = False
 
 html_add_permalinks = True
