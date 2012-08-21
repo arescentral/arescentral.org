@@ -445,10 +445,6 @@ def connect_builtin_tracker(app):
                     BUILTIN_ISSUE_TRACKERS[app.config.issuetracker.lower()])
 
 
-def add_stylesheet(app):
-    app.add_stylesheet('issuetracker.css')
-
-
 def init_cache(app):
     if not hasattr(app.env, 'issuetracker_cache'):
         app.env.issuetracker_cache = {}
@@ -484,7 +480,6 @@ def setup(app):
     app.add_config_value('issuetracker_issue_pattern',
                          re.compile(r'#(\d+)'), 'env')
     app.add_config_value('issuetracker_title_template', None, 'env')
-    app.connect(b'builder-inited', add_stylesheet)
     app.connect(b'builder-inited', init_cache)
     app.connect(b'builder-inited', init_transformer)
     app.connect(b'doctree-read', lookup_issues)
