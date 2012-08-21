@@ -102,7 +102,10 @@ html_title = "Ares Central"
 #html_logo = None
 html_favicon = "favicon.ico"
 
-html_static_path = ["_static"]
+html_static_path = [
+    "_static",
+    "_static/.htaccess",
+]
 
 #html_last_updated_fmt = "%b %d, %Y"
 #html_show_sphinx = True
