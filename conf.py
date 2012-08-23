@@ -26,6 +26,7 @@ extensions = [
     "ext.feed",
     "ext.issuetracker",
     "ext.meta",
+    "ext.sass",
     "ext.youtube",
 ]
 
