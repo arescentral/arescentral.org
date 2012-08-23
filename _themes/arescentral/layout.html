@@ -132,11 +132,11 @@
         <a class="home" href="{{ pathto("index") }}">{{ docstitle }}</a>
         <hr/>
         <ul id="navigation">
-          <li>{{ link("index", "Home") }}</li>
-          <li>{{ link("about", "About") }}</li>
-          <li>{{ link("antares", "Antares") }}</li>
+          {{ link("index", "Home") }}
+          {{ link("about", "About") }}
+          {{ link("antares", "Antares") }}
           <li><a href="http://xsera.org/">{{ _("Xsera") }}</a></li>
-          <li>{{ link("links", "Links") }}</li>
+          {{ link("links", "Links") }}
         </ul>
         <hr/>
         {{ relbar() }}
