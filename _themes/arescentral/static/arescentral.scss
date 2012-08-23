@@ -232,6 +232,7 @@ pre {
 
 @media (max-width: 50em) {
     #header {
+        position: inherit;
         top: 0;
         left: 0;
         width: auto;
