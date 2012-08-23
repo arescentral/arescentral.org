@@ -3,8 +3,9 @@
 Home
 ====
 
-..  image:: _static/splash.png
-    :width: 100%
+..  container:: splash
+
+    ..  empty
 
 News
 ----
