@@ -7,8 +7,8 @@ RSYNC           = rsync
 RSYNCOPTS       = -rtvz --delay-updates --delete
 BUILDDIR        = _build
 PYTHON 			= python
-DEPLOY          = arescentral
-STAGE           = arescentral-staging
+DEPLOY          = florence.sfiera.net:/srv/www/arescentral.org/htdocs
+STAGE           = florence.sfiera.net:/srv/www/staging.arescentral.org/htdocs
 
 # Internal variables.
 ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(SPHINXOPTS) .
@@ -48,7 +48,7 @@ serve: html
 	cd $(BUILDDIR)/html/ && $(PYTHON) -m SimpleHTTPServer 8000
 
 stage: html
-	$(RSYNC) $(RSYNCOPTS) $(BUILDDIR)/html/ $(STAGE):
+	$(RSYNC) $(RSYNCOPTS) $(BUILDDIR)/html/ $(STAGE)
 
 deploy: html
-	$(RSYNC) $(RSYNCOPTS) $(BUILDDIR)/html/ $(DEPLOY):
+	$(RSYNC) $(RSYNCOPTS) $(BUILDDIR)/html/ $(DEPLOY)
