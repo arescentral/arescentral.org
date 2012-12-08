@@ -12,7 +12,7 @@ Antares has a `project page`_ and `official repository`_ on Google Code,
 as well as a `mirror on GitHub`_.  Bugs and feature requests should be
 submitted to its `issue tracker`_.
 
-The latest version of Antares is 0.6.0, released 06 December, 2012. It is
+The latest version of Antares is 0.6.1, released 08 December, 2012. It is
 licensed under the |lgpl3|.
 
 ..  include:: /release.rsti
