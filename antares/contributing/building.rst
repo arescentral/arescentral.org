@@ -60,6 +60,7 @@ To build Antares from source, follow these instructions:
     behavior is observed for the same input.  Again, using the ``waf``
     script directly exposes additional options::
 
+        $ ./waf test --smoke
         $ ./waf test --test-filter=antares/replay/space-race
 
 6.  Play the results::
