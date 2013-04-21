@@ -110,10 +110,6 @@ a {
     &:hover {
         text-decoration: underline;
     }
-    &.image-reference {
-        padding: 0;
-        background: none;
-    }
     &.internal em {
         font-style: normal;
     }
@@ -147,6 +143,11 @@ a {
     &[href^="ircs:"] {
         padding-right: 12px;
         background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAdElEQVR4Xn3QTQqAIBAFYC8fRNeKAjdlxxD/wf3UTGoo2sBbyPuQUbbtK8zLNAz2zzCG4GcQ11BKWUUp1YVYULTWlBDCEBIwxoC1dggxBJxz/R3FJfIho+rVnPMXok6woFMc4L2HGCOhAtt/a1GB6RYqRrkBKEFJ6m9q5RIAAAAASUVORK5CYII=) center right no-repeat;
+    }
+
+    &.image-reference {
+        padding: 0;
+        background: none;
     }
 }
 
