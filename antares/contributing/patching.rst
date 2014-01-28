@@ -8,7 +8,7 @@ Before submitting a patch, please check the following:
 
 1.  Your patch branches from or applies cleanly to the ``develop``
     branch of the repository.
-2.  Your code conforms to the :ref:`style guidelines`.
+2.  Your code conforms to the :doc:`style guidelines <style>`.
 3.  You have run the tests, and all of them pass.
 4.  If you've never committed to Antares before, your first commit must
     add your name and contact information to the ``AUTHORS`` file.  That

@@ -1,5 +1,3 @@
-..  _style guidelines:
-
 Style Guidelines
 ================
 

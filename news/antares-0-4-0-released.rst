@@ -29,8 +29,8 @@ game are still drawn in software, however.
 
 In addition, Antares 0.4.0 is the first release of Antares to open up
 its `source code repository`_.  If you're interested in helping with the
-game, it has a :ref:`contributing page <contributing>` detailing ways to
-help.
+game, it has a :doc:`contributing page </antares/contributing>`
+detailing ways to help.
 
 ..  _Antares 0.4.0: http://downloads.arescentral.org/Antares/Antares-0.4.0.zip
 ..  _source code repository: https://github.com/arescentral/antares
