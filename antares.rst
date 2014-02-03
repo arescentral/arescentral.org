@@ -28,6 +28,7 @@ More Information
 ..  toctree::
     :maxdepth: 1
 
+    antares/gamepad
     antares/contributing
     antares/faq
 
