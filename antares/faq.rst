@@ -49,7 +49,7 @@ may not be a pixel-perfect match to Ares in a given situation:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Antares currently builds and runs on:
 
-*   Mac OS X (10.4+)
+*   Mac OS X (|antares-latest-osx-version|)
 
 In the future, it may also run on:
 

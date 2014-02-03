@@ -1,3 +1,17 @@
+..  Antares versions
+
+..  |antares-latest| replace:: 0.7.0
+..  |antares-latest-date| replace:: 02 February, 2014
+..  |antares-latest-osx-version| replace:: 10.8+
+..  |antares-latest-osx| replace:: Antares 0.7.0 for Mac OS X 10.8+
+..  |antares-latest-src| replace:: Antares 0.7.0 sources
+
+..  _antares-latest-osx: http://downloads.arescentral.org/Antares/Antares-0.7.0.zip
+..  _antares-latest-src: http://downloads.arescentral.org/Antares/Antares-Source-0.7.0.zip
+
+
+..  Licenses
+
 ..  |gpl2| replace:: `GNU General Public License 2.0`_
 ..  |lgpl3| replace:: `GNU Lesser General Public License 3.0`_
 ..  |cc-by-nc-sa| replace:: `Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License`_
