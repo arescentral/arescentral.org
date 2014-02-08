@@ -5,7 +5,20 @@ To build Antares from source, follow these instructions:
 
 ..  highlight:: sh
 
-1.  Use ``git`` to create a clone of the `official Antares repository`_,
+1.  Install `gyp`_::
+
+        $ git clone https://chromium.googlesource.com/external/gyp.git
+        $ cd gyp
+        $ setup.py install
+
+2.  Install `ninja`_::
+
+        $ git clone https://github.com/martine/ninja.git
+        $ cd ninja
+        $ ./bootstrap.py
+        $ sudo cp ninja /usr/local/bin  # or put it somewhere in $PATH
+
+3.  Use ``git`` to create a clone of the `official Antares repository`_,
     and check out the ``develop`` branch::
 
         $ git clone https://code.google.com/p/antares/
@@ -15,12 +28,12 @@ To build Antares from source, follow these instructions:
     If you have a GitHub account, you may prefer to `fork the project`_
     from its `mirror on GitHub`_ and then clone your fork.
 
-2.  Check out the submodules::
+4.  Check out the submodules::
 
         $ git submodule init
         $ git submodule update
 
-3.  Configure the project::
+5.  Configure the project::
 
         $ ./configure
 
@@ -29,46 +42,52 @@ To build Antares from source, follow these instructions:
     development, you may want to use ``dev`` mode, which will try to
     speed up the compilation process instead::
 
-        $ ./configure -mdev
+        $ MODE=dev ./configure
 
     If you expect to use ``gdb`` with the resulting binary, you may want
     to use ``dbg`` mode, which compiles the binary with debugging
     information::
 
-        $ ./configure -mdbg
+        $ MODE=dbg ./configure
 
-    If in doubt, use ``-mdev`` if you're planning to do development
+    If in doubt, use ``MODE=dev`` if you're planning to do development
     work, and use the default if you just want a more recent version of
     the game.
 
-4.  Build the project::
+6.  Build the project::
 
         $ make
 
-    The Makefile bundled with Antares is a wrapper around ``waf``.  You
-    can also use the ``waf`` script directly, which exposes additional
+    The Makefile bundled with Antares is a wrapper around ``ninja``.
+    You can also use ``ninja`` directly, which exposes additional
     options::
 
-        $ ./waf -p
+        $ ninja -C out/cur -h
 
-5.  Run the tests::
+7.  Run the tests::
 
         $ make test
 
     Antares has an extensive suite of regression tests, which play
     through several different levels of the game to verify that the same
-    behavior is observed for the same input.  Again, using the ``waf``
-    script directly exposes additional options::
+    behavior is observed for the same input.  If you're running the
+    tests frequently, running in smoke-test mode will speed up the
+    tests::
 
-        $ ./waf test --smoke
-        $ ./waf test --test-filter=antares/replay/space-race
+        $ SMOKE=yes make test
 
-6.  Play the results::
+8.  Play the results::
 
-        $ ./build/antares/Antares.app/Contents/MacOS/Antares
+        $ make run
 
     Antares does not currently use the ``install`` target.
 
+9.  For a release build, sign the binary::
+
+        $ make sign
+
+..  _gyp: https://code.google.com/p/gyp/
+..  _ninja: http://martine.github.io/ninja/manual.html
 ..  _official antares repository: https://code.google.com/p/antares/source/
 ..  _fork the project: http://help.github.com/fork-a-repo/
 ..  _mirror on GitHub: https://github.com/arescentral/antares
