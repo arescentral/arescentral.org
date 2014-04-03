@@ -32,6 +32,9 @@ body {
 body.antares {
     @include theme(hsl(120, 25%, 45%));
 }
+body.plugins {
+    @include theme(hsl(210, 66%, 50%));
+}
 
 #header {
     z-index: 1;
