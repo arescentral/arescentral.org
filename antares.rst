@@ -8,19 +8,16 @@ in 2008.  Antares is an extremely faithful reproduction of the original
 Ares experience, making changes only as necessary to support running on
 modern computers.
 
-Antares has a `project page`_ and `official repository`_ on Google Code,
-as well as a `mirror on GitHub`_.  Bugs and feature requests should be
-submitted to its `issue tracker`_.
+Antares has its `official repository`_ on GitHub.  Bugs and feature
+requests should be submitted to its `issue tracker`_.
 
 The latest version of Antares is |antares-latest|, released
 |antares-latest-date|. It is licensed under the |lgpl3|.
 
 ..  include:: /release.rsti
 
-..  _project page: https://code.google.com/p/antares/
-..  _official repository: https://code.google.com/p/antares/source/
-..  _mirror on GitHub: https://github.com/arescentral/antares
-..  _issue tracker: https://code.google.com/p/antares/issues/list
+..  _official repository: https://github.com/arescentral/antares
+..  _issue tracker: https://github.com/arescentral/antares/issues
 
 More Information
 ----------------

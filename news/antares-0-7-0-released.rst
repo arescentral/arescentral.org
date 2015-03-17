@@ -15,28 +15,28 @@ The 10.8+ requirement is unforunate, but unavoidable as Xcode on 10.9
 
 The full list of enhancements fulfilled:
 
-* Issue 56 (Creation of new replays)
-* Issue 73 (Make smoke test versions of replays)
-* Issue 90 (Extract STR# resources as JSON)
-* Issue 91 (Extract TEXT resources as UTF-8)
-* Issue 94 (Stop using ADB key codes)
-* Issue 107 (Feature Request: Support original MADH music)
-* Issue 129 (Sandbox Antares)
+* Issue 59 (Creation of new replays)
+* Issue 76 (Make smoke test versions of replays)
+* Issue 93 (Extract STR# resources as JSON)
+* Issue 94 (Extract TEXT resources as UTF-8)
+* Issue 97 (Stop using ADB key codes)
+* Issue 110 (Feature Request: Support original MADH music)
+* Issue 132 (Sandbox Antares)
 
 The full list of bugs fixed:
 
-* Issue 17 (Mouse isn't hidden)
-* Issue 33 (Orientation of level sometimes not random)
-* Issue 46 (F1 help doesn't toggle as documented.)
-* Issue 50 (Collision flashes can persist after quitting game)
-* Issue 59 (Sounds continue to play after level ends)
-* Issue 65 (Screen labels persist after level ends)
-* Issue 66 (Antares should be 64-bit clean)
-* Issue 125 (Demo playback begins immediately at main menu)
-* Issue 126 (Brackets persist in mission briefing)
-* Issue 127 (Caps Lock pause can cause image persistence)
-* Issue 128 (Mission briefing buttons not clickable)
-* Issue 130 (Bad interaction with sticky keys)
+* Issue 20 (Mouse isn't hidden)
+* Issue 36 (Orientation of level sometimes not random)
+* Issue 49 (F1 help doesn't toggle as documented.)
+* Issue 53 (Collision flashes can persist after quitting game)
+* Issue 62 (Sounds continue to play after level ends)
+* Issue 68 (Screen labels persist after level ends)
+* Issue 69 (Antares should be 64-bit clean)
+* Issue 128 (Demo playback begins immediately at main menu)
+* Issue 129 (Brackets persist in mission briefing)
+* Issue 130 (Caps Lock pause can cause image persistence)
+* Issue 131 (Mission briefing buttons not clickable)
+* Issue 133 (Bad interaction with sticky keys)
 
 ..  _Antares 0.7.0: http://downloads.arescentral.org/Antares/Antares-0.7.0.zip
 

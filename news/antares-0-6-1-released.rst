@@ -8,8 +8,8 @@ Antares 0.6.1 Released
 `Antares 0.6.1`_ has been released for Mac OS X 10.6+.  This release
 fixes two problems present in 0.6.0:
 
-* Issue 110 (Control, target bars not as wide as minicomputer selection)
-* Issue 123 (Static static on ATI card)
+* Issue 113 (Control, target bars not as wide as minicomputer selection)
+* Issue 126 (Static static on ATI card)
 
 ..  _Antares 0.6.1: http://downloads.arescentral.org/Antares/Antares-0.6.1.zip
 

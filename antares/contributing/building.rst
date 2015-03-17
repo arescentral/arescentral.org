@@ -21,7 +21,7 @@ To build Antares from source, follow these instructions:
 3.  Use ``git`` to create a clone of the `official Antares repository`_,
     and check out the ``develop`` branch::
 
-        $ git clone https://code.google.com/p/antares/
+        $ git clone https://github.com/arescentral/antares.git
         $ cd antares
         $ git checkout develop
 
@@ -88,7 +88,7 @@ To build Antares from source, follow these instructions:
 
 ..  _gyp: https://code.google.com/p/gyp/
 ..  _ninja: http://martine.github.io/ninja/manual.html
-..  _official antares repository: https://code.google.com/p/antares/source/
+..  _official antares repository: https://github.com/arescentral/antares
 ..  _fork the project: http://help.github.com/fork-a-repo/
 ..  _mirror on GitHub: https://github.com/arescentral/antares
 

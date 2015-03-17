@@ -24,16 +24,15 @@ patch-set so that it's easy to verify before/after the bugfix.
 Process
 -------
 
-There are three ways to submit a patch against Antares:
+There are two ways to submit a patch against Antares:
 
-1.  Upload it to an issue in the `issue tracker`_.
-2.  Mail it to the `development mailing list`_ as an attachment.
-3.  Create a pull request against the `GitHub repository`_.
+1.  Mail it to the `development mailing list`_ as an attachment.
+2.  Create a pull request against the `GitHub repository`_.
 
 You can prepare a patch to be uploaded or mailed with ``git
 format-patch``.
 
-..  _issue tracker: http://code.google.com/p/antares/issues/list
+..  _issue tracker: https://github.com/arescentral/antares/issues
 ..  _development mailing list: https://groups.google.com/a/arescentral.org/group/antares-dev
 ..  _github repository: https://github.com/arescentral/antares
 

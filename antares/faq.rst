@@ -18,7 +18,7 @@ See Antares's `AUTHORS`_ file. Most of the work was done by
 `Nathan Lamont`_, who wrote the original game for Mac OS Classic, Ares,
 and `Chris Pickel`_, who ported it to Mac OS X as Antares.
 
-..  _AUTHORS: http://antares.googlecode.com/git-history/develop/AUTHORS
+..  _AUTHORS: https://github.com/arescentral/antares/blob/develop/AUTHORS
 ..  _Nathan Lamont: http://biggerplanet.com/
 ..  _Chris Pickel: http://sfiera.net/
 
@@ -33,7 +33,7 @@ highlights of these issues are:
 *   Adding support for creating and playing back replays.
 *   Improving the test suite.
 
-..  _release issues: http://code.google.com/p/antares/issues/list?q=-label:Milestone-Later+-label%3ARelease
+..  _release issues: https://github.com/arescentral/antares/issues?q=is%3Aissue+is%3Aopen+-milestone%3ALater+
 
 1.4. How similar is Antares to Ares?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -53,8 +53,8 @@ Antares currently builds and runs on:
 
 In the future, it may also run on:
 
-*   Linux, probably by Antares 1.0 (Issue 75)
-*   Windows, with no expected timeline (Issue 76)
+*   Linux, probably by Antares 1.0 (Issue 78)
+*   Windows, with no expected timeline (Issue 79)
 
 There are no plans to port it to Mac OS Classic, or to any mobile
 platform.
@@ -70,7 +70,7 @@ things that will probably change are:
     different, with a chat interface more similar to :abbr:`IRC
     (Internet Relay Chat)`.
 *   Players playing the same race as an opponent will choose their own
-    tint, instead of a tint for each such opponent (Issue 3).
+    tint, instead of a tint for each such opponent (Issue 6).
 *   If custom avatars are supported, the mechanism will be different.
 *   The networking protocol will use `state synchronization`_ over
     :abbr:`UDP (User Datagram Protocol)` instead of input sychronization

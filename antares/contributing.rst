@@ -22,7 +22,7 @@ For more detail on how to help, browse the following sections.
     contributing/building
     contributing/style
 
-..  _issue tracker: http://code.google.com/p/antares/issues/list
+..  _issue tracker: https://github.com/arescentral/antares/issues
 ..  _#ares irc channel: irc://irc.afternet.org:6667/#ares
 ..  _Afternet: http://www.afternet.org/
 ..  _development mailing list: https://groups.google.com/a/arescentral.org/group/antares-dev

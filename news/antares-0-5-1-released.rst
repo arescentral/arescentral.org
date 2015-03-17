@@ -7,10 +7,10 @@ Antares 0.5.1 Released
 
 `Antares 0.5.1`_ has been released. This release fixes several issues:
 
-* Issue 4 (Add support for plugins)
-* Issue 19 (Allow selection of screen size)
-* Issue 92 (Cache digest of extracted scenario)
-* Issue 100 (Text not drawn in bottom row of pixels on screen.)
+* Issue 7 (Add support for plugins)
+* Issue 22 (Allow selection of screen size)
+* Issue 95 (Cache digest of extracted scenario)
+* Issue 103 (Text not drawn in bottom row of pixels on screen.)
 
 Obviously, the main point of interest is the new support for plugins. In
 order to demonstrate this feature, we've converted `Footsteps of

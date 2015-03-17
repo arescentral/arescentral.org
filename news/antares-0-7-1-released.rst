@@ -8,8 +8,8 @@ Antares 0.7.1 Released
 `Antares 0.7.1`_ has been released for Mac OS X 10.8+.  This is a hotfix
 release fixing two issues:
 
-* Issue 133 (No way to target self with gamepad)
-* Issue 135 (Can't B out of mission briefing)
+* Issue 136 (No way to target self with gamepad)
+* Issue 138 (Can't B out of mission briefing)
 
 Also, I forgot to give an explanation of the gamepad controls with
 yesterday's release.  If you're interested in using a gamepad, please

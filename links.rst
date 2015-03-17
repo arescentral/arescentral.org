@@ -18,9 +18,8 @@ Development
 
 *   Antares
 
-    +   `antares - A tactical space combat game - Google Project Hosting <https://code.google.com/p/antares/>`_
-    +   `Antares Development — Google Groups <https://groups.google.com/a/arescentral.org/group/antares-dev>`_
     +   `arescentral/antares — GitHub <https://github.com/arescentral/antares>`_
+    +   `Antares Development — Google Groups <https://groups.google.com/a/arescentral.org/group/antares-dev>`_
     +   `sfiera/antares — GitHub <https://github.com/sfiera/antares>`_
     +   `Antares (video game): Project Summary — Ohloh <https://ohloh.net/p/antares>`_
 

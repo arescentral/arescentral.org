@@ -47,6 +47,7 @@ import urllib2
 from contextlib import closing
 from collections import namedtuple
 from os import path
+import sys
 
 from docutils import nodes
 from docutils.transforms import Transform
@@ -133,13 +134,30 @@ def check_project_with_username(tracker_config):
                 tracker_config))
 
 
-GITHUB_API_URL = 'https://api.github.com/repos/{0.project}/issues/{1}'
+GITHUB_API_URL = 'https://api.github.com/repos/{0.project}/issues?state=all&per_page=100&page={1}'
 
+github_issues = None
 def lookup_github_issue(app, tracker_config, issue_id):
     check_project_with_username(tracker_config)
 
-    issue = fetch_issue(app, GITHUB_API_URL.format(tracker_config, issue_id),
-                        output_format='json')
+    global github_issues
+    if github_issues is None:
+        github_issues = []
+        for page in xrange(1, sys.maxint):
+            batch = fetch_issue(app, GITHUB_API_URL.format(tracker_config, page),
+                                output_format='json')
+            github_issues += batch
+            if len(batch) != 100:
+                break
+        github_issues = dict((i["number"], i) for i in github_issues)
+        print(github_issues)
+
+    try:
+        issue_id = int(issue_id)
+    except ValueError:
+        return None
+    issue = github_issues.get(issue_id)
+
     if issue:
         closed = issue['state'] == 'closed'
         return Issue(id=issue_id, title=issue['title'], closed=closed,

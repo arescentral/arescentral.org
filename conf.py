@@ -138,6 +138,6 @@ feed_base_url = "http://arescentral.org"
 feed_filename = "news.atom"
 feed_date_format = "%B %d %Y"
 
-issuetracker = "google code"
-issuetracker_project = "antares"
+issuetracker = "github"
+issuetracker_project = "arescentral/antares"
 issuetracker_issue_pattern = "Issue (\d+)"

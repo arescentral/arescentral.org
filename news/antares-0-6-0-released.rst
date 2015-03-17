@@ -19,26 +19,26 @@ Antares's `issue tracker`_.
 Antares 0.6.0 contains several fixes for issues that were present in
 Ares 1.2.0:
 
-* Issue 2 (Mouse movement disrupts replays)
-* Issue 111 (No special weapon shown when selection change from
+* Issue 5 (Mouse movement disrupts replays)
+* Issue 114 (No special weapon shown when selection change from
   destination)
-* Issue 112 (Control, target sprites clipped in minicomputer)
-* Issue 113 (Minicomputer object's target does not change colors)
-* Issue 114 (Minicomputer targets sometimes not updated when switching
+* Issue 115 (Control, target sprites clipped in minicomputer)
+* Issue 116 (Minicomputer object's target does not change colors)
+* Issue 117 (Minicomputer targets sometimes not updated when switching
   to/from destination objects)
-* Issue 116 (Minicomputer buttons not consistent on background color)
-* Issue 117 (Minicomputer may not initially show control/target)
+* Issue 119 (Minicomputer buttons not consistent on background color)
+* Issue 120 (Minicomputer may not initially show control/target)
 
 …several for issues present in earlier versions of Antares:
 
-* Issue 10 (Mission briefing doesn't allow display of ship stats)
-* Issue 12 (Loading progress bar doesn't display)
-* Issue 34 (Mission debriefing disappears too easily)
-* Issue 37 (Mission debriefing doesn't display typing blocks)
-* Issue 105 (Sprites sometimes appear in front of instruments)
-* Issue 106 (Shield stenciling doesn't always work)
-* Issue 118 (Control, target sprites off-center in minicomputer)
-* Issue 119 (Sometimes screen black after starting level)
+* Issue 13 (Mission briefing doesn't allow display of ship stats)
+* Issue 15 (Loading progress bar doesn't display)
+* Issue 37 (Mission debriefing disappears too easily)
+* Issue 40 (Mission debriefing doesn't display typing blocks)
+* Issue 108 (Sprites sometimes appear in front of instruments)
+* Issue 109 (Shield stenciling doesn't always work)
+* Issue 121 (Control, target sprites off-center in minicomputer)
+* Issue 122 (Sometimes screen black after starting level)
 
 …plus improvements intended to make Antares more maintainable in the
 future.
