@@ -18,15 +18,14 @@ To build Antares from source, follow these instructions:
         $ ./bootstrap.py
         $ sudo cp ninja /usr/local/bin  # or put it somewhere in $PATH
 
-3.  Use ``git`` to create a clone of the `official Antares repository`_,
-    and check out the ``develop`` branch::
+3.  Use ``git`` to create a clone of the `official Antares
+    repository`_::
 
         $ git clone https://github.com/arescentral/antares.git
         $ cd antares
-        $ git checkout develop
 
     If you have a GitHub account, you may prefer to `fork the project`_
-    from its `mirror on GitHub`_ and then clone your fork.
+    from its `project on GitHub`_ and then clone your fork.
 
 4.  Check out the submodules::
 
@@ -90,6 +89,6 @@ To build Antares from source, follow these instructions:
 ..  _ninja: http://martine.github.io/ninja/manual.html
 ..  _official antares repository: https://github.com/arescentral/antares
 ..  _fork the project: http://help.github.com/fork-a-repo/
-..  _mirror on GitHub: https://github.com/arescentral/antares
+..  _project on GitHub: https://github.com/arescentral/antares
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

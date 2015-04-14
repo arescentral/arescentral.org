@@ -6,7 +6,7 @@ Requirements
 
 Before submitting a patch, please check the following:
 
-1.  Your patch branches from or applies cleanly to the ``develop``
+1.  Your patch branches from or applies cleanly to the ``master``
     branch of the repository.
 2.  Your code conforms to the :doc:`style guidelines <style>`.
 3.  You have run the tests, and all of them pass.
