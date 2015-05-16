@@ -2,8 +2,8 @@
 
 ..  |antares-latest| replace:: 0.7.3
 ..  |antares-latest-date| replace:: 15 April, 2015
-..  |antares-latest-osx-version| replace:: 10.8+
-..  |antares-latest-osx| replace:: Antares 0.7.3 for Mac OS X 10.8+
+..  |antares-latest-osx-version| replace:: 10.9+
+..  |antares-latest-osx| replace:: Antares 0.7.3 for Mac OS X 10.9+
 ..  |antares-latest-src| replace:: Antares 0.7.3 sources
 
 ..  _antares-latest-osx: http://downloads.arescentral.org/Antares/Antares-0.7.3.zip
