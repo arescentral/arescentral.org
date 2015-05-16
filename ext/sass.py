@@ -17,7 +17,7 @@ def visit_file(arg, d, paths):
         if os.path.isfile(css_path):
             if os.stat(path).st_mtime <= os.stat(css_path).st_mtime:
                 continue
-        assert subprocess.call(["sass", path, css_path]) == 0
+        assert subprocess.call(["sassc", path, css_path]) == 0
 
 def sass_static_files(app, builder):
     os.path.walk(app.builder.outdir, visit_file, None)
