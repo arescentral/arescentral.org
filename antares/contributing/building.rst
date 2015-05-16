@@ -5,13 +5,17 @@ To build Antares from source, follow these instructions:
 
 ..  highlight:: sh
 
-1.  Install `gyp`_::
+1.  Install gyp_::
 
         $ git clone https://chromium.googlesource.com/external/gyp.git
         $ cd gyp
         $ setup.py install
 
-2.  Install `ninja`_::
+2.  Install ninja_ with homebrew_::
+
+        $ brew install ninja
+
+    Or manually::
 
         $ git clone https://github.com/martine/ninja.git
         $ cd ninja
@@ -41,15 +45,15 @@ To build Antares from source, follow these instructions:
     development, you may want to use ``dev`` mode, which will try to
     speed up the compilation process instead::
 
-        $ MODE=dev ./configure
+        $ ./configure --mode=dev
 
     If you expect to use ``gdb`` with the resulting binary, you may want
     to use ``dbg`` mode, which compiles the binary with debugging
     information::
 
-        $ MODE=dbg ./configure
+        $ ./configure --mode=dbg
 
-    If in doubt, use ``MODE=dev`` if you're planning to do development
+    If in doubt, use ``--mode=dev`` if you're planning to do development
     work, and use the default if you just want a more recent version of
     the game.
 
@@ -73,7 +77,12 @@ To build Antares from source, follow these instructions:
     tests frequently, running in smoke-test mode will speed up the
     tests::
 
-        $ SMOKE=yes make test
+        $ make smoke-test
+
+    Again, there are more options if you use the wrapped script
+    directly::
+
+        $ scripts/test.py --type=replay
 
 8.  Play the results::
 
@@ -87,6 +96,7 @@ To build Antares from source, follow these instructions:
 
 ..  _gyp: https://code.google.com/p/gyp/
 ..  _ninja: http://martine.github.io/ninja/manual.html
+..  _homebrew: http://brew.sh/
 ..  _official antares repository: https://github.com/arescentral/antares
 ..  _fork the project: http://help.github.com/fork-a-repo/
 ..  _project on GitHub: https://github.com/arescentral/antares
