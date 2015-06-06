@@ -5,24 +5,7 @@ To build Antares from source, follow these instructions:
 
 ..  highlight:: sh
 
-1.  Install gyp_::
-
-        $ git clone https://chromium.googlesource.com/external/gyp.git
-        $ cd gyp
-        $ setup.py install
-
-2.  Install ninja_ with homebrew_::
-
-        $ brew install ninja
-
-    Or manually::
-
-        $ git clone https://github.com/martine/ninja.git
-        $ cd ninja
-        $ ./bootstrap.py
-        $ sudo cp ninja /usr/local/bin  # or put it somewhere in $PATH
-
-3.  Use ``git`` to create a clone of the `official Antares
+1.  Use ``git`` to create a clone of the `official Antares
     repository`_::
 
         $ git clone https://github.com/arescentral/antares.git
@@ -30,6 +13,16 @@ To build Antares from source, follow these instructions:
 
     If you have a GitHub account, you may prefer to `fork the project`_
     from its `project on GitHub`_ and then clone your fork.
+
+2.  Install gyp_::
+
+        $ brew install --HEAD scripts/gyp.rb  # Mac, via homebrew
+        $ sudo aptitude install gyp  # Ubuntu
+
+3.  Install ninja_::
+
+        $ brew install ninja  # Mac, via homebrew
+        $ sudo aptitude install ninja-build  # Ubuntu
 
 4.  Check out the submodules::
 
