@@ -60,7 +60,18 @@ To build Antares from source, follow these instructions:
 
         $ ninja -C out/cur -h
 
-7.  Run the tests::
+7.  Install the factory scenario::
+
+        $ out/cur/antares-install-data
+
+    The Mac version of Antares already does this, so if you've played
+    the game already on Mac, there should be no need (the installer will
+    detect this and do nothing in that case).
+
+    This is necessary on the Linux version, or if you want to run the
+    tests without first playing the game on Mac.
+
+8.  Run the tests::
 
         $ make test
 
@@ -77,13 +88,13 @@ To build Antares from source, follow these instructions:
 
         $ scripts/test.py --type=replay
 
-8.  Play the results::
+9.  Play the results::
 
         $ make run
 
     Antares does not currently use the ``install`` target.
 
-9.  For a release build, sign the binary::
+10. For a release build, sign the binary::
 
         $ make sign
 
