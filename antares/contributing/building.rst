@@ -5,8 +5,8 @@ To build Antares from source, follow these instructions:
 
 ..  highlight:: sh
 
-1.  Use ``git`` to create a clone of the `official Antares
-    repository`_::
+1.  Download the |antares-latest-src|, or use ``git`` to create a clone
+    of the `official Antares repository`_::
 
         $ git clone https://github.com/arescentral/antares.git
         $ cd antares
@@ -35,12 +35,7 @@ To build Antares from source, follow these instructions:
     binary, but the Linux version might link them dynamically in the
     future.
 
-3.  Check out the submodules::
-
-        $ git submodule init
-        $ git submodule update
-
-4.  Configure the project::
+3.  Configure the project::
 
         $ ./configure
 
@@ -61,7 +56,7 @@ To build Antares from source, follow these instructions:
     work, and use the default if you just want a more recent version of
     the game.
 
-5.  Build the project::
+4.  Build the project::
 
         $ make
 
@@ -71,7 +66,7 @@ To build Antares from source, follow these instructions:
 
         $ ninja -C out/cur -h
 
-6.  Install the factory scenario::
+5.  Install the factory scenario::
 
         $ out/cur/antares-install-data
 
@@ -82,7 +77,7 @@ To build Antares from source, follow these instructions:
     This is necessary on the Linux version, or if you want to run the
     tests without first playing the game on Mac.
 
-7.  Run the tests::
+6.  Run the tests::
 
         $ make test
 
@@ -99,13 +94,13 @@ To build Antares from source, follow these instructions:
 
         $ scripts/test.py --type=replay
 
-8.  Play the results::
+7.  Play the results::
 
         $ make run
 
     Antares does not currently use the ``install`` target.
 
-9. For a release build, sign the binary::
+8. For a release build, sign the binary::
 
         $ make sign
 
