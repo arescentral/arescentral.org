@@ -14,14 +14,19 @@ To build Antares from source, follow these instructions:
     If you have a GitHub account, you may prefer to `fork the project`_
     from its `project on GitHub`_ and then clone your fork.
 
-2.  Install dependencies.  On Mac, Xcode_ includes everything needed.
-    You may need to agree to the license agreement.  On Linux, install
-    the tools needed to build binaries with clang, plus some libraries::
+2.  Install dependencies.  Antares is built with gyp_ and ninja_.  On
+    Mac, Xcode_ includes everything else needed.  You may need to agree
+    to the license agreement::
+
+        $ brew install --HEAD scripts/gyp.rb  # Mac, via homebrew
+        $ brew install ninja  # Mac, via homebrew
+    
+    On Linux, install the tools needed to build binaries with clang,
+    plus some libraries::
 
         $ sudo apt-get install \
-            build-essential clang libc++-dev \
-            libneon27-dev libopenal-dev \
-            libgl1-mesa-dev libglu1-mesa-dev \
+            build-essential clang libc++-dev gyp ninja-build \
+            libneon27-dev libopenal-dev libgl1-mesa-dev libglu1-mesa-dev \
             libxrandr-dev libxcursor-dev libxinerama-dev  # Ubuntu
 
     Several libraries are bundled with the Antares source (GLFW, libpng,
@@ -30,22 +35,12 @@ To build Antares from source, follow these instructions:
     binary, but the Linux version might link them dynamically in the
     future.
 
-3.  Install gyp_::
-
-        $ brew install --HEAD scripts/gyp.rb  # Mac, via homebrew
-        $ sudo apt-get install gyp  # Ubuntu
-
-4.  Install ninja_::
-
-        $ brew install ninja  # Mac, via homebrew
-        $ sudo apt-get install ninja-build  # Ubuntu
-
-5.  Check out the submodules::
+3.  Check out the submodules::
 
         $ git submodule init
         $ git submodule update
 
-6.  Configure the project::
+4.  Configure the project::
 
         $ ./configure
 
@@ -66,7 +61,7 @@ To build Antares from source, follow these instructions:
     work, and use the default if you just want a more recent version of
     the game.
 
-7.  Build the project::
+5.  Build the project::
 
         $ make
 
@@ -76,7 +71,7 @@ To build Antares from source, follow these instructions:
 
         $ ninja -C out/cur -h
 
-8.  Install the factory scenario::
+6.  Install the factory scenario::
 
         $ out/cur/antares-install-data
 
@@ -87,7 +82,7 @@ To build Antares from source, follow these instructions:
     This is necessary on the Linux version, or if you want to run the
     tests without first playing the game on Mac.
 
-9.  Run the tests::
+7.  Run the tests::
 
         $ make test
 
@@ -104,19 +99,19 @@ To build Antares from source, follow these instructions:
 
         $ scripts/test.py --type=replay
 
-10.  Play the results::
+8.  Play the results::
 
         $ make run
 
     Antares does not currently use the ``install`` target.
 
-11. For a release build, sign the binary::
+9. For a release build, sign the binary::
 
         $ make sign
 
 ..  _xcode: https://itunes.apple.com/en/app/xcode/id497799835
 ..  _gyp: https://code.google.com/p/gyp/
-..  _ninja: http://martine.github.io/ninja/manual.html
+..  _ninja: https://martine.github.io/ninja/manual.html
 ..  _homebrew: http://brew.sh/
 ..  _official antares repository: https://github.com/arescentral/antares
 ..  _fork the project: http://help.github.com/fork-a-repo/
