@@ -5,8 +5,22 @@ To build Antares from source, follow these instructions:
 
 ..  highlight:: sh
 
-1.  Download the |antares-latest-src|, or use ``git`` to create a clone
-    of the `official Antares repository`_::
+1.  Download, unzip, and enter the |antares-latest-src|:
+
+    ..  rst-class:: highlight-sh
+    ..  container::
+
+        ..  rst-class:: highlight
+        ..  container::
+
+            ..  parsed-literal::
+
+                $ curl -O |antares-latest-src-url|
+                $ unzip Antares-Source-|antares-latest|.zip
+                $ cd Antares-|antares-latest|
+
+    Or use ``git`` to create a clone of the `official Antares
+    repository`_::
 
         $ git clone https://github.com/arescentral/antares.git
         $ cd antares
@@ -20,7 +34,7 @@ To build Antares from source, follow these instructions:
 
         $ brew install --HEAD scripts/gyp.rb  # Mac, via homebrew
         $ brew install ninja  # Mac, via homebrew
-    
+
     On Linux, install the tools needed to build binaries with clang,
     plus some libraries::
 
