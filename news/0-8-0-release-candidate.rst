@@ -8,7 +8,7 @@
 I've cut a release candidate for Antares 0.8.0:
 
 *   Download |antares-0.8.0rc2-osx|_.
-*   Download the |antares-0.8.0rc2-src|_.
+*   Download the |antares-0.8.0rc3-src|_.
 
 While there are some nice improvements to the graphics for Mac users
 (especially those with Retina displays), the big news is the addition of
@@ -23,8 +23,8 @@ ones that indicate that everything works fine).
 ..  _bugs: https://github.com/arescentral/antares/issues/new
 ..  _reports: mailto:sfiera@sfzmail.com
 ..  |antares-0.8.0rc2-osx| replace:: Antares 0.8.0rc2 for Mac OS X 10.9+
-..  |antares-0.8.0rc2-src| replace:: Antares 0.8.0rc2 sources
+..  |antares-0.8.0rc3-src| replace:: Antares 0.8.0rc3 sources
 ..  _antares-0.8.0rc2-osx: http://downloads.arescentral.org/Antares/Antares-0.8.0rc2.zip
-..  _antares-0.8.0rc2-src: http://downloads.arescentral.org/Antares/Antares-Source-0.8.0rc2.zip
+..  _antares-0.8.0rc3-src: http://downloads.arescentral.org/Antares/Antares-Source-0.8.0rc3.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-
