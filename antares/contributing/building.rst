@@ -1,7 +1,8 @@
 Building Antares
 ================
 
-To build Antares from source, follow these instructions:
+To build Antares from source, follow these instructions in a terminal
+window:
 
 ..  highlight:: sh
 
