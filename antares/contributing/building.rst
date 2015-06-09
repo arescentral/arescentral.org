@@ -36,7 +36,48 @@ To build Antares from source, follow these instructions:
     fails, then install them as instructed, and run ``./configure``
     again.
 
-    By default, Antares will be configured in ``opt`` mode, meaning that
+3.  Build the project::
+
+        $ make
+
+4.  Install the factory scenario (necessary only on Linux)::
+
+        $ out/cur/antares-install-data
+
+    The Mac version will do this automatically the first time you play
+    the game.
+
+5.  Play::
+
+        $ make run
+
+6.  Run the tests::
+
+        $ make test
+
+    Antares has an extensive suite of regression tests, which play
+    through several different levels of the game to verify that the same
+    behavior is observed for the same input.  If you're running the
+    tests frequently, running in smoke-test mode will speed up the
+    tests::
+
+        $ make smoke-test
+
+    There are more options if you use the wrapped script directly::
+
+        $ scripts/test.py --type=replay
+
+7.  For a release build, sign the binary::
+
+        $ make sign
+
+8.  Antares does not currently use the ``install`` target.
+
+
+Further reading
+---------------
+
+*   By default, Antares will be configured in ``opt`` mode, meaning that
     it will try to make the resulting binary as fast as possible.  For
     development, you may want to use ``dev`` mode, which will try to
     speed up the compilation process instead::
@@ -53,53 +94,13 @@ To build Antares from source, follow these instructions:
     work, and use the default if you just want a more recent version of
     the game.
 
-3.  Build the project::
-
-        $ make
-
-    The Makefile bundled with Antares is a wrapper around ``ninja``.
+*   The Makefile bundled with Antares is a wrapper around ``ninja``.
     You can also use ``ninja`` directly, which exposes additional
     options::
 
         $ ninja -C out/cur -h
 
-4.  Install the factory scenario::
 
-        $ out/cur/antares-install-data
-
-    The Mac version of Antares already does this, so if you've played
-    the game already on Mac, there should be no need (the installer will
-    detect this and do nothing in that case).
-
-    This is necessary on the Linux version, or if you want to run the
-    tests without first playing the game on Mac.
-
-5.  Run the tests::
-
-        $ make test
-
-    Antares has an extensive suite of regression tests, which play
-    through several different levels of the game to verify that the same
-    behavior is observed for the same input.  If you're running the
-    tests frequently, running in smoke-test mode will speed up the
-    tests::
-
-        $ make smoke-test
-
-    Again, there are more options if you use the wrapped script
-    directly::
-
-        $ scripts/test.py --type=replay
-
-6.  Play the results::
-
-        $ make run
-
-    Antares does not currently use the ``install`` target.
-
-7. For a release build, sign the binary::
-
-        $ make sign
 
 ..  _xcode: https://itunes.apple.com/en/app/xcode/id497799835
 ..  _gyp: https://code.google.com/p/gyp/
