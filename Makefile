@@ -1,54 +1,46 @@
-# Makefile for Sphinx documentation
+PY?=python
+PELICAN?=pelican
+PELICANOPTS?=
 
-# You can set these variables from the command line.
-SPHINXBUILD     = sphinx-build
-SPHINXOPTS      =
-RSYNC           = rsync
-RSYNCOPTS       = -rtvz --delay-updates --delete
-BUILDDIR        = _build
-PYTHON 			= python
-DEPLOY          = florence.sfiera.net:/srv/www/arescentral.org/htdocs
-STAGE           = florence.sfiera.net:/srv/www/staging.arescentral.org/htdocs
+BASEDIR=$(CURDIR)
+INPUTDIR=$(BASEDIR)/content
+OUTPUTDIR=$(BASEDIR)/output
+CONFFILE=$(BASEDIR)/dev.py
+PUBLISHCONF=$(BASEDIR)/pub.py
 
-# Internal variables.
-ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(SPHINXOPTS) .
-
-.PHONY: help clean html changes linkcheck stage deploy
+PYTHONDONTWRITEBYTECODE=1
+export PYTHONDONTWRITEBYTECODE
 
 help:
-	@echo "Please use \`make <target>' where <target> is one of"
-	@echo "  html       to make HTML files"
-	@echo "  changes    to make an overview of all changed/added/deprecated items"
-	@echo "  linkcheck  to check all external links for integrity"
-	@echo "  serve      to serve the site at localhost:8000"
-	@echo "  stage      to push to staging.arescentral.org"
-	@echo "  deploy     to push to arescentral.org"
-
-clean:
-	-rm -rf $(BUILDDIR)/*
+	@echo 'Makefile for a pelican Web site                                           '
+	@echo '                                                                          '
+	@echo 'Usage:                                                                    '
+	@echo '   make html                           (re)generate the web site          '
+	@echo '   make clean                          remove the generated files         '
+	@echo '   make regenerate                     regenerate files upon modification '
+	@echo '   make publish                        generate using production settings '
+	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
 
 html:
-	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/html
-	cp -f htaccess $(BUILDDIR)/html/.htaccess
-	@echo
-	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-changes:
-	$(SPHINXBUILD) -b changes $(ALLSPHINXOPTS) $(BUILDDIR)/changes
-	@echo
-	@echo "The overview file is in $(BUILDDIR)/changes."
+clean:
+	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
-linkcheck:
-	$(SPHINXBUILD) -b linkcheck $(ALLSPHINXOPTS) $(BUILDDIR)/linkcheck
-	@echo
-	@echo "Link check complete; look for any errors in the above output " \
-	      "or in $(BUILDDIR)/linkcheck/output.txt."
+regenerate:
+	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-serve: html
-	cd $(BUILDDIR)/html/ && $(PYTHON) -m SimpleHTTPServer 8000
+serve:
+ifdef PORT
+	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
+else
+	cd $(OUTPUTDIR) && $(PY) -m pelican.server
+endif
 
-stage: html
-	$(RSYNC) $(RSYNCOPTS) $(BUILDDIR)/html/ $(STAGE)
+publish:
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
-deploy: html
-	$(RSYNC) $(RSYNCOPTS) $(BUILDDIR)/html/ $(DEPLOY)
+deploy: publish
+	rsync -rtv --delete output/ florence:/srv/www/arescentral.org/htdocs/
+
+.PHONY: help html clean regenerate serve publish deploy

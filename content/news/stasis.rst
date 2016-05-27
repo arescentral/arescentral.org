@@ -1,0 +1,15 @@
+Stasis
+======
+
+:date:      2014-11-02
+:author:    sfiera
+:tags:
+
+Sorry, no anniversary release.  One year Antares will get multiplayer
+and Linux support, but this year is not it.
+
+If you have any comments, feel free to mail `the mailing list`_ or `me
+directly`_.
+
+..  _the mailing list: mailto:antares-dev@arescentral.org
+..  _me directly: mailto:sfiera@sfzmail.com

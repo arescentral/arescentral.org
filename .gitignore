@@ -1,3 +1,5 @@
 *.pyc
-/_build
+/output
+/scripts/srv.pid
+/scripts/pelican.pid
 /.sass-cache
