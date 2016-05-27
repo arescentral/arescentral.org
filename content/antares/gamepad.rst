@@ -4,8 +4,9 @@ Gamepad Controls
 Pilot Mode
 ----------
 
-..  image:: /antares/img/pilot.png
-    :width: 100%
+..  image::  /antares/img/pilot.png
+    :width:  100%
+    :alt:    Gamepad in Pilot mode, the default.
 
 By default, the gamepad is in pilot mode.  In pilot mode, the left stick
 controls the ship's facing, and A and B accelerate and decelerate.
@@ -16,8 +17,9 @@ special weapons to the left.
 Select Mode
 -----------
 
-..  image:: /antares/img/select.png
-    :width: 100%
+..  image::  /antares/img/select.png
+    :width:  100%
+    :alt:    Gamepad in Select mode.
 
 Holding down the right bumper puts the ship in select mode.  In select
 mode, pressing A, B, or X while pointing the left stick will select
@@ -27,8 +29,9 @@ Clicking the left stick will transfer you to your control object.
 Target Mode
 -----------
 
-..  image:: /antares/img/target.png
-    :width: 100%
+..  image::  /antares/img/target.png
+    :width:  100%
+    :alt:    Gamepad in Target mode.
 
 Holding down the left bumper puts the ship in target mode.  In target
 mode, pressing A, B, or X while pointing the left stick will target

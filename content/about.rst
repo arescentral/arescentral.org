@@ -3,6 +3,7 @@ About
 
 ..  image:: /splash.png
     :width: 100%
+    :alt: Deep in space, war still has a name. This is it.
 
 Ares is a tactical space-combat game, combining elements of both arcade
 shooters and real-time strategy games.

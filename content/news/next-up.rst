@@ -10,8 +10,10 @@ screenshots:
 
 ..  image:: /news/img/retina.png
     :width: 640px
+    :alt: Antares running at 640x480dp on an Apple Retina MacBook
 
 ..  image:: /news/img/ubuntu.png
     :width: 640px
+    :alt: Antares running on Ubuntu Linux
 
 ..  -*- tab-width: 4; fill-column: 72 -*-
