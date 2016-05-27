@@ -5,8 +5,7 @@ PELICANOPTS?=
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
-CONFFILE=$(BASEDIR)/dev.py
-PUBLISHCONF=$(BASEDIR)/pub.py
+CONFFILE=$(BASEDIR)/conf.py
 
 PYTHONDONTWRITEBYTECODE=1
 export PYTHONDONTWRITEBYTECODE
@@ -22,13 +21,19 @@ help:
 	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
 
 html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
+
+html-staging:
+	SITEURL=http://staging.arescentral.org $(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
+
+html-public:
+	SITEURL=http://arescentral.org $(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
 regenerate:
-	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
 ifdef PORT
@@ -37,10 +42,10 @@ else
 	cd $(OUTPUTDIR) && $(PY) -m pelican.server
 endif
 
-publish:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
+stage: html-staging
+	rsync -rtv --delete output/ staging.arescentral.org:/srv/www/staging.arescentral.org/htdocs/
 
-deploy: publish
-	rsync -rtv --delete output/ florence:/srv/www/arescentral.org/htdocs/
+deploy: html-public
+	rsync -rtv --delete output/ arescentral.org:/srv/www/arescentral.org/htdocs/
 
-.PHONY: help html clean regenerate serve publish deploy
+.PHONY: help html html-staging html-public clean regenerate serve stage deploy
