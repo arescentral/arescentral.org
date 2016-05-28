@@ -21,7 +21,7 @@ help:
 	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
 
 html:
-	$(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
+	SITEURL= $(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
 
 html-staging:
 	SITEURL=//staging.arescentral.org $(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
@@ -33,7 +33,7 @@ clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
 regenerate:
-	$(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
+	SITEURL= $(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
 ifdef PORT

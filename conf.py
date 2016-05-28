@@ -5,9 +5,18 @@ import os
 
 SITENAME = "Ares Central"
 
-SITEURL        = os.environ.get("SITEURL", "")
-RELATIVE_URLS  = not SITEURL
-FEED_ALL_ATOM  = None if RELATIVE_URLS else "news.atom"
+SITEURL            = os.environ.get("SITEURL", "")
+RELATIVE_URLS      = not SITEURL
+
+FEED_DOMAIN            = SITEURL
+FEED_ALL_ATOM          = None if RELATIVE_URLS else "news.atom"
+CATEGORY_FEED_ATOM     = None
+AUTHOR_FEED_ATOM       = None
+FEED_ALL_RSS           = None
+CATEGORY_FEED_RSS      = None
+AUTHOR_FEED_RSS        = None
+TRANSLATION_FEED_ATOM  = None
+TRANSLATION_FEED_RSS   = None
 
 OUTPUT_PATH              = "output/"
 DELETE_OUTPUT_DIRECTORY  = not RELATIVE_URLS
