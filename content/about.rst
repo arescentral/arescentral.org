@@ -26,8 +26,10 @@ released the source code of the game as open-source software under the
 addition, much of the media was released under Creative Commons
 licenses. This led to the creation of two projects aiming to bring the
 Ares experience back: `Xsera`_, a complete reimplementation which uses
-the original game as a reference, and `Antares
-<{filename}/antares.rst>`_, which is a direct port of the old game.
+the original game as a reference, and `Antares`_, which is a direct port
+of the old game.
+
+..  _antares: {filename}/antares.rst
 
 *   `Version History <{filename}/about/versions.rst>`_
 
@@ -44,7 +46,7 @@ Open source release
 
 The `Ares source code`_ is licensed under the |gpl2| and the |lgpl3|.
 This code forms the spriritual basis for `Xsera`_, and is directly
-adapted in `Antares <{filename}/antares.rst>`_.
+adapted in `Antares`_.
 
 The `Ares media`_ (text, images, sounds, and music) and `Ares models`_
 (for most of the sprites and interface elements) are distributed

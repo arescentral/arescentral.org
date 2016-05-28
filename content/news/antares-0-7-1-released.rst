@@ -13,10 +13,10 @@ release fixing two issues:
 
 Also, I forgot to give an explanation of the gamepad controls with
 yesterday's release.  If you're interested in using a gamepad, please
-refer to `Ares Central's gamepad guide
-<{filename}/antares/gamepad.rst>`_.  I've only tested a 360 controller
-myself, so your mileage may vary.
+refer to `Ares Central's gamepad guide`_.  I've only tested a 360
+controller myself, so your mileage may vary.
 
 ..  _Antares 0.7.1: http://downloads.arescentral.org/Antares/Antares-0.7.1.zip
+..  _Ares Central's gamepad guide: {filename}/antares/gamepad.rst
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

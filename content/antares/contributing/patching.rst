@@ -8,8 +8,7 @@ Before submitting a patch, please check the following:
 
 1.  Your patch branches from or applies cleanly to the ``master``
     branch of the repository.
-2.  Your code conforms to the `style guidelines
-    <{filename}/antares/contributing/style.rst>`_.
+2.  Your code conforms to the `style guidelines`_.
 3.  You have run the tests, and all of them pass.
 4.  If you've never committed to Antares before, your first commit must
     add your name and contact information to the ``AUTHORS`` file.  That
@@ -21,6 +20,8 @@ If you've fixed a bug, it would be great to add a test to prevent
 regressions in the future.  If you do add a test, consider ordering your
 commits so that the test is added before the fix, and submitting a
 patch-set so that it's easy to verify before/after the bugfix.
+
+..  _style guidelines: {filename}/antares/contributing/style.rst
 
 Process
 -------
