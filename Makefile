@@ -43,9 +43,9 @@ else
 endif
 
 stage: html-staging
-	rsync -rtv --delete output/ staging.arescentral.org:/srv/www/staging.arescentral.org/htdocs/
+	rsync -rcv --delete output/ staging.arescentral.org:/srv/www/staging.arescentral.org/htdocs/
 
 deploy: html-public
-	rsync -rtv --delete output/ arescentral.org:/srv/www/arescentral.org/htdocs/
+	rsync -rcv --delete output/ arescentral.org:/srv/www/arescentral.org/htdocs/
 
 .PHONY: help html html-staging html-public clean regenerate serve stage deploy
