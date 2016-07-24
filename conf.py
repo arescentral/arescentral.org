@@ -22,8 +22,8 @@ IGNORE_FILES            = [".*", "*.rsti", "*.css", "*.scss"]
 USE_FOLDER_AS_CATEGORY  = False
 DIRECT_TEMPLATES        = ["index"]
 
-PLUGIN_PATHS  = ["plugins"]
-PLUGINS       = ["pelican_youtube", "assets"]
+PLUGIN_PATHS  = ["plugins", "lib"]
+PLUGINS       = ["pelican_youtube", "assets", "ionlexer"]
 
 MENUITEMS = [
     ("Home",    ""),

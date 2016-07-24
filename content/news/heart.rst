@@ -13,7 +13,7 @@ Perhaps a future post will discuss what problems I think the current
 plugin format has, but in lieu of that, here’s a quick preview of what
 the new set of tools would use:
 
-..  code-block:: text
+..  code-block:: ion
 
     type:       "solo"
     chapter:    4
