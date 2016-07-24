@@ -36,7 +36,8 @@ The `Ares source code`_ is licensed under the |gpl2| and the |lgpl3|.
 This code forms the spriritual basis for `Xsera`_, and is directly
 adapted in `Antares <{filename}/antares.rst>`_.
 
-The `Ares media`_ (text, images, sounds, and music) are distributed
+The `Ares media`_ (text, images, sounds, and music) and `Ares models`_
+(for most of the sprites and interface elements) are distributed
 separately from the game engine and are licensed under the
 |cc-by-nc-sa|. Not all media from the original commercial distribution
 is included. Some sounds have been intentionally excluded.
@@ -53,6 +54,7 @@ of the Hera source files have been dedicated to the |pd|.
 ..  _ares source code: http://downloads.arescentral.org/Ares-Source-GPL2/Ares-Source-GPL2-1.0.zip
 ..  _xsera: http://www.xsera.org/
 ..  _ares media: http://downloads.arescentral.org/Ares-Media-CC/Ares-Media-CC-1.0.zip
+..  _ares models: http://downloads.arescentral.org/Ares-Models-CC/Ares-Models-CC-1.0.zip
 ..  _ares movies: http://downloads.arescentral.org/Ares-Movies-CC/Ares-Movies-CC-1.0.zip
 ..  _hera source code: http://downloads.arescentral.org/Hera-Source-PublicDomain/Hera-Source-PublicDomain-1.0.zip
 
