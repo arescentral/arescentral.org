@@ -29,8 +29,8 @@ class IonLexer(RegexLexer):
         ],
 
         "extended-value": [
-            ("(-)( )", bygroups(Punctuation, Text)),
-            ("-", Punctuation, "#pop"),
+            ("(\*)( )", bygroups(Punctuation, Text)),
+            ("\*", Punctuation, "#pop"),
             ("([>|])( )(.*)", bygroups(Punctuation, Text, String.Other), "#pop"),
             ("[>|!]", Punctuation, "#pop"),
             ("([\w./-]+)(:)( +)", bygroups(Name.Tag, Punctuation, Text)),
