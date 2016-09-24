@@ -7,7 +7,9 @@
     }
     .document,
     .footer,
-    .highlight {
+    .highlight,
+    .line-block,
+    blockquote {
         border-color: $color;
     }
     a.headerlink:hover {
@@ -242,13 +244,24 @@ ul {
     margin-right: 0;
 }
 
-.highlight {
+.highlight,
+.line-block,
+blockquote {
     padding: 0.5em;
     background: hsl(0, 0%, 90%) !important;
     border-width: 0 0 0 0.75em;
     border-style: solid;
     margin: 1em;
+}
+.highlight,
+.line-block {
     font: 100% monospace;
+}
+blockquote > *:first-child {
+    margin-top: 0;
+}
+blockquote > *:last-child {
+    margin-bottom: 0;
 }
 pre {
     margin: 0;

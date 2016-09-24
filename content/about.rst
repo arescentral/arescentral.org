@@ -29,6 +29,16 @@ Ares experience back: `Xsera`_, a complete reimplementation which uses
 the original game as a reference, and `Antares
 <{filename}/antares.rst>`_, which is a direct port of the old game.
 
+*   `Version History <{filename}/about/versions.rst>`_
+
+    *   `Ares 1.0 Demo <{filename}/about/versions.rst#v1-0-demo>`_
+    *   `Ares 1.0.1 Demo <{filename}/about/versions.rst#v1-0-1-demo>`_
+    *   `Ares 1.0 <{filename}/about/versions.rst#v1-0>`_
+    *   `Ares 1.1.0 <{filename}/about/versions.rst#v1-1-0>`_
+    *   `Ares 1.1.1 <{filename}/about/versions.rst#v1-1-1>`_
+    *   `Ares 1.2.0 <{filename}/about/versions.rst#v1-2-0>`_
+
+
 Open source release
 -------------------
 
