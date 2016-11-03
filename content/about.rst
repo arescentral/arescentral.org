@@ -72,11 +72,11 @@ This Site
 ---------
 
 Except where otherwise noted, content on this site is licensed under the
-|cc-by-nc-sa|.  This site was written using `Sphinx`_ and incorporates
-the extensions ``feed``, by Dan MacKinlay, and ``issuetracker``, by
-Sebastian Wiesner.
+|cc-by-nc-sa|.  This site was written using `Pelican`_ and incorporates
+the extension ``pelican_youtube``, by Kura_.
 
-..  _Sphinx: http://sphinx.pocoo.org/
+..  _Pelican: http://getpelican.com/
+..  _Kura: https://github.com/kura
 
 ..  include:: epilog.rsti
 
