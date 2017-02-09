@@ -24,10 +24,10 @@ html:
 	$(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
 
 html-staging:
-	SITEURL=http://staging.arescentral.org $(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
+	SITEURL=//staging.arescentral.org $(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
 
 html-public:
-	SITEURL=http://arescentral.org $(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
+	SITEURL=//arescentral.org $(PELICAN) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
