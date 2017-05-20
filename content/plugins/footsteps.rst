@@ -1,7 +1,7 @@
-:author:    Sundered Angel
-
 Footsteps of Pyrrhus
 ====================
+
+:author:    Sundered Angel
 
 Follow the course of a desperate war waged by a fledgeling race on the brink of extinction. Test
 your piloting prowess in half a dozen new vessels over the course of thirteen missions featuring
