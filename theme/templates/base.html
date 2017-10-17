@@ -23,8 +23,13 @@
   <body class="{{ root }}">
     <div id="header">
       <div class="content">
-        <a href="{{ SITEURL }}/" class="home">{{ SITENAME }}</a>
-        <hr/>
+        <a href="{{ SITEURL }}/" title="{{ SITENAME }}" class="home">
+          <svg xmlns="http://www.w3.org/2000/svg" width="5em" height="5em" viewBox="0 0 24 24">
+            <path class="b" d="M8,2h14v14h-4v-10h-10z"/>
+            <path class="a" d="M8,8h4v4h4v4h-8z"/>
+            <path class="c" d="M2,11h4v7h7v4h-11z"/>
+          </svg>
+        </a>
         <nav>
           <ul>
             {% for title, link in MENUITEMS %}
@@ -32,7 +37,6 @@
             {% endfor %}
           </ul>
         </nav>
-        <hr/>
       </div>
     </div>
     <div class="document">

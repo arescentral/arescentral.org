@@ -2,7 +2,12 @@
 
 @mixin theme($color) {
     $dark: mix($color, black, 66.6666%);
+    $darker: mix($color, black, 50%);
+    $darkish: mix($color, black, 75%);
     #header .content {
+        border-color: $dark;
+    }
+    nav {
         border-color: $dark;
     }
     .document,
@@ -20,6 +25,15 @@
     }
     a:visited {
         color: $dark;
+    }
+    path.a {
+        fill: $darker;
+    }
+    path.b {
+        fill: $darkish;
+    }
+    path.c {
+        fill: $color;
     }
 }
 
@@ -51,22 +65,25 @@ body.plugins {
     border-color: rgba(0, 0, 0, 0.2);
     .content {
         margin: 0 -1px 0 0;
-        padding: 1.5em;
+        padding: 0 1.5em;
         border-width: 0;
         border-top-width: 1em;
         border-style: solid;
     }
     .home {
+        line-height: 0;
+        display: block;
+        text-align: center;
         font-size: 3em;
         color: hsl(0, 0%, 30%);
-        margin: 0 0.25em;
     }
 }
 
 nav {
     display: block;
-    padding: 0;
-    margin: 0 0.375em 0.375em 0.375em;
+    padding: 0.375em;
+    border-style: solid;
+    border-width: 0.125em 0;
     ul {
         padding: 0;
         margin: 0;
@@ -79,11 +96,6 @@ nav {
             font-size: 1.25em;
             display: block;
         }
-    }
-    hr {
-        border: 1px solid hsl(0, 0%, 75%);
-        border-width: 1px 0 0 0;
-        margin: 0 0 0.375em 0;
     }
 }
 
@@ -286,6 +298,7 @@ pre {
         .content {
             border-width: 0 0 0 1em;
             margin: 0 0 -1px 0;
+            padding: 0 1em 1em 1em;
         }
     }
     .document,
