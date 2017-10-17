@@ -259,7 +259,7 @@ ul {
 .highlight,
 .line-block,
 blockquote {
-    padding: 0.5em;
+    padding: 0;
     background: hsl(0, 0%, 90%) !important;
     border-width: 0 0 0 0.75em;
     border-style: solid;
@@ -276,8 +276,10 @@ blockquote > *:last-child {
     margin-bottom: 0;
 }
 pre {
-    margin: 0;
     font: 100% monospace;
+    margin: 0;
+    padding: 0.5em;
+    overflow-x: auto;
 }
 
 @media (max-width: 60em) {
@@ -320,6 +322,11 @@ pre {
     .documentwrapper,
     .footer {
         max-width: none;
+    }
+    p,
+    ol,
+    ul {
+        text-align: left;
     }
 }
 
