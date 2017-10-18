@@ -306,7 +306,19 @@ pre {
         .content {
             border-width: 0 0 0 1em;
             margin: 0 0 -1px 0;
-            padding: 0 1em 1em 1em;
+            padding: 1em 1em 1em 50%;
+            position: relative;
+        }
+        .home {
+            position: absolute;
+            left: 0.5em;
+            right: 50%;
+            top: 0.5em;
+            bottom: 0.5em;
+            svg {
+                height: 100%;
+                max-width: 100%;
+            }
         }
     }
     .document,
@@ -314,11 +326,11 @@ pre {
         border-width: 0 0 0 1em;
     }
     nav li {
-        display: inline;
-        width: 20%;
+        display: block;
+        width: auto;
         a,
         span {
-            display: inline;
+            display: block;
         }
     }
     .document,
@@ -337,14 +349,6 @@ pre {
 }
 
 @media (max-width: 28em) {
-    nav li {
-        display: block;
-        width: auto;
-        a,
-        span {
-            display: block;
-        }
-    }
     .image-reference .screenshot,
     .image-reference:nth-child(3n+1) .screenshot {
         float: left;
