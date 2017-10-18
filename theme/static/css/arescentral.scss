@@ -74,7 +74,6 @@ body.plugins {
         line-height: 0;
         display: block;
         text-align: center;
-        font-size: 3em;
         color: hsl(0, 0%, 30%);
     }
 }
@@ -93,7 +92,7 @@ nav {
         padding: 0 0.375em;
         a,
         span {
-            font-size: 1.25em;
+            font-size: 125%;
             display: block;
         }
     }
@@ -216,15 +215,15 @@ h6 {
     clear: both;
 }
 h1 {
-    font-size: 2em;
+    font-size: 200%;
     clear: none;
     margin-top: 0;
 }
 h2 {
-    font-size: 1.5em;
+    font-size: 150%;
 }
 h3 {
-    font-size: 1.25em;
+    font-size: 125%;
 }
 p {
     line-height: 1.25em;
@@ -265,9 +264,12 @@ blockquote {
     border-style: solid;
     margin: 1em;
 }
-.highlight,
 .line-block {
     font: 100% monospace;
+}
+blockquote,
+.line-block {
+    padding: 0.5em;
 }
 blockquote > *:first-child {
     margin-top: 0;
