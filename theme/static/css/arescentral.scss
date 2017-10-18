@@ -75,6 +75,10 @@ body.plugins {
         display: block;
         text-align: center;
         color: hsl(0, 0%, 30%);
+        svg {
+            max-height: 192px;
+            max-width: 192px;
+        }
     }
 }
 
