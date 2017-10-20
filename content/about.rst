@@ -1,7 +1,7 @@
 About
 =====
 
-..  image:: /splash.png
+..  image:: /images/splash.png
     :width: 100%
     :alt: Deep in space, war still has a name. This is it.
 

@@ -1,0 +1,13 @@
+{ "name": "Ares Central"
+, "short_name": "Ares Central"
+, "start_url": "/"
+, "display": "browser"
+, "background-color": "white"
+, "description": "Ares Central"
+, "icons":
+  [ { "src": "/images/logo.png"
+    , "sizes": "720x720"
+    , "type": "image/png"
+    }
+  ]
+}
