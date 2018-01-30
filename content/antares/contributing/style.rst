@@ -11,8 +11,8 @@ a change to a file that does not follow this style, it is discouraged to
 make style changes in unrelated code, to avoid distraction from the
 intended change.
 
-.. _Python style guide: http://www.python.org/dev/peps/pep-0008/
-.. _Google C++ style guide: http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml
+.. _Python style guide: https://www.python.org/dev/peps/pep-0008/
+.. _Google C++ style guide: https://google.github.io/styleguide/cppguide.html
 
 Formatting
 ----------

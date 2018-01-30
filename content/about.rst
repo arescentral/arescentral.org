@@ -61,10 +61,10 @@ Also available: the `Hera source code`_, game data editor for Ares. Most
 of the Hera source files have been dedicated to the |pd|.
 
 ..  _bigger planet: http://biggerplanet.com/
-..  _ambrosia software: http://www.ambrosiasw.com/
+..  _ambrosia software: https://www.ambrosiasw.com/
 
 ..  _ares source code: http://downloads.arescentral.org/Ares-Source-GPL2/Ares-Source-GPL2-1.0.zip
-..  _xsera: http://www.xsera.org/
+..  _xsera: https://github.com/prophile/xsera
 ..  _ares media: http://downloads.arescentral.org/Ares-Media-CC/Ares-Media-CC-1.0.zip
 ..  _ares models: http://downloads.arescentral.org/Ares-Models-CC/Ares-Models-CC-1.0.zip
 ..  _ares movies: http://downloads.arescentral.org/Ares-Movies-CC/Ares-Movies-CC-1.0.zip
@@ -77,7 +77,7 @@ Except where otherwise noted, content on this site is licensed under the
 |cc-by-nc-sa|.  This site was written using `Pelican`_ and incorporates
 the extension ``pelican_youtube``, by Kura_.
 
-..  _Pelican: http://getpelican.com/
+..  _Pelican: https://getpelican.com/
 ..  _Kura: https://github.com/kura
 
 ..  include:: epilog.rsti

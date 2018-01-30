@@ -48,4 +48,4 @@ osgameclones.com_.
 ..  _Endless Sky: https://endless-sky.github.io/
 ..  _delvmod: https://github.com/BryceSchroeder/delvmod
 ..  _Cythera: https://en.wikipedia.org/wiki/Cythera_(video_game)
-..  _osgameclones.com: http://osgameclones.com/
+..  _osgameclones.com: https://osgameclones.com/

@@ -67,8 +67,8 @@ good candidates for getting your feed wet with the Antares code base.
 `High-complexity bugs`_ are to be avoided unless you're very familiar
 with it.
 
-..  _low-complexity bugs: http://code.google.com/p/antares/issues/list?q=Complexity:Low
-..  _high-complexity bugs: http://code.google.com/p/antares/issues/list?q=Complexity:High
+..  _low-complexity bugs: https://github.com/arescentral/antares/issues?q=is%3Aissue+is%3Aopen+label%3AComplexity%3ALow
+..  _high-complexity bugs: https://github.com/arescentral/antares/issues?q=is%3Aissue+is%3Aopen+label%3AComplexity%3AHigh
 
 Miscellaneous
 ~~~~~~~~~~~~~

@@ -18,9 +18,9 @@ See Antares's `AUTHORS`_ file. Most of the work was done by
 `Nathan Lamont`_, who wrote the original game for Mac OS Classic, Ares,
 and `Chris Pickel`_, who ported it to Mac OS X as Antares.
 
-..  _AUTHORS: https://github.com/arescentral/antares/blob/develop/AUTHORS
+..  _AUTHORS: https://github.com/arescentral/antares/blob/master/AUTHORSS
 ..  _Nathan Lamont: http://biggerplanet.com/
-..  _Chris Pickel: http://sfiera.net/
+..  _Chris Pickel: https://sfiera.net/
 
 1.3. When will Antares 1.0 be released?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -78,8 +78,8 @@ things that will probably change are:
 *   `GameRanger`_ will not be supported. Another metaserver may replace
     it.
 
-..  _state synchronization: http://nclabs.org/articles/5
-..  _GameRanger: http://www.gameranger.com/
+..  _state synchronization: http://web.archive.org/web/20121024235950/http://nclabs.org/articles/5
+..  _GameRanger: https://www.gameranger.com/
 
 1.7. Where does the name "Antares" come from?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -87,7 +87,7 @@ Antares is the common name for `α Scorpii`_. Its name means "anti-Ares",
 because although it is a bright red star similar in appearance to Mars
 (Ares), it is something very different.
 
-..  _α Scorpii: http://en.wikipedia.org/wiki/Antares
+..  _α Scorpii: https://en.wikipedia.org/wiki/Antares
 
 2. Plugins
 ----------
@@ -105,7 +105,7 @@ There is no tool for converting a plugin from one format to another. If
 a plugin you want to play is not available for Antares, you can `post a
 request`_ for it to be converted manually.
 
-..  _post a request: http://www.ambrosiasw.com/forums/index.php?showtopic=130975
+..  _post a request: https://www.ambrosiasw.com/forums/index.php?showtopic=130975
 
 2.3. What tools exist for plugin development?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

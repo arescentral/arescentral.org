@@ -269,5 +269,5 @@ Changes:
 ..  _Ares 1.0 Demo: http://downloads.arescentral.org/Ares/Ares-1.0-Demo.zip
 ..  _Ares 1.1.0: http://downloads.arescentral.org/Ares/Ares-1.1.0.zip
 ..  _Ares 1.2.0: http://downloads.arescentral.org/Ares/Ares-1.2.0.zip
-..  _Ambrosia Software: http://www.ambrosiasw.com/
+..  _Ambrosia Software: https://www.ambrosiasw.com/
 ..  _GameRanger: https://www.gameranger.com/

@@ -123,9 +123,8 @@ Further reading
 ..  _xcode: https://itunes.apple.com/en/app/xcode/id497799835
 ..  _gyp: https://code.google.com/p/gyp/
 ..  _ninja: https://martine.github.io/ninja/manual.html
-..  _homebrew: http://brew.sh/
 ..  _official antares repository: https://github.com/arescentral/antares
-..  _fork the project: http://help.github.com/fork-a-repo/
+..  _fork the project: https://help.github.com/fork-a-repo/
 ..  _project on GitHub: https://github.com/arescentral/antares
 
 ..  include:: ../../epilog.rsti
