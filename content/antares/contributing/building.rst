@@ -6,12 +6,11 @@ window:
 
 1.  Download, unzip, and enter the |antares-latest-src|:
 
-    ..  parsed-literal::
-        :class: highlight
+    ..  code-block:: sh
 
-        $ curl -O |antares-latest-src-url|
-        $ unzip Antares-Source-|antares-latest|.zip
-        $ cd Antares-|antares-latest|
+        $ curl -O http://downloads.arescentral.org/Antares/antares-latest.zip
+        $ unzip antares-latest.zip
+        $ cd antares-*
 
     Or use ``git`` to create a clone of the `official Antares
     repository`_:
