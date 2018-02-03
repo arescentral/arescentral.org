@@ -17,12 +17,15 @@ intended change.
 Formatting
 ----------
 
+Antares includes a ``.clang-format`` file. The easiest way to follow
+these rules is to run ``clang-format`` on your code before committing.
+
 *   Lines should not be too long.  100 characters is definitely too
     long.  Comments should be shorter so they are easier to read--72
-    characters is a good width.
+    characters is a good width, but up to 99 is OK.
 
 *   Indent with four spaces, never tabs:
-  
+
     ..  code-block:: c++
 
         int main(int argc, char* argv[]) {
@@ -47,9 +50,9 @@ Formatting
         #endif  // ANTARES_OBISH_AMBASSADOR_THRNTZ_HPP_
 
 *   After the copyright header and include guards, all files should
-    start with ``#include`` directives: first the corresponding header,
-    then system includes, then project includes; with each group sorted
-    and separated by blank lines:
+    start with ``#include`` directives: first the corresponding header
+    (for ``.cpp`` files), then system includes, then project includes;
+    with each group sorted and separated by blank lines:
 
     ..  code-block:: c++
 
@@ -76,6 +79,17 @@ Formatting
         }  // namespace
         }  // namespace antares
 
+*   Indent ``public`` and ``private`` halfway:
+
+    ..  code-block: c++
+
+        class Cantharan {
+          public:
+            void crusade();
+          private:
+            void seek_asteroid();
+        };
+
 *   Put open-braces on the same line as the function or control
     statement they provide the body for.  If the body is empty, the
     close-brace can go there too:
@@ -88,7 +102,7 @@ Formatting
             }
         }
 
-        void do_nothing() { }
+        void do_nothing() {}
 
 *   Always put the body of a control statement on a separate line, with
     curly braces, even if it is one line:
@@ -101,14 +115,14 @@ Formatting
             ++losses;
         }
 
-*   With initializer lists, put the colon with the close-parenthesis,
-    and indent the initializers two levels:
+*   With initializer lists, indent the colon two levels, and keep fields
+    lined up after it:
 
     ..  code-block:: c++
 
-        Grolk::Grolk():
-                _appearance("panda"),
-                _gullible(true) {
+        Grolk::Grolk()
+                : _appearance("panda"),
+                  _gullible(true) {
             // This will not end well.
         }
 
