@@ -3,7 +3,7 @@ Contributing to Antares
 
 There are plenty of ways to help out with Antares:
 
-* Play the game!  Report bugs in our `issue tracker`_.  You're most
+* Play the game!  Report bugs in the `issue tracker`_.  You're most
   likely to uncover bugs if you do things the game doesn't expect, so
   try winning (or losing) levels in unusual ways.
 * Join the `development mailing list`_ to discuss bugs and feature
