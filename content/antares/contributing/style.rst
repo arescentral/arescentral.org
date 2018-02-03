@@ -169,7 +169,7 @@ Comments
     ..  code-block:: c++
 
         // Copyright (C) 1997, 1999-2001, 2008 Nathan Lamont
-        // Copyright (C) 2008-2012 The Antares Authors
+        // Copyright (C) 2008-2018 The Antares Authors
         //
         // This file is part of Antares, a tactical space combat game.
         //
@@ -184,7 +184,7 @@ Comments
         // Lesser General Public License for more details.
         //
         // You should have received a copy of the GNU Lesser General Public
-        // License along with Antares.  If not, see http://www.gnu.org/licenses/
+        // License along with Antares.  If not, see https://www.gnu.org/licenses/
 
     This should be the very first thing in all files, before even the
     include guards or includes.
