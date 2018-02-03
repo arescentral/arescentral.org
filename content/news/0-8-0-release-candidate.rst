@@ -22,7 +22,7 @@ everything works fine).
 
 ..  _build from source: {filename}/antares/contributing/building.rst
 ..  _bugs: https://github.com/arescentral/antares/issues/new
-..  _reports: mailto:sfiera@sfzmail.com
+..  _reports: mailto:sfiera@twotaled.com
 ..  |antares-0.8.0rc2-osx| replace:: Antares 0.8.0rc2 for Mac OS X 10.9+
 ..  |antares-0.8.0rc4-src| replace:: Antares 0.8.0rc4 sources
 ..  _antares-0.8.0rc2-osx: http://downloads.arescentral.org/Antares/Antares-0.8.0rc2.zip

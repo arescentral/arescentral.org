@@ -12,4 +12,4 @@ If you have any comments, feel free to mail `the mailing list`_ or `me
 directly`_.
 
 ..  _the mailing list: mailto:antares-dev@arescentral.org
-..  _me directly: mailto:sfiera@sfzmail.com
+..  _me directly: mailto:sfiera@twotaled.com

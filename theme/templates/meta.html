@@ -2,7 +2,7 @@
   {% if article.authors %}
     <span class="author">By:
       {% for author in article.authors %}
-        {% set name, email = {"sfiera": ("Chris Pickel", "sfiera@sfzmail.com")}[author.name] %}
+        {% set name, email = {"sfiera": ("Chris Pickel", "sfiera@twotaled.com")}[author.name] %}
         <a class="url fn" href="mailto:{{ email }}">{{ name }}</a>
       {% endfor %}
     </span>

@@ -40,7 +40,7 @@ a terminal:
     $ exit
 
 ..  _bugs: https://github.com/arescentral/antares/issues/new
-..  _reports: mailto:sfiera@sfzmail.com
+..  _reports: mailto:sfiera@twotaled.com
 ..  |antares-0.8.2~rc1-mac| replace:: Antares 0.8.2~rc1 for Mac OS X 10.7+
 ..  |antares-0.8.2~rc1-src| replace:: Antares 0.8.2~rc1 sources
 ..  _antares-0.8.2~rc1-mac: http://downloads.arescentral.org/Antares/antares-mac-0.8.2~rc1.zip
