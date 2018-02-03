@@ -91,8 +91,8 @@ these rules is to run ``clang-format`` on your code before committing.
         };
 
 *   Put open-braces on the same line as the function or control
-    statement they provide the body for.  If the body is empty, the
-    close-brace can go there too:
+    statement they provide the body for.  If the body is empty, use
+    ``= default`` if possible, and ``{}`` if not:
 
     ..  code-block:: c++
 
@@ -103,6 +103,7 @@ these rules is to run ``clang-format`` on your code before committing.
         }
 
         void do_nothing() {}
+        Spark::~Spark() = default;
 
 *   Always put the body of a control statement on a separate line, with
     curly braces, even if it is one line:
@@ -230,6 +231,18 @@ Language Features
             }
             return nullptr;
         }
+
+*   In general, avoid copyable classes (movable classes are fine,
+    though). Declare the constructor and assignment as ``= delete``:
+
+    ..  code-block:: c++
+
+        class Gateship {
+          public:
+            // There can only be one:
+            Gateship::Gateship(const Gateship&) = delete;
+            Gateship& operator=(const Gateship&) = delete;
+        };
 
 *   Throw ``std::runtime_error`` if programmer error has been detected,
     such as using an out-of-bounds array index.  Don't throw exceptions
