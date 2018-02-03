@@ -73,9 +73,10 @@ of the Hera source files have been dedicated to the |pd|.
 This Site
 ---------
 
-Except where otherwise noted, content on this site is licensed under the
-|cc-by-nc-sa|.  This site was written using `Pelican`_ and incorporates
-the extension ``pelican_youtube``, by Kura_.
+Except where otherwise noted, text on this site is licensed under the
+|cc-by-sa|.  Downloads, images, and video are under varying licenses.
+This site was written using `Pelican`_ and incorporates the extension
+``pelican_youtube``, by Kura_.
 
 ..  _Pelican: https://getpelican.com/
 ..  _Kura: https://github.com/kura

@@ -15,12 +15,14 @@
 
 ..  |gpl2| replace:: `GNU General Public License 2.0`_
 ..  |lgpl3| replace:: `GNU Lesser General Public License 3.0`_
+..  |cc-by-sa| replace:: `Creative Commons Attribution-ShareAlike 3.0 Unported License`_
 ..  |cc-by-nc-sa| replace:: `Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License`_
 ..  |cc-by-nc-nd| replace:: `Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License`_
 ..  |pd| replace:: `public domain`_
 
 ..  _GNU General Public License 2.0: https://www.gnu.org/licenses/gpl-2.0.html
 ..  _GNU Lesser General Public License 3.0: https://www.gnu.org/licenses/lgpl.html
+..  _Creative Commons Attribution-ShareAlike 3.0 Unported License: https://creativecommons.org/licenses/by-sa/3.0/
 ..  _Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License: https://creativecommons.org/licenses/by-nc-sa/3.0/
 ..  _Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License: https://creativecommons.org/licenses/by-nc-nd/3.0/
 ..  _public domain: https://creativecommons.org/licenses/CC0/1.0/
