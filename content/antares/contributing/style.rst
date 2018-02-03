@@ -192,43 +192,41 @@ Comments
 Language Features
 -----------------
 
-*   Use references for mutable parameters.  When ordering parameters to
+*   Use pointers for mutable parameters.  When ordering parameters to
     a function, it is generally better to put in parameters first and
     out parameters last.  However, when a free function is method-like,
     the logical target of the function should be first:
 
     ..  code-block:: c++
 
-        void swap(Admiral& x, Admiral& y) { ... }
-        void activate(Device& device, const Object& parent, Point location) { ... }
+        void destroy(const Object& killer, Object* killed) { ... }
+        void activate(Device* device, const Object& parent, Point location) { ... }
 
 *   Avoid bare pointers.  Wrap pointers in a smart pointer class such as
-    ``sfz::scoped_ptr`` or ``sfz::scoped_array`` as soon as possible
-    (don't use ``std::auto_ptr``, though).  Instead of documenting where
-    ownership transfers occur, it's easiest to have functions take smart
-    pointers as out parameters:
+    ``std::unique_ptr`` as soon as possible. Use ``nullptr`` (not
+    ``NULL`` or ``0``).
 
     ..  code-block:: c++
 
-        bool create_thing(sfz::scoped_ptr<Object>& thing) {
-            sfz::scoped_ptr<Object> result(new Object);
+        std::unique_ptr<Object> create_thing() {
+            std::unique_ptr<Object> result(new Object);
             // initialize result
-            if (result.ok()) {
-                thing.reset(result.release());
-                return true;
+            if (result->ok()) {
+                return result;
             }
-            return false;
+            return nullptr;
         }
 
-*   Throw an ``Exception`` if programmer error has been detected, such
-    as using an out-of-bounds array index.  Don't throw exceptions in
-    code paths that are expected be followed during normal execution:
+*   Throw ``std::runtime_error`` if programmer error has been detected,
+    such as using an out-of-bounds array index.  Don't throw exceptions
+    in code paths that are expected be followed during normal execution:
 
     ..  code-block:: c++
 
         bool build_at(const Object& base, int object_id) {
             if ((object_id < 0) || (max_object <= object_id)) {
-                throw Exception(format("invalid object {0}", object_id);
+                throw std::runtime_error(
+                    pn::format("invalid object {0}", object_id).c_str());
             }
             if (base.is_building()) {
                 return false;
