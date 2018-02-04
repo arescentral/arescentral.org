@@ -13,13 +13,13 @@ Perhaps a future post will discuss what problems I think the current
 plugin format has, but in lieu of that, here’s a quick preview of what
 the new set of tools would use:
 
-..  code-block:: ion
+..  code-block:: procyon
 
     type:       "solo"
     chapter:    4
     title:
       > \i Chapter 2 
-      > \iThe Stars Have Ears
+      | \iThe Stars Have Ears
       !
     players:
       * type:           "human"
@@ -167,9 +167,9 @@ the new set of tools would use:
             delay:      120
             message:
               * > \i INCOMING TRANSMISSION \i SECURE KEY OK - NW3 TIGHT BEAM
-                > SOURCE: OMV Treejumper, Escort 3856
-                > Humans: your bravery has impressed us. We are honored to offer our
-                | assistance in the destruction of the relay dishes. Stand by. \i<EOT>\i 
+                | SOURCE: OMV Treejumper, Escort 3856
+                | Humans: your bravery has impressed us. We are honored to offer our
+                > assistance in the destruction of the relay dishes. Stand by. \i<EOT>\i 
         persistent:  false
         disabled:    false
         initial:     17
@@ -179,28 +179,28 @@ the new set of tools would use:
         title:   "Myrmidon"
         content:
           > The Gaitori in this system have deployed a series of long-range scanner
-          | relay dishes, designed to gather information on our ship movements.
-          |
+          > relay dishes, designed to gather information on our ship movements.
+          >
           > You are to put an end to this intrusion by destroying all four relay
-          | stations.
+          > stations.
       * object:  1
         title:   "Cruiser"
         content:
           > ^Pish/hvc^You'll be dropped in here. Your only ship for this mission is
-          | this heavy cruiser. It's speedier than the standard cruiser, and has an
-          | improved rapid-fire fusion pulse gun. Save your guided missiles for
-          | difficult targets. If you lose the cruiser, the mission will be aborted.
+          > this heavy cruiser. It's speedier than the standard cruiser, and has an
+          > improved rapid-fire fusion pulse gun. Save your guided missiles for
+          > difficult targets. If you lose the cruiser, the mission will be aborted.
       * object:  0
         title:   "Relay Dish 1"
         content:
           > ^Ploc/relay^This the the first of the four Relay Stations you should
-          | destroy. The stations are unarmed, and are only protected by deflector
-          | shields.
+          > destroy. The stations are unarmed, and are only protected by deflector
+          > shields.
       * object:  2
         title:   "Cruiser"
         content:
           > ^Pgai/cruiser^There are Gaitori cruisers stationed at each dish. Their
-          | cruisers are slow, but are armed with rapid-fire concussive pellet guns.
+          > cruisers are slow, but are armed with rapid-fire concussive pellet guns. 
       * object:  16
         title:   "Relay Dish 2"
         content:
@@ -209,30 +209,30 @@ the new set of tools would use:
         title:   "Relay Dish 3"
         content:
           > The third dish is your next target.
-          > ^Pgai/gunship^This dish is being guarded by a gunship. Gaitori gunships
-          | are not heavily armored, but they have converted atomic pulse mining
-          | guns, which fire powerful long-range homing pulses.
+          | ^Pgai/gunship^This dish is being guarded by a gunship. Gaitori gunships
+          > are not heavily armored, but they have converted atomic pulse mining
+          > guns, which fire powerful long-range homing pulses.
       * object:  18
         title:   "Relay Dish 4"
         content:
           > This is the last Relay Station you should destroy. With a gunship and
-          | two cruisers nearby, it's the most heavily guarded.
+          > two cruisers nearby, it's the most heavily guarded.
       * object:  14
         title:   "Myrmidon Station"
         content:
           > ^Pbrf/habitat^The Gaitori habitat station in the Myrmidon System is
-          | heavily armed. We recommend that you keep a safe distance from this
-          | station.
+          > heavily armed. We recommend that you keep a safe distance from this
+          > station.
       * title:  "Obish Escorts"
         content:
           > ^Pobi/escort^A pair of Obish escorts is in the region. They've expressed
-          | an interest in aiding us in destroying the Relay Stations, but have
-          | indicated that they would like to observe your progress first. They may
-          | choose to join you during the mission. The Obish Escorts have Salrilian
-          | stealth fields and Ishiman core pulse guns.
-    star_map:   {x: 393, y: 282}
+          > an interest in aiding us in destroying the Relay Stations, but have
+          > indicated that they would like to observe your progress first. They may
+          > choose to join you during the mission. The Obish Escorts have Salrilian
+          > stealth fields and Ishiman core pulse guns.
+    starmap:    {x: 393, y: 282}
     par_time:   120
     par_kills:  10
     no_ships:
       > Your ship was destroyed. We cannot supply you with vessels if you are
-      | this poor a pilot.
+      > this poor a pilot.
