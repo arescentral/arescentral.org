@@ -1,3 +1,4 @@
+{% set root = output_file.split('/')[:-1][0] %}
 <!DOCTYPE html>
 <html lang="{{ DEFAULT_LANG }}">
   <head>
@@ -12,7 +13,7 @@
     {% if FEED_ALL_RSS %}
     <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
     {% endif %}
-    <link rel="icon" href="/favicon.ico?v=1"/>
+    <link rel="icon" href="/{{ root or "favicon" }}.ico?v=1"/>
     <link rel="manifest" href="/manifest.json">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
@@ -21,7 +22,6 @@
     <![endif]-->
   </head>
 
-  {% set root = output_file.split('/')[:-1][0] %}
   <body class="{{ root }}">
     <div id="header">
       <div class="content">
