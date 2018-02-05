@@ -27,9 +27,7 @@ and `Chris Pickel`_, who ported it to Mac OS X as Antares.
 As soon as the `release issues`_ have been resolved. Some of the
 highlights of these issues are:
 
-*   Completing the move from Ares's software renderer to the OpenGL
-    hardware renderer.
-*   Making other performance improvements.
+*   Performance improvements.
 *   Adding support for creating and playing back replays.
 *   Improving the test suite.
 
@@ -50,10 +48,10 @@ may not be a pixel-perfect match to Ares in a given situation:
 Antares currently builds and runs on:
 
 *   Mac OS X (|antares-latest-osx-version|)
+*   Linux
 
 In the future, it may also run on:
 
-*   Linux, probably by Antares 1.0 (Issue 78)
 *   Windows, with no expected timeline (Issue 79)
 
 There are no plans to port it to Mac OS Classic, or to any mobile
