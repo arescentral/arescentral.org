@@ -24,18 +24,17 @@
         color: $color;
         &[href^="http://"],
         &[href^="https://"] {
-            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M5,1v1h-3v8h8v-3h1v3a1,1 0,0,1 -1,1h-8a1,1 0,0,1 -1,-1v-8a1,1 0,0,1 1,-1zm6,0v4h-1v-2.3l-5,5l-0.7,-0.7l5,-5h-2.3v-1z" fill="#{$color}"/></svg>');
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M5,1v1h-3v8h8v-3h1v3a1,1 0,0,1 -1,1h-8a1,1 0,0,1 -1,-1v-8a1,1 0,0,1 1,-1zm6,0v4h-1v-2.3l-5,5l-0.7,-0.7l5,-5h-2.3v-1z" fill="rgb(#{red($color)}, #{green($color)}, #{blue($color)})"/></svg>');
         }
         &[href^="mailto:"] {
-            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M10,2a1,1 0,0,1 1,1v6a1,1 0,0,1 -1,1h-8a1,1 0,0,1 -1,-1v-6a1,1 0,0,1 1,-1zm0,1l-4,3l-4,-3v1l4,3l4,-3z" fill="#{$color}"/></svg>') center right no-repeat;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M10,2a1,1 0,0,1 1,1v6a1,1 0,0,1 -1,1h-8a1,1 0,0,1 -1,-1v-6a1,1 0,0,1 1,-1zm0,1l-4,3l-4,-3v1l4,3l4,-3z" fill="rgb(#{red($color)}, #{green($color)}, #{blue($color)})"/></svg>') center right no-repeat;
         }
         &[href$=".zip"] {
-            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M7,1l3,3v6a1,1 0,0,1 -1,1h-6a1,1 0,0,1 -1,-1v-8a1,1 0,0,1 1,-1zm0,1h-2v3h-2l3,3l3,-3h-2zm-4,7v1h6v-1z" fill="#{$color}"/></svg>') center right no-repeat;
-            /* background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M5,2h2v3h3l-4,4l-4,-4h3zm-3,8h8v1h-8z" fill="#{$color}"/></svg>') center right no-repeat; */
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M7,1l3,3v6a1,1 0,0,1 -1,1h-6a1,1 0,0,1 -1,-1v-8a1,1 0,0,1 1,-1zm0,1h-2v3h-2l3,3l3,-3h-2zm-4,7v1h6v-1z" fill="rgb(#{red($color)}, #{green($color)}, #{blue($color)})"/></svg>') center right no-repeat;
         }
         &[href^="irc:"],
         &[href^="ircs:"] {
-            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M10,1a1,1 0,0,1 1,1v7a1,1 0,0,1 -1,1h-7l-2,2v-10a1,1 0,0,1 1,-1zm-1,2h-6v1h6zm0,2h-6v1h6zm-2,2h-4v1h4z" fill="#{$color}"/></svg>') center right no-repeat;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M10,1a1,1 0,0,1 1,1v7a1,1 0,0,1 -1,1h-7l-2,2v-10a1,1 0,0,1 1,-1zm-1,2h-6v1h6zm0,2h-6v1h6zm-2,2h-4v1h4z" fill="rgb(#{red($color)}, #{green($color)}, #{blue($color)})"/></svg>') center right no-repeat;
         }
     }
     a:visited {
