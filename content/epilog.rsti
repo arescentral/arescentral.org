@@ -1,16 +1,16 @@
 ..  Antares versions
 
-..  |antares-latest| replace:: 0.8.2
+..  |antares-latest| replace:: 0.8.3
 ..  |antares-latest-date| replace:: 09 November, 2017
 ..  |antares-latest-osx-version| replace:: 10.7+
-..  |antares-latest-osx| replace:: Antares 0.8.2 for Mac OS X 10.7+
-..  |antares-latest-ubuntu| replace:: Antares 0.8.2 for Ubuntu
-..  |antares-latest-src| replace:: Antares 0.8.2 sources
-..  |antares-latest-src-url| replace:: http://downloads.arescentral.org/Antares/antares-0.8.2.zip
+..  |antares-latest-osx| replace:: Antares 0.8.3 for Mac OS X 10.7+
+..  |antares-latest-ubuntu| replace:: Antares 0.8.3 for Ubuntu
+..  |antares-latest-src| replace:: Antares 0.8.3 sources
+..  |antares-latest-src-url| replace:: http://downloads.arescentral.org/Antares/antares-0.8.3.zip
 
-..  _antares-latest-src: http://downloads.arescentral.org/Antares/antares-0.8.2.zip
+..  _antares-latest-src: http://downloads.arescentral.org/Antares/antares-0.8.3.zip
 ..  _antares-latest-ubuntu: /antares/linux/
-..  _antares-latest-osx: http://downloads.arescentral.org/Antares/antares-mac-0.8.2.zip
+..  _antares-latest-osx: http://downloads.arescentral.org/Antares/antares-mac-0.8.3.zip
 
 
 ..  Licenses
