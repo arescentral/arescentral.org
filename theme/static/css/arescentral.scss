@@ -14,9 +14,13 @@
     .footer,
     .highlight,
     .line-block,
-    blockquote {
+    .literal-block,
+    #contents,
+    blockquote,
+    tr:last-child td {
         border-color: $color;
     }
+    th,
     a.headerlink:hover {
         background: $color;
     }
@@ -190,9 +194,9 @@ a {
 }
 
 #contents {
-    padding: 0;
+    display: inline-block;
     ul {
-        margin: 0.5em;
+        margin: 0;
         padding: 0;
         ul {
             margin: 0;
@@ -237,6 +241,10 @@ p {
     line-height: 1.25em;
     text-align: justify;
 }
+p,
+table {
+    margin: 1em 0;
+}
 ol,
 ul {
     text-align: justify;
@@ -252,6 +260,11 @@ ul {
         margin: 0 1em 0 0;
     }
 }
+tt {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 0.25em;
+    border-radius: 2px;
+}
 
 .image-reference .screenshot {
     float: left;
@@ -265,9 +278,12 @@ ul {
 
 .highlight,
 .line-block,
+.literal-block,
+.admonition,
+#contents,
 blockquote {
     padding: 0;
-    background: hsl(0, 0%, 90%) !important;
+    background: rgba(0, 0, 0, 0.1);
     border-width: 0 0 0 0.75em;
     border-style: solid;
     margin: 1em;
@@ -276,20 +292,162 @@ blockquote {
     font: 100% monospace;
 }
 blockquote,
-.line-block {
+.line-block,
+.admonition,
+#contents {
     padding: 0.5em;
 }
 blockquote > *:first-child {
     margin-top: 0;
 }
+.admonition > *:last-child,
 blockquote > *:last-child {
     margin-bottom: 0;
+}
+.admonition {
+    border-color: hsl(210, 66%, 50%);
+}
+.admonition.warning,
+.admonition.attention,
+.admonition.caution,
+.admonition.important {
+    border-color: hsl(60, 75%, 50%);
+}
+.admonition.danger,
+.admonition.error {
+    border-color: hsl(0, 66%, 50%);
+}
+.admonition-title {
+    float: left;
+    margin: 0 0.5em 0 0;
+    font-weight: bold;
+}
+.admonition-title:after {
+    content: ":";
+}
+.admonition-title + p {
+    margin-top: 0;
 }
 pre {
     font: 100% monospace;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em !important;
     overflow-x: auto;
+}
+
+table {
+    border: 0;
+    border-spacing: 0;
+    border-collapse: 0;
+    background: hsl(0, 0%, 90%);
+}
+td,
+th {
+    padding: 0.25em;
+    border: 0;
+}
+td:first-child,
+th:first-child {
+    padding-left: 0.5em;
+}
+td:last-child,
+th:last-child {
+    padding-right: 0.5em;
+}
+th {
+    text-align: left;
+    color: white;
+    font-weight: normal;
+}
+tr:nth-child(10n+1),
+tr:nth-child(10n+2),
+tr:nth-child(10n+3),
+tr:nth-child(10n+4),
+tr:nth-child(10n+5) {
+    background: hsl(0, 0%, 95%);
+}
+tr:last-child td {
+    border-style: solid;
+    border-width: 0 0 0.25em 0;
+    padding-bottom: 0.5em;
+}
+
+.footnote,
+.footnote tr,
+.footnote td,
+.footnote th {
+    background: transparent !important;
+    border-width: 0 !important;
+    text-align: justify;
+}
+.footnote {
+    font-size: 90%;
+    margin: 0;
+}
+
+.gray {
+    color: rgb(224, 224, 224);
+    background: rgb(112, 112, 112);
+}
+.orange {
+    color: rgb(224, 112, 0);
+    background: rgb(112, 56, 0);
+}
+.yellow {
+    color: rgb(224, 224, 0);
+    background: rgb(112, 112, 0);
+}
+.blue {
+    color: rgb(0, 0, 224);
+    background: rgb(0, 0, 112);
+}
+.green {
+    color: rgb(0, 224, 0);
+    background: rgb(0, 112, 0);
+}
+.purple {
+    color: rgb(112, 0, 224);
+    background: rgb(56, 0, 112);
+}
+.indigo {
+    color: rgb(112, 112, 224);
+    background: rgb(56, 56, 112);
+}
+.salmon {
+    color: rgb(224, 112, 112);
+    background: rgb(112, 56, 56);
+}
+.gold {
+    color: rgb(224, 224, 112);
+    background: rgb(112, 112, 56);
+}
+.aqua {
+    color: rgb(0, 224, 224);
+    background: rgb(0, 112, 112);
+}
+.pink {
+    color: rgb(224, 0, 112);
+    background: rgb(112, 0, 56);
+}
+.pale-green {
+    color: rgb(112, 224, 112);
+    background: rgb(56, 112, 56);
+}
+.pale-purple {
+    color: rgb(224, 112, 224);
+    background: rgb(112, 56, 112);
+}
+.sky-blue {
+    color: rgb(0, 112, 224);
+    background: rgb(0, 56, 112);
+}
+.tan {
+    color: rgb(225, 220, 183);
+    background: rgb(120, 117, 97);
+}
+.red {
+    color: rgb(224, 0, 0);
+    background: rgb(112, 0, 0);
 }
 
 @media (max-width: 60em) {

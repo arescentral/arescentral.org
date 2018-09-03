@@ -1,0 +1,213 @@
+.. _factory scenario: {filename}/plugins/format/factory.rst
+
+.. _procyon: {filename}/plugins/format/types.rst#procyon
+
+.. _boolean: {filename}/plugins/format/types.rst#boolean
+.. _booleans: {filename}/plugins/format/types.rst#boolean
+.. _integer: {filename}/plugins/format/types.rst#integer
+.. _integers: {filename}/plugins/format/types.rst#integer
+.. _number: {filename}/plugins/format/types.rst#number
+.. _numbers: {filename}/plugins/format/types.rst#number
+.. _string: {filename}/plugins/format/types.rst#string
+.. _strings: {filename}/plugins/format/types.rst#string
+
+.. _array: {filename}/plugins/format/types.rst#array
+.. _arrays: {filename}/plugins/format/types.rst#array
+.. _map: {filename}/plugins/format/types.rst#map
+.. _maps: {filename}/plugins/format/types.rst#map
+
+.. _range: {filename}/plugins/format/types.rst#range
+.. _ranges: {filename}/plugins/format/types.rst#range
+.. _distance: {filename}/plugins/format/types.rst#distance
+.. _distances: {filename}/plugins/format/types.rst#distance
+.. _speed: {filename}/plugins/format/types.rst#speed
+.. _speeds: {filename}/plugins/format/types.rst#speed
+.. _acceleration: {filename}/plugins/format/types.rst#acceleration
+.. _accelerations: {filename}/plugins/format/types.rst#acceleration
+.. _angle: {filename}/plugins/format/types.rst#angle
+.. _angles: {filename}/plugins/format/types.rst#angle
+.. _angular speed: {filename}/plugins/format/types.rst#angular-speed
+.. _angular speeds: {filename}/plugins/format/types.rst#angular-speed
+.. _point: {filename}/plugins/format/types.rst#point
+.. _points: {filename}/plugins/format/types.rst#point
+.. _rect: {filename}/plugins/format/types.rst#rect
+.. _rects: {filename}/plugins/format/types.rst#rect
+.. _counter: {filename}/plugins/format/types.rst#counter
+.. _counters: {filename}/plugins/format/types.rst#counter
+.. _duration: {filename}/plugins/format/types.rst#duration
+.. _durations: {filename}/plugins/format/types.rst#duration
+.. _money: {filename}/plugins/format/types.rst#money
+.. _hue: {filename}/plugins/format/types.rst#hue
+.. _hues: {filename}/plugins/format/types.rst#hue
+.. _color: {filename}/plugins/format/types.rst#color
+.. _colors: {filename}/plugins/format/types.rst#color
+.. _tags: {filename}/plugins/format/types.rst#tags
+.. _name: {filename}/plugins/format/types.rst#name
+.. _names: {filename}/plugins/format/types.rst#name
+.. _index: {filename}/plugins/format/types.rst#index
+.. _indexes: {filename}/plugins/format/types.rst#index
+.. _object reference: {filename}/plugins/format/types.rst#object-reference
+.. _object references: {filename}/plugins/format/types.rst#object-reference
+.. _url: {filename}/plugins/format/types.rst#url
+
+.. _info.pn: {filename}/plugins/format/info.rst
+.. _level: {filename}/plugins/format/level.rst
+.. _levels: {filename}/plugins/format/level.rst
+.. _initial: {filename}/plugins/format/initial.rst
+.. _initials: {filename}/plugins/format/initial.rst
+.. _condition: {filename}/plugins/format/condition.rst
+.. _conditions: {filename}/plugins/format/condition.rst
+.. _briefing: {filename}/plugins/format/briefing.rst
+.. _briefings: {filename}/plugins/format/briefing.rst
+.. _object: {filename}/plugins/format/object.rst
+.. _objects: {filename}/plugins/format/object.rst
+.. _action: {filename}/plugins/format/action.rst
+.. _actions: {filename}/plugins/format/action.rst
+.. _race: {filename}/plugins/format/race.rst
+.. _races: {filename}/plugins/format/race.rst
+.. _picture: {filename}/plugins/format/picture.rst
+.. _pictures: {filename}/plugins/format/picture.rst
+.. _sprite: {filename}/plugins/format/sprite.rst
+.. _sprites: {filename}/plugins/format/sprite.rst
+.. _sound: {filename}/plugins/format/sound.rst
+.. _sounds: {filename}/plugins/format/sound.rst
+.. _music: {filename}/plugins/format/music.rst
+.. _font: {filename}/plugins/format/font.rst
+.. _fonts: {filename}/plugins/format/font.rst
+.. _interface: {filename}/plugins/format/interface.rst
+.. _interfaces: {filename}/plugins/format/interface.rst
+.. _replay: {filename}/plugins/format/replay.rst
+.. _replays: {filename}/plugins/format/replay.rst
+
+.. _AIFF: https://en.wikipedia.org/wiki/Audio_Interchange_File_Format
+.. _S3M: https://en.wikipedia.org/wiki/S3M_(file_format)
+.. _PNG: https://en.wikipedia.org/wiki/Portable_Network_Graphics
+.. _XM: https://en.wikipedia.org/wiki/XM_(file_format)
+
+
+
+.. |tut1| replace:: Moons for Goons
+.. |tut2| replace:: Section on Selection
+.. |tut3| replace:: The Complete Idiot’s Guide to Commanding a Space Armada
+.. |ch01| replace:: Easy Street
+.. |ch02| replace:: The Stars Have Ears
+.. |ch03| replace:: While The Iron Is Hot
+.. |ch04| replace:: Shoplifter 1
+.. |ch05| replace:: Out of the Frying Pan…
+.. |ch06| replace:: …Into the Fire
+.. |ch07| replace:: On the Rocks
+.. |ch08| replace:: Astrotrash Plus!
+.. |ch09| replace:: Hand Over Fist
+.. |ch10| replace:: Assassin
+.. |ch11| replace:: Shoplifter 2
+.. |ch12| replace:: Make Way
+.. |ch13| replace:: Yo Ho Ho
+.. |ch14| replace:: Captivating
+.. |ch15| replace:: The Left Hand
+.. |ch16| replace:: Hornet’s Nest
+.. |ch17| replace:: …And It Feels So Good
+.. |ch18| replace:: Blood, Toil, Tears, and Sweat
+.. |ch19| replace:: You Should Have Seen the One that Got Away
+.. |ch20| replace:: The Mothership Connection
+.. |net1| replace:: Between a Rock and a Rock
+.. |net2| replace:: Scratching Post
+.. |net3| replace:: Capture the Flagpod
+.. |net4| replace:: Space Warz
+.. |net5| replace:: Location, Location, Location
+.. |srtm| replace:: Space Race, the Musical!
+.. |dev1| replace:: \*\*DEV-23\*\*
+
+.. _tut1: https://github.com/arescentral/antares-data/blob/master/levels/tut1.pn
+.. _tut2: https://github.com/arescentral/antares-data/blob/master/levels/tut2.pn
+.. _tut3: https://github.com/arescentral/antares-data/blob/master/levels/tut3.pn
+.. _ch01: https://github.com/arescentral/antares-data/blob/master/levels/ch01.pn
+.. _ch02: https://github.com/arescentral/antares-data/blob/master/levels/ch02.pn
+.. _ch03: https://github.com/arescentral/antares-data/blob/master/levels/ch03.pn
+.. _ch04: https://github.com/arescentral/antares-data/blob/master/levels/ch04.pn
+.. _ch05: https://github.com/arescentral/antares-data/blob/master/levels/ch05.pn
+.. _ch06: https://github.com/arescentral/antares-data/blob/master/levels/ch06.pn
+.. _ch07: https://github.com/arescentral/antares-data/blob/master/levels/ch07.pn
+.. _ch08: https://github.com/arescentral/antares-data/blob/master/levels/ch08.pn
+.. _ch09: https://github.com/arescentral/antares-data/blob/master/levels/ch09.pn
+.. _ch10: https://github.com/arescentral/antares-data/blob/master/levels/ch10.pn
+.. _ch11: https://github.com/arescentral/antares-data/blob/master/levels/ch11.pn
+.. _ch12: https://github.com/arescentral/antares-data/blob/master/levels/ch12.pn
+.. _ch13: https://github.com/arescentral/antares-data/blob/master/levels/ch13.pn
+.. _ch14: https://github.com/arescentral/antares-data/blob/master/levels/ch14.pn
+.. _ch15: https://github.com/arescentral/antares-data/blob/master/levels/ch15.pn
+.. _ch16: https://github.com/arescentral/antares-data/blob/master/levels/ch16.pn
+.. _ch17: https://github.com/arescentral/antares-data/blob/master/levels/ch17.pn
+.. _ch18: https://github.com/arescentral/antares-data/blob/master/levels/ch18.pn
+.. _ch19: https://github.com/arescentral/antares-data/blob/master/levels/ch19.pn
+.. _ch20: https://github.com/arescentral/antares-data/blob/master/levels/ch20.pn
+.. _net1: https://github.com/arescentral/antares-data/blob/master/levels/net1.pn
+.. _net2: https://github.com/arescentral/antares-data/blob/master/levels/net2.pn
+.. _net3: https://github.com/arescentral/antares-data/blob/master/levels/net3.pn
+.. _net4: https://github.com/arescentral/antares-data/blob/master/levels/net4.pn
+.. _net5: https://github.com/arescentral/antares-data/blob/master/levels/net5.pn
+.. _srtm: https://github.com/arescentral/antares-data/blob/master/levels/srtm.pn
+.. _dev1: https://github.com/arescentral/antares-data/blob/master/levels/dev1.pn
+
+.. |ish-pl| replace:: Ishimans
+.. |can-pl| replace:: Cantharans
+.. |gai-pl| replace:: Gaitori
+.. |obi-pl| replace:: Obiards
+.. |baz-pl| replace:: Bazidanese
+.. |sal-pl| replace:: Salrilians
+.. |aud-pl| replace:: Audemedons
+.. |ele-pl| replace:: Elejeetians
+.. |uns-pl| replace:: Humans
+.. |gro-pl| replace:: Grolk
+
+.. |ish-adj| replace:: Ishiman
+.. |can-adj| replace:: Cantharan
+.. |gai-adj| replace:: Gaitori
+.. |obi-adj| replace:: Obish
+.. |baz-adj| replace:: Bazidanese
+.. |sal-adj| replace:: Salrilian
+.. |aud-adj| replace:: Audemedon
+.. |ele-adj| replace:: Elejeetian
+.. |uns-adj| replace:: Human
+.. |gro-adj| replace:: Grolk
+
+.. _ish-pl: https://github.com/arescentral/antares-data/blob/master/races/ish.pn
+.. _ish-adj: https://github.com/arescentral/antares-data/blob/master/races/ish.pn
+.. _can-pl: https://github.com/arescentral/antares-data/blob/master/races/can.pn
+.. _can-adj: https://github.com/arescentral/antares-data/blob/master/races/can.pn
+.. _gai-pl: https://github.com/arescentral/antares-data/blob/master/races/gai.pn
+.. _gai-adj: https://github.com/arescentral/antares-data/blob/master/races/gai.pn
+.. _obi-pl: https://github.com/arescentral/antares-data/blob/master/races/obi.pn
+.. _obi-adj: https://github.com/arescentral/antares-data/blob/master/races/obi.pn
+.. _baz-pl: https://github.com/arescentral/antares-data/blob/master/races/baz.pn
+.. _baz-adj: https://github.com/arescentral/antares-data/blob/master/races/baz.pn
+.. _sal-pl: https://github.com/arescentral/antares-data/blob/master/races/sal.pn
+.. _sal-adj: https://github.com/arescentral/antares-data/blob/master/races/sal.pn
+.. _aud-pl: https://github.com/arescentral/antares-data/blob/master/races/aud.pn
+.. _aud-adj: https://github.com/arescentral/antares-data/blob/master/races/aud.pn
+.. _ele-pl: https://github.com/arescentral/antares-data/blob/master/races/ele.pn
+.. _ele-adj: https://github.com/arescentral/antares-data/blob/master/races/ele.pn
+.. _uns-pl: https://github.com/arescentral/antares-data/blob/master/races/uns.pn
+.. _uns-adj: https://github.com/arescentral/antares-data/blob/master/races/uns.pn
+.. _gro-pl: https://github.com/arescentral/antares-data/blob/master/races/gro.pn
+.. _gro-adj: https://github.com/arescentral/antares-data/blob/master/races/gro.pn
+
+.. |sun| replace:: Sun_
+.. |planet| replace:: Planet_
+.. |moon| replace:: Moon_
+.. |bunker| replace:: `Bunker Station`_
+.. |outpost| replace:: Outpost_
+.. |power| replace:: `Power Station`_
+.. |flak| replace:: `Flak Drone`_
+
+.. _Sun: https://github.com/arescentral/antares-data/blob/master/objects/loc/sun.pn
+.. _Planet: https://github.com/arescentral/antares-data/blob/master/objects/loc/planet.pn
+.. _Moon: https://github.com/arescentral/antares-data/blob/master/objects/loc/moon.pn
+.. _Bunker Station: https://github.com/arescentral/antares-data/blob/master/objects/loc/bunker.pn
+.. _Outpost: https://github.com/arescentral/antares-data/blob/master/objects/loc/outpost.pn
+.. _Power Station: https://github.com/arescentral/antares-data/blob/master/objects/loc/power.pn
+.. _Flak Drone: https://github.com/arescentral/antares-data/blob/master/objects/loc/flak.pn
+
+.. _antares-dev: https://groups.google.com/a/arescentral.org/group/antares-dev
+
+.. include:: ../../epilog.rsti
+.. -*- tab-width: 3; indent-tabs-mode: nil; fill-column: 72 -*-

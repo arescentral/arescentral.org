@@ -1,0 +1,4 @@
+name:  "Ambassador Thrntz"
+at:    {x: 0, y: 0}
+eats:
+	leaves:  true

@@ -1,0 +1,5 @@
+>	When using ">", blocks of text are wrapped together unless separated by
+>	two blank lines
+>
+>	To add a single new line, use "|".
+|	This line isn’t wrapped with the previous one.

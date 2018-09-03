@@ -1,0 +1,15 @@
+template:    "tpl/gun"
+long_name:   "Photon Torpedo Launcher"
+short_name:  "PHOTORP"
+device:
+	ammo:       20
+	fire_time:  "1.0s"
+	range:      480.0
+	speed:      10.0
+activate:
+	action:
+		*	type:                "create"
+			reflexive:           true
+			base:                "dev/photorp/pulse"
+			relative_velocity:   true
+			relative_direction:  true

@@ -1,0 +1,3 @@
+if:
+	tags:   {planet: true}
+	owner:  "different"

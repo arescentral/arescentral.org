@@ -1,0 +1,9 @@
+*	"white"
+*	{r: 255, g: 255, b: 255}  # same as "white"
+*	{gray: 255}               # same as "white"
+
+*	"clear"
+*	{r: 0, g: 0, b: 0, a: 0}  # same as "clear"
+
+*	{orange: 128}          # dark orange
+*	{r: 128, g: 64, b: 0}  # same dark orange

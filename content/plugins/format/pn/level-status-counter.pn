@@ -1,0 +1,8 @@
+*	prefix:   "Player 1: "
+	minuend:  3
+	counter:  {player: 1, which: 0}
+	suffix:   " lives"
+*	prefix:   "Player 2: "
+	minuend:  3
+	counter:  {player: 0, which: 0}
+	suffix:   " lives"

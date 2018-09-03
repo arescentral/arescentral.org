@@ -1,0 +1,17 @@
+when:
+	type:   "count"
+	op:     "eq"
+	value:  3
+	of:
+		*	type:    "owner"
+			op:      "eq"
+			object:  {initial: 0}
+			player:  0
+		*	type:    "owner"
+			op:      "eq"
+			object:  {initial: 1}
+			player:  0
+		*	type:    "owner"
+			op:      "eq"
+			object:  {initial: 2}
+			player:  0

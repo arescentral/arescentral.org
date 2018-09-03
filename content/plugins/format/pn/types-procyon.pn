@@ -1,0 +1,6 @@
+key_one:    "value one"
+key_two:    true
+key_three:  1.40
+key_four:
+	*	"nested"
+	*	"array"

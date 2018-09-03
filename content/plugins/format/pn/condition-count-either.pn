@@ -1,0 +1,13 @@
+when:
+	type:   "count"
+	op:     "ge"
+	value:  1
+	of:
+		*	type:    "destroyed"
+			op:      "eq"
+			object:  {initial: 3}
+			value:   true
+		*	type:    "destroyed"
+			op:      "eq"
+			object:  {initial: 4}
+			value:   true

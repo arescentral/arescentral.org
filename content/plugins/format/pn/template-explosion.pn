@@ -1,0 +1,17 @@
+template:    "tpl/effect"
+long_name:   "Photon Torpedo Explosion"
+short_name:  "P EXPLSN"
+animation:
+	sprite:  "sfx/explosion/photon"
+	frames:  {begin: 0, end: 10}
+	speed:   0.15
+expire:
+	after:  {animation: true}
+create:
+	action:
+		*	type:         "play"
+			reflexive:    true
+			sound:        "sfx/explosion/small"
+			priority:     3
+			persistence:  "0.35s"
+			volume:       255

@@ -1,0 +1,5 @@
+build:
+	*	"cruiser"
+	*	"hvc"
+	*	"can/defdrone"
+	*	"gro/gateship"

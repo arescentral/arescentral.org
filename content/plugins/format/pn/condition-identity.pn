@@ -1,0 +1,5 @@
+when:
+	type:  "object"
+	op:    "eq"
+	a:     {"flagship": 0}
+	b:     {"initial": 1}

@@ -1,0 +1,3 @@
+*	{player: 0, which: 0}  # First player’s first counter
+*	{player: 1, which: 2}  # Second player’s third counter
+*	{player: 2, which: 0}  # Third player’s first counter

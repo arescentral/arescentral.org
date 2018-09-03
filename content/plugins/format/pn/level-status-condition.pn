@@ -1,0 +1,4 @@
+*	prefix:     "Battleship destroyed: "
+	condition:  0
+	true:       "Y"
+	false:      "N"

@@ -1,0 +1,26 @@
+template:      "tpl/anipulse"
+long_name:     "Photon Torpedo"
+short_name:    "PHOTORP"
+max_velocity:  8.0
+animation:
+	sprite:  "dev/photorp"
+	frames:  {begin: 0, end: 6}
+	speed:   0.01
+expire:
+	after:
+		age:  "1.0s"
+create:
+	action:
+		*	type:         "play"
+			sound:        "dev/photorp"
+			priority:     3
+			persistence:  "0.3s"
+			volume:       255
+collide:
+	damage:  400
+	action:
+		*	type:       "create"
+			reflexive:  true
+			base:       "sfx/explosion/energy"
+		*	type:       "remove"
+			reflexive:  true

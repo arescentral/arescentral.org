@@ -1,0 +1,4 @@
+*	{initial: 0}   # The level’s first initial object
+*	{flagship: 1}  # The second player’s flagship
+*	{control: 0}   # The first player’s control object
+*	{target: 1}    # The second player’s target object

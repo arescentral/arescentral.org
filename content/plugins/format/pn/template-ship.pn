@@ -1,0 +1,15 @@
+template:      "tpl/cruiser"
+portrait:      "fed/cruiser"
+shield_color:  "white"
+weapons:
+	pulse:
+		base:  "dev/photorp/turret"
+		positions:
+			*	{x: 0, y: -40}
+	beam:
+		base:  "dev/phaser/turret"
+		positions:
+			*	{x: 0, y: -20}
+rotation:
+	sprite:  "fed/cruiser"
+	frames:  {begin: 0, end: 24}
