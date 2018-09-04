@@ -22,6 +22,7 @@ More Information
 
 *   `FAQ-Answered Questions <{filename}/antares/faq.rst>`_
 *   `Gamepad Controls <{filename}/antares/gamepad.rst>`_
+*   `Plugin documentation <{filename}/plugins/format.rst>`_
 *   `Contributing to Antares <{filename}/antares/contributing.rst>`_
 
     *   `Issue Tracking <{filename}/antares/contributing/issue-tracking.rst>`_
