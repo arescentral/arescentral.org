@@ -65,7 +65,7 @@ to the hash of the original title.
 format
 ~~~~~~
 
-This must be ``20``, indicating the current version of the Antares
+This must be ``21``, indicating the current version of the Antares
 plugin format.
 
 download_url
