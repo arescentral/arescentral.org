@@ -73,6 +73,9 @@ condition’s action_ executes.
 when
 ~~~~
 
+A condition’s “when” block is a map_ with the following fields, plus any
+fields appropriate to its `type <#types>`_:
+
 .. table::
    :widths: auto
 
@@ -88,9 +91,9 @@ when
    ====================  ====  ========================================
 
 op
-~~
+``
 
-All conditions have a field called ``op``. This determines the
+All “when_” blocks have a field called ``op``. This determines the
 comparison to make. All conditions support:
 
 *  ``"eq"`` (equal)
@@ -115,7 +118,7 @@ autopilot
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq” or “ne”
+   op_                   yes   “eq” or “ne”
    player                yes   index_ of a player
    value                 yes   boolean_
    ====================  ====  ========================================
@@ -134,7 +137,7 @@ building
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq” or “ne”
+   op_                   yes   “eq” or “ne”
    player                yes   index_ of a player
    value                 yes   boolean_
    ====================  ====  ========================================
@@ -153,7 +156,7 @@ cash
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
+   op_                   yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
    player                yes   index_ of a player
    value                 yes   money_
    ====================  ====  ========================================
@@ -171,7 +174,7 @@ computer
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq” or “ne”
+   op_                   yes   “eq” or “ne”
    screen                yes   “main”, “build”, “special”, “message”,
                                or “status”
    line                  no    integer_
@@ -194,7 +197,7 @@ count
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
+   op_                   yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
    value                 yes   integer_
    of                    yes   array_ of conditions
    ====================  ====  ========================================
@@ -224,7 +227,7 @@ destroyed
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq” or “ne”
+   op_                   yes   “eq” or “ne”
    object                yes   `object reference`_
    value                 yes   boolean_
    ====================  ====  ========================================
@@ -248,7 +251,7 @@ distance
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
+   op_                   yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
    from                  yes   `object reference`_
    to                    yes   `object reference`_
    value                 yes   number_
@@ -268,7 +271,7 @@ health
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
+   op_                   yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
    object                yes   `object reference`_
    value                 yes   number_
    ====================  ====  ========================================
@@ -286,7 +289,7 @@ identity
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq” or “ne”
+   op_                   yes   “eq” or “ne”
    a                     yes   `object reference`_
    b                     yes   `object reference`_
    ====================  ====  ========================================
@@ -309,7 +312,7 @@ message
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq” or “ne”
+   op_                   yes   “eq” or “ne”
    id                    yes   integer_
    page                  yes   integer_
    ====================  ====  ========================================
@@ -330,7 +333,7 @@ owner
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq” or “ne”
+   op_                   yes   “eq” or “ne”
    object                yes   `object reference`_
    player                yes   index_ of a player
    ====================  ====  ========================================
@@ -348,7 +351,7 @@ score
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
+   op_                   yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
    counter               yes   counter_
    value                 yes   integer_
    ====================  ====  ========================================
@@ -364,7 +367,7 @@ ships
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
+   op_                   yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
    player                yes   index_ of a player
    value                 yes   integer_
    ====================  ====  ========================================
@@ -380,7 +383,7 @@ speed
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
+   op_                   yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
    object                yes   `object reference`_
    value                 yes   number_
    ====================  ====  ========================================
@@ -398,7 +401,7 @@ target
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq” or “ne”
+   op_                   yes   “eq” or “ne”
    object                yes   `object reference`_
    target                yes   `object reference`_
    ====================  ====  ========================================
@@ -416,7 +419,7 @@ time
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
+   op_                   yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
    duration              yes   duration_
    legacy_start_time     no    boolean_
    ====================  ====  ========================================
@@ -440,7 +443,7 @@ zoom
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   op                    yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
+   op_                   yes   “eq”, “ne”, “lt”, “gt”, “le”, or “ge”
    value                 yes   “2:1”, “1:1”, “1:2”, “1:4”, “1:16”,
                                “foe”, “object”, or “all”
    ====================  ====  ========================================

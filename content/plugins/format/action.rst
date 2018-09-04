@@ -1137,18 +1137,18 @@ win
 
 Ends the level_, displaying ``text`` in the mission debriefing.
 
-In a solo_ level, if ``player`` is the human player, declares victory
+In a `solo level`_, if ``player`` is the human player, declares victory
 for the player. If ``next`` is non-null, unlocks that level_ and
 continues the game. If ``next`` is null, ends the game in victory.
 
-In a solo_ level, if ``player`` is a non-human player, ends the level in
+In a `solo level`_, if ``player`` is a non-human player, ends the level in
 defeat. The player will be given the option to retry or exit. ``next``
 is ignored.
 
-In a net_ level, declares victory for ``player``. ``next`` is ignored.
+In a `net level`_, declares victory for ``player``. ``next`` is ignored.
 
-.. _solo: {filename}/plugins/format/level.rst#solo
-.. _net: {filename}/plugins/format/level.rst#solo
+.. _solo level: {filename}/plugins/format/level.rst#solo
+.. _net level: {filename}/plugins/format/level.rst#solo
 
 zoom
 ~~~~

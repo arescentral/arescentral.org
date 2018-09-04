@@ -4,9 +4,9 @@ Level
 .. sectnum::
 
 A level describes the starting conditions and objectives for a single
-mission. It can be a solo_ level, in which a human player attempts to
-beat a CPU player, or a net_ level, where two human players go
-head-to-head.
+mission. It can be a `solo level <#solo>`_, in which a human player
+attempts to beat a CPU player, or a `net level <#net>`_, where two human
+players go head-to-head.
 
 `Example level <https://github.com/arescentral/antares-data/blob/master/levels/ch01.pn>`_
 
@@ -18,7 +18,7 @@ Do I need it?
 -------------
 
 Yes. A plugin with no levels won’t have anything to play. A plugin can
-be all solo_ levels, all net_ levels, or a mixture.
+be all `solo levels <#solo>`_, all `net levels <#net>`_, or a mixture.
 
 Naming
 ------
@@ -77,13 +77,13 @@ the plugin).
 title
 ~~~~~
 
-The title of the level. Level titles are normally two lines. Solo_ level
-titles normally look like this::
+The title of the level. Level titles are normally two lines. `Solo
+level <#solo>`_ titles normally look like this::
 
    \i Chapter 1
    \iIn Case of Emergency, Break Glass
 
-Net_ level titles normally look like this::
+`Net level <#net>`_ titles normally look like this::
 
    \i Sundown Showdown
    \i
@@ -225,7 +225,7 @@ If ``fixed`` is true, divides the counter by 256 and displays it as a
 fractional value. If ``minuend`` is non-null, subtracts the counter from
 the minuend before displaying it.
 
-For example, the following status lines watches the counters of the two
+For example, the following status lines watch the counters of the two
 players:
 
 .. include:: pn/level-status-counter.pn

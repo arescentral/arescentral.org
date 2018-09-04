@@ -9,16 +9,16 @@ important object. The mission analysis starts with a starmap_ location,
 then a system-level overview, then displays all briefing points in
 sequence on top of the system-level overview.
 
-Non-tutorial solo_ levels_ should have at least one briefing point. The
+Non-tutorial `solo levels`_ should have at least one briefing point. The
 briefing points should explain the success and failure conditions for
-the mission. Net_ levels_ and training missions generally do not have
+the mission. `Net levels`_ and training missions generally do not have
 briefings.
 
 `Example briefing <https://github.com/arescentral/antares-data/blob/master/levels/ch01.pn#L127-L133>`_
 
 .. _starmap: {filename}/plugins/format/level.rst#starmap
-.. _solo: {filename}/plugins/format/level.rst#solo
-.. _net: {filename}/plugins/format/level.rst#net
+.. _solo levels: {filename}/plugins/format/level.rst#solo
+.. _net levels: {filename}/plugins/format/level.rst#net
 
 .. contents::
    :local:
