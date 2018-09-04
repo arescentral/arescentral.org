@@ -37,10 +37,10 @@ DOCUTILS_SETTINGS = {"tab_width": 2}
 
 MENUITEMS = [
     ("Home",    ""),
-    ("About",   "about/"),
-    ("Antares", "antares/"),
-    ("Plugins", "plugins/"),
-    ("Links",   "links/"),
+    ("About",   "about"),
+    ("Antares", "antares"),
+    ("Plugins", "plugins"),
+    ("Links",   "links"),
 ]
 
 TIMEZONE      = "UTC"
@@ -51,27 +51,27 @@ DATE_FORMATS  = {
 }
 
 PAGE_PATHS        = [""]
-PAGE_URL          = "{fullname}/"
-PAGE_SAVE_AS      = PAGE_URL + "index.html"
+PAGE_URL          = "{fullname}"
+PAGE_SAVE_AS      = PAGE_URL + ".html"
 
 STATIC_PATHS      = [""]
 STATIC_URL        = "{fullname}{ext}"
 STATIC_SAVE_AS    = "{fullname}{ext}"
 
 ARTICLE_PATHS     = ["news"]
-ARTICLE_URL       = "news/{slug}/"
-ARTICLE_SAVE_AS   = ARTICLE_URL + "index.html"
+ARTICLE_URL       = "news/{slug}"
+ARTICLE_SAVE_AS   = ARTICLE_URL + ".html"
 
 DIRECT_TEMPLATES  += ["tags"]
-TAGS_URL          = "tags/"
-TAGS_SAVE_AS      = TAGS_URL + "index.html"
-TAG_URL           = "tags/{slug}/"
-TAG_SAVE_AS       = TAG_URL + "index.html"
+TAGS_URL          = "tags"
+TAGS_SAVE_AS      = TAGS_URL + ".html"
+TAG_URL           = "tags/{slug}"
+TAG_SAVE_AS       = TAG_URL + ".html"
 
 DEFAULT_PAGINATION = 10
 PAGINATION_PATTERNS = (
-    (1, '{base_name}/', '{base_name}/index.html'),
-    (2, '{base_name}/{number}/', '{base_name}/{number}/index.html'),
+    (1, '{name}', '{name}.html'),
+    (2, '{name}/{number}', '{name}/{number}.html'),
 )
 
 AUTHOR_URL = ""
