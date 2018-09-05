@@ -2,7 +2,7 @@
 {% block title %}{{ article.title|striptags }} &mdash; {{ SITENAME }}{% endblock %}
 {% block content %}
 <h1>
-  <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+  <a href="/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
 </h1>
 {% include 'meta.html' %}
 {{ article.content }}

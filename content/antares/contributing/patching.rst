@@ -21,7 +21,7 @@ regressions in the future.  If you do add a test, consider ordering your
 commits so that the test is added before the fix, and submitting a
 patch-set so that it's easy to verify before/after the bugfix.
 
-..  _style guidelines: {filename}/antares/contributing/style.rst
+..  _style guidelines: /antares/contributing/style
 
 Process
 -------

@@ -30,7 +30,7 @@ The sample plugins have been updated:
 ..  _antares-mac-0.9.0~rc2: http://downloads.arescentral.org/Antares/antares-mac-0.9.0~rc2.zip
 ..  _antares-0.9.0~rc2: http://downloads.arescentral.org/Antares/antares-0.9.0~rc2.zip
 
-..  _plugin documentation: {filename}/plugins/format.rst
+..  _plugin documentation: /plugins/format
 
 ..  _Cold Days and Long Nights: http://sfiera.net/~sfiera/Cold-Days-and-Long-Nights-3.0.1.zip
 ..  _Footsteps of Pyrrhus: http://sfiera.net/~sfiera/Footsteps-of-Pyrrhus-1.2.0.zip

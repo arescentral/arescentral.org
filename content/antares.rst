@@ -20,15 +20,15 @@ The latest version of Antares is |antares-latest|, released
 More Information
 ----------------
 
-*   `FAQ-Answered Questions <{filename}/antares/faq.rst>`_
-*   `Gamepad Controls <{filename}/antares/gamepad.rst>`_
-*   `Plugin documentation <{filename}/plugins/format.rst>`_
-*   `Contributing to Antares <{filename}/antares/contributing.rst>`_
+*   `FAQ-Answered Questions </antares/faq>`_
+*   `Gamepad Controls </antares/gamepad>`_
+*   `Plugin documentation </plugins/format>`_
+*   `Contributing to Antares </antares/contributing>`_
 
-    *   `Issue Tracking <{filename}/antares/contributing/issue-tracking.rst>`_
-    *   `Submitting Patches <{filename}/antares/contributing/patching.rst>`_
-    *   `Building Antares <{filename}/antares/contributing/building.rst>`_
-    *   `Style Guidelines <{filename}/antares/contributing/style.rst>`_
+    *   `Issue Tracking </antares/contributing/issue-tracking>`_
+    *   `Submitting Patches </antares/contributing/patching>`_
+    *   `Building Antares </antares/contributing/building>`_
+    *   `Style Guidelines </antares/contributing/style>`_
 
 Screenshots
 -----------

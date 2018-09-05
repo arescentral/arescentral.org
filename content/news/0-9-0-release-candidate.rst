@@ -24,7 +24,7 @@ are some sample plugins to start playing:
 There’s also a little extra challenge hidden in the Ares scenario. To
 give it a try, \*25.
 
-..  _build from source: {filename}/antares/contributing/building.rst
+..  _build from source: /antares/contributing/building
 ..  _bugs: https://github.com/arescentral/antares/issues/new
 ..  _reports: mailto:antares-dev@arescentral.com
 ..  |antares-mac-0.9.0~rc1| replace:: Antares 0.9.0~rc1 for Mac OS X 10.7+

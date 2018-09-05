@@ -1,1 +1,1 @@
-{% if article.tags %}<span class="tags">In: {% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag | escape }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</span>{% endif %}
+{% if article.tags %}<span class="tags">In: {% for tag in article.tags %}<a href="/{{ tag.url }}">{{ tag | escape }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</span>{% endif %}

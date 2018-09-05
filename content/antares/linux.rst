@@ -5,7 +5,7 @@ Antares runs on Linux. The recommended installation method is through
 your package manager, if possible. If that’s not possible, you can
 `build it yourself`_.
 
-..  _build it yourself: {filename}/antares/contributing/building.rst
+..  _build it yourself: /antares/contributing/building
 
 Debian and Ubuntu
 -----------------

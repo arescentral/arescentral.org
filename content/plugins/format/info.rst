@@ -105,7 +105,7 @@ main menu.
 Supports the same formatting codes as levels_’ `prologues and
 epilogues`_.
 
-.. _prologues and epilogues: {filename}/plugins/format/level.rst#prologue-epilogue
+.. _prologues and epilogues: /plugins/format/level#prologue-epilogue
 
 about
 ~~~~~

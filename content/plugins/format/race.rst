@@ -12,10 +12,10 @@ the documentation for initials_’ base_ and build_ fields.
 
 `Example <https://github.com/arescentral/antares-data/blob/master/races/ish.pn>`_
 
-.. _solo levels: {filename}/plugins/format/level.rst#solo
-.. _net levels: {filename}/plugins/format/level.rst#net
-.. _base: {filename}/plugins/format/initial.rst#base
-.. _build: {filename}/plugins/format/initial.rst#build
+.. _solo levels: /plugins/format/level#solo
+.. _net levels: /plugins/format/level#net
+.. _base: /plugins/format/initial#base
+.. _build: /plugins/format/initial#build
 
 .. contents::
    :local:

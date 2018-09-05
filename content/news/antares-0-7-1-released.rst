@@ -17,6 +17,6 @@ refer to `Ares Central's gamepad guide`_.  I've only tested a 360
 controller myself, so your mileage may vary.
 
 ..  _Antares 0.7.1: http://downloads.arescentral.org/Antares/Antares-0.7.1.zip
-..  _Ares Central's gamepad guide: {filename}/antares/gamepad.rst
+..  _Ares Central's gamepad guide: /antares/gamepad
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

@@ -51,7 +51,7 @@ practical terms, what this means is:
 
 .. _licensed: https://github.com/arescentral/antares-data/blob/master/COPYING
 .. _license: https://github.com/arescentral/antares-data/blob/master/COPYING
-.. _template: {filename}/plugins/format/object.rst#template
+.. _template: /plugins/format/object#template
 
 Levels
 ------
@@ -100,8 +100,8 @@ Levels
    #. |net4|_
    #. |net5|_
 
-.. _Solo levels: {filename}/plugins/format/level.rst#solo
-.. _Net levels: {filename}/plugins/format/level.rst#net
+.. _Solo levels: /plugins/format/level#solo
+.. _Net levels: /plugins/format/level#net
 
 Races
 -----

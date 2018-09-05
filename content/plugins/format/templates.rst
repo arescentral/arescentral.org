@@ -88,11 +88,11 @@ To declare a new ship, start with the ``template`` line. At a minimum,
 new ships should set rotation.sprite_, rotation.frames_, weapons_,
 and shield_color_. They should also have a portrait_, if possible:
 
-.. _rotation.sprite: {filename}/plugins/format/object.rst#rotation
-.. _rotation.frames: {filename}/plugins/format/object.rst#rotation
-.. _weapons: {filename}/plugins/format/object.rst#weapons
-.. _shield_color: {filename}/plugins/format/object.rst#shield-color
-.. _portrait: {filename}/plugins/format/object.rst#portrait
+.. _rotation.sprite: /plugins/format/object#rotation
+.. _rotation.frames: /plugins/format/object#rotation
+.. _weapons: /plugins/format/object#weapons
+.. _shield_color: /plugins/format/object#shield-color
+.. _portrait: /plugins/format/object#portrait
 
 .. include:: pn/template-ship.pn
    :code: procyon
@@ -101,11 +101,11 @@ Depending on how powerful a race is, it might also make sense to
 override health_, energy_, turn_rate_, max_velocity_, warp_speed_, or
 other default values.
 
-.. _health: {filename}/plugins/format/object.rst#health
-.. _energy: {filename}/plugins/format/object.rst#energy
-.. _turn_rate: {filename}/plugins/format/object.rst#turn-rate
-.. _max_velocity: {filename}/plugins/format/object.rst#max-velocity
-.. _warp_speed: {filename}/plugins/format/object.rst#warp-speed
+.. _health: /plugins/format/object#health
+.. _energy: /plugins/format/object#energy
+.. _turn_rate: /plugins/format/object#turn-rate
+.. _max_velocity: /plugins/format/object#max-velocity
+.. _warp_speed: /plugins/format/object#warp-speed
 
 Projectiles
 -----------
@@ -123,10 +123,10 @@ Projectiles
    `tpl/bolt`_      bolt_       `dev/pk/ish/beam`_, `dev/conc/pellet`_
    ===============  ==========  ==========================================
 
-.. _animation: {filename}/plugins/format/object.rst#animation
-.. _rotation: {filename}/plugins/format/object.rst#rotation
-.. _ray: {filename}/plugins/format/object.rst#ray
-.. _bolt: {filename}/plugins/format/object.rst#bolt
+.. _animation: /plugins/format/object#animation
+.. _rotation: /plugins/format/object#rotation
+.. _ray: /plugins/format/object#ray
+.. _bolt: /plugins/format/object#bolt
 
 .. _tpl/anipulse: https://github.com/arescentral/antares-data/blob/master/objects/tpl/anipulse.pn
 .. _dev/fullerene/pulse: https://github.com/arescentral/antares-data/blob/master/objects/dev/fullerene/pulse.pn
@@ -148,10 +148,10 @@ important fields for a projectile are its max_velocity_,
 expire.after.age_, and collide.damage_. It’s also usually a good idea if
 its collide.action_ removes_ itself after impact.
 
-.. _expire.after.age: {filename}/plugins/format/object.rst#expire
-.. _collide.damage: {filename}/plugins/format/object.rst#collide
-.. _collide.action: {filename}/plugins/format/object.rst#collide
-.. _removes: {filename}/plugins/format/action.rst#remove
+.. _expire.after.age: /plugins/format/object#expire
+.. _collide.damage: /plugins/format/object#collide
+.. _collide.action: /plugins/format/object#collide
+.. _removes: /plugins/format/action#remove
 
 Beyond those fields, a new projectile needs to have an appearance:
 
@@ -162,13 +162,13 @@ Beyond those fields, a new projectile needs to have an appearance:
 *  For ``tpl/ray``, they need ray.to_, ray.hue_, and ray.range_.
 *  For ``tpl/bolt``, they need bolt.color_.
 
-.. _animation.sprite: {filename}/plugins/format/object.rst#animation
-.. _animation.frames: {filename}/plugins/format/object.rst#animation
-.. _animation.speed: {filename}/plugins/format/object.rst#animation
-.. _ray.to: {filename}/plugins/format/object.rst#ray
-.. _ray.hue: {filename}/plugins/format/object.rst#ray
-.. _ray.range: {filename}/plugins/format/object.rst#ray
-.. _bolt.color: {filename}/plugins/format/object.rst#bolt
+.. _animation.sprite: /plugins/format/object#animation
+.. _animation.frames: /plugins/format/object#animation
+.. _animation.speed: /plugins/format/object#animation
+.. _ray.to: /plugins/format/object#ray
+.. _ray.hue: /plugins/format/object#ray
+.. _ray.range: /plugins/format/object#ray
+.. _bolt.color: /plugins/format/object#bolt
 
 .. _example projectile:
 
@@ -181,7 +181,7 @@ It’s usually good to play the fire sound as part of its create.action_,
 so that the same sound will play for that projectile, no matter what
 weapon is firing.
 
-.. _create.action: {filename}/plugins/format/object.rst#create
+.. _create.action: /plugins/format/object#create
 
 Weapons
 -------
@@ -241,10 +241,10 @@ In the common case, where projectiles have a constant velocity, these
 calculations should work as-is. If projectiles speed up or slow down,
 then they may need to be adjusted.
 
-.. _device: {filename}/plugins/format/object.rst#device
-.. _activate.action: {filename}/plugins/format/object.rst#activate
-.. _device.speed: {filename}/plugins/format/object.rst#device
-.. _device.range: {filename}/plugins/format/object.rst#device
+.. _device: /plugins/format/object#device
+.. _activate.action: /plugins/format/object#activate
+.. _device.speed: /plugins/format/object#device
+.. _device.range: /plugins/format/object#device
 
 Waypoints
 ---------
@@ -286,7 +286,7 @@ Station in |ch02|_ and the Salrilian Battlestation in |ch15|_ are
 actually just `Bunker Stations`_ with an override.sprite_.
 
 .. _Bunker Stations: https://github.com/arescentral/antares-data/blob/master/objects/loc/bunker.pn
-.. _override.sprite: {filename}/plugins/format/initial.rst#override-sprite
+.. _override.sprite: /plugins/format/initial#override-sprite
 
 Decoration
 ----------
@@ -328,7 +328,7 @@ It’s usually good to play the explosion sound as part of its
 create.action_, so that the same sound will play for that explosion,
 no matter what object is exploding.
 
-.. _expire.after.animation: {filename}/plugins/format/object.rst#expire
+.. _expire.after.animation: /plugins/format/object#expire
 
 Hazards
 -------
@@ -363,8 +363,8 @@ Some objects don’t fit neatly into the categories above:
 *  Drones are mostly ship-like, but are animations_ instead of
    rotations_.
 
-.. _animations: {filename}/plugins/format/object.rst#animation
-.. _rotations: {filename}/plugins/format/object.rst#rotation
+.. _animations: /plugins/format/object#animation
+.. _rotations: /plugins/format/object#rotation
 
 .. table::
    :widths: auto

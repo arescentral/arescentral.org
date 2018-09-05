@@ -101,7 +101,7 @@ appropriate to the plugin’s starmap can be used.
 
 If null, the starmap page in the mission briefing will be skipped.
 
-.. _plugin’s starmap: {filename}/plugins/format/picture.rst#starmap
+.. _plugin’s starmap: /plugins/format/picture#starmap
 
 song
 ~~~~
@@ -186,7 +186,7 @@ underlined.
 ``true``, ``false``, ``prefix``, or ``suffix`` may be null. If null,
 they are assumed to be empty.
 
-.. _persistent: {filename}/plugins/format/condition.rst#persistent
+.. _persistent: /plugins/format/condition#persistent
 
 For example, the following status line watches condition 0:
 
@@ -252,11 +252,11 @@ ships initially hidden_, and planets initially without an owner_. A
 `time condition`_ can reveal_ the ships and capture_ the planets just
 prior to the start of gameplay (``duration: "-0.1s"``).
 
-.. _owner: {filename}/plugins/format/initial.rst#owner
-.. _hidden: {filename}/plugins/format/initial.rst#hide
-.. _time condition: {filename}/plugins/format/condition.rst#time
-.. _reveal: {filename}/plugins/format/action.rst#reveal
-.. _capture: {filename}/plugins/format/action.rst#capture
+.. _owner: /plugins/format/initial#owner
+.. _hidden: /plugins/format/initial#hide
+.. _time condition: /plugins/format/condition#time
+.. _reveal: /plugins/format/action#reveal
+.. _capture: /plugins/format/action#capture
 
 angle
 ~~~~~
@@ -328,9 +328,9 @@ start of the level (normally ¤25). If null, the player earns no cash.
 
 `Example solo player <https://github.com/arescentral/antares-data/blob/master/levels/ch01.pn#L7-L10>`_
 
-.. _base: {filename}/plugins/format/initial.rst#base
-.. _build: {filename}/plugins/format/initial.rst#build
-.. _earning: {filename}/plugins/format/initial.rst#build
+.. _base: /plugins/format/initial#base
+.. _build: /plugins/format/initial#build
+.. _earning: /plugins/format/initial#build
 
 par
 ```
@@ -416,7 +416,7 @@ images:
                            ``log/starfield/a`` as the background.
    ======================  ==============================================
 
-.. _Ares CLUT: {filename}/plugins/format/types.rst#color
+.. _Ares CLUT: /plugins/format/types#color
 
 net
 ~~~

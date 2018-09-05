@@ -20,7 +20,7 @@ would appreciate bugs_ or reports_ from Linux users (especially ones
 that indicate problems, but especially ones that indicate that
 everything works fine).
 
-..  _build from source: {filename}/antares/contributing/building.rst
+..  _build from source: /antares/contributing/building
 ..  _bugs: https://github.com/arescentral/antares/issues/new
 ..  _reports: mailto:sfiera@twotaled.com
 ..  |antares-0.8.0rc2-osx| replace:: Antares 0.8.0rc2 for Mac OS X 10.9+

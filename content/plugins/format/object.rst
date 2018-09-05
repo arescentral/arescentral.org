@@ -213,7 +213,7 @@ discards the template’s.
 There are several `templates in the factory scenario`_ that make it
 easier to create new objects.
 
-.. _templates in the factory scenario: {filename}/plugins/format/templates.rst
+.. _templates in the factory scenario: /plugins/format/templates
 
 long_name
 ~~~~~~~~~
@@ -252,7 +252,7 @@ A tags_ map. An object’s tags can be referenced from:
 *  An object’s `ai.combat.engages.if.tags <#ai-combat>`_.
 *  An object’s `ai.combat.engaged.if.tags <#ai-combat>`_.
 
-.. _if.tags: {filename}/plugins/format/action.rst#if
+.. _if.tags: /plugins/format/action#if
 
 notes
 ~~~~~
@@ -295,7 +295,7 @@ energy_ into health over time.
 When an object’s health is reduced to zero, the object is `destroyed
 <#destroy>`_.
 
-.. _heal action: {filename}/plugins/format/action.rst#heal
+.. _heal action: /plugins/format/action#heal
 
 energy
 ~~~~~~
@@ -332,7 +332,7 @@ for this object past ``occupy_count``, that player captures the object.
 Only meaningful if `destroy.neutralize <#destroy>`_ and `target.base
 <#target>`_ are both true.
 
-.. _occupy action: {filename}/plugins/format/action.rst#occupy
+.. _occupy action: /plugins/format/action#occupy
 
 mass
 ~~~~
@@ -356,7 +356,7 @@ completely stationary, and nothing can move it.
 
 Most ships have a ``max_velocity`` between 3.0 and 7.0.
 
-.. _push action: {filename}/plugins/format/action.rst#push
+.. _push action: /plugins/format/action#push
 
 thrust
 ~~~~~~
@@ -489,8 +489,8 @@ the weapon fires from the center of the ship.
 Only thinking objects use weapons, but a `fire action`_ could explicitly
 activate a non-thinking object’s weapons.
 
-.. _fire action: {filename}/plugins/format/action.rst#fire
-.. _create action: {filename}/plugins/format/action.rst#create
+.. _fire action: /plugins/format/action#fire
+.. _create action: /plugins/format/action#create
 
 destroy
 ~~~~~~~
@@ -559,8 +559,8 @@ from play.
 .. note:: there is a separate meaning of ``expire.action`` used by the
    `land action`_.
 
-.. _age action: {filename}/plugins/format/action.rst#age
-.. _land action: {filename}/plugins/format/action.rst#land
+.. _age action: /plugins/format/action#age
+.. _land action: /plugins/format/action#land
 
 create
 ~~~~~~
@@ -672,7 +672,7 @@ It’s not usually useful for an object to react identically when it
 reaches every target, so an ``arrive.action`` usually specifies
 if.tags_.
 
-.. _if.tags: {filename}/plugins/format/action.rst#if
+.. _if.tags: /plugins/format/action#if
 
 target
 ~~~~~~
@@ -783,7 +783,7 @@ frame in the animation).
 An animation’s sprite has a ``animation.layer`` and ``animation.scale``.
 These function the same as in rotation_.
 
-.. _tick: {filename}/plugins/format/types.rst#duration
+.. _tick: /plugins/format/types#duration
 
 ray
 ~~~
@@ -1028,7 +1028,7 @@ defending object’s ``ai.combat.engaged`` fields allow. This requires:
    *  The defending object’s ``ai.combat.engaged.if.tags`` match_ the
       attacking object.
 
-.. _match: {filename}/plugins/format/types.rst#tags
+.. _match: /plugins/format/types#tags
 
 A defending object `evades` any nearby hostile object if the attacking
 object is facing it, the attacking object’s ``ai.combat.evaded`` is
@@ -1082,7 +1082,7 @@ If ``prefer.tags`` is non-empty, a CPU player prefers to assign targets
 with `matching tags`_. If ``force.tags`` is non-empty, a CPU player
 *only* assigns targets with matching tags.
 
-.. _matching tags: {filename}/plugins/format/types.rst#tags
+.. _matching tags: /plugins/format/types#tags
 
 ai.escort
 `````````
@@ -1156,7 +1156,7 @@ Footnotes
    order. ``legacy_non_builder`` tells Antares not to roll a die even if
    ``target.base`` is true.
 
-.. _subject object: {filename}/plugins/format/action.rst#direct-object
-.. _direct object: {filename}/plugins/format/action.rst#direct-object
+.. _subject object: /plugins/format/action#direct-object
+.. _direct object: /plugins/format/action#direct-object
 .. include:: epilog.rsti
 .. -*- tab-width: 3; indent-tabs-mode: nil; fill-column: 72 -*-

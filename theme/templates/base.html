@@ -5,13 +5,10 @@
     <meta charset="utf-8" />
     <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
     {% assets filters="scss", output="css/main.css", "css/arescentral.scss", "css/pygment.css" %}
-    <link rel="stylesheet" href="{{ SITEURL }}{{ ASSET_URL }}">
+    <link rel="stylesheet" href="{{ ASSET_URL }}">
     {% endassets %}
     {% if FEED_ALL_ATOM %}
-    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
-    {% endif %}
-    {% if FEED_ALL_RSS %}
-    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+    <link href="/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
     {% endif %}
     <link rel="icon" href="/{{ root or "favicon" }}.ico?v=1"/>
     <link rel="manifest" href="/manifest.json">
@@ -25,7 +22,7 @@
   <body class="{{ root }}">
     <div id="header">
       <div class="content">
-        <a href="{{ SITEURL }}/" title="{{ SITENAME }}" class="home">
+        <a href="/" title="{{ SITENAME }}" class="home">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path class="b" d="M8,2h14v14h-4v-10h-10z"/>
             <path class="a" d="M8,8h4v4h4v4h-8z"/>
@@ -35,7 +32,7 @@
         <nav>
           <ul>
             {% for title, link in MENUITEMS %}
-            <li><a href="{{ SITEURL }}/{{ link }}">{{ title }}</a></li>
+            <li><a href="/{{ link }}">{{ title }}</a></li>
             {% endfor %}
           </ul>
         </nav>

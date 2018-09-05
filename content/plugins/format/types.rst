@@ -276,7 +276,7 @@ In some cases, such as a `score action`_, it may also be valid to omit
 .. include:: pn/types-counter-omit.pn
    :code: procyon
 
-.. _score action: {filename}/plugins/format/action.rst#score
+.. _score action: /plugins/format/action#score
 
 Money
 ~~~~~
@@ -291,10 +291,10 @@ A player’s income is the sum of the earning_ of initials_ that they own,
 multiplied by their earning_power_. A player earns their income every
 ten seconds of game time.
 
-.. _earn money: {filename}/plugins/format/initial.rst#earning
-.. _spend money: {filename}/plugins/format/object.rst#price
-.. _earning: {filename}/plugins/format/initial.rst#earning
-.. _earning_power: {filename}/plugins/format/level.rst#solo-players
+.. _earn money: /plugins/format/initial#earning
+.. _spend money: /plugins/format/object#price
+.. _earning: /plugins/format/initial#earning
+.. _earning_power: /plugins/format/level#solo-players
 
 Hue
 ~~~
@@ -423,7 +423,7 @@ In other contexts, a tags map is a filter on an object’s tags. An object
 matches if it has all tags that the filter maps to true, and lacks all
 tags that the filter maps to false.
 
-.. _object’s tags: {filename}/plugins/format/object.rst#tags
+.. _object’s tags: /plugins/format/object#tags
 
 Tag matching is used so that some things happen only under certain
 conditions. For example:
@@ -458,7 +458,7 @@ An integer_ naming a condition_, initial_, or player_ in the current
 level_. The first entry is numbered 0, so if ``3`` is the index of an
 initial, then it refers to the fourth initial in the current level.
 
-.. _player: {filename}/plugins/format/level.rst#solo-players
+.. _player: /plugins/format/level#solo-players
 
 Object Reference
 ~~~~~~~~~~~~~~~~

@@ -33,6 +33,6 @@ game, it has a `contributing page`_ detailing ways to help.
 
 ..  _Antares 0.4.0: http://downloads.arescentral.org/Antares/Antares-0.4.0.zip
 ..  _source code repository: https://github.com/arescentral/antares
-..  _contributing page: {filename}/antares/contributing.rst
+..  _contributing page: /antares/contributing
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

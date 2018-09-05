@@ -47,7 +47,7 @@ scenario`_ uses three directories for other pictures:
 *  ``log/...``, for pictures shown during prologues and epilogues.
 *  ``gui/...``, for pictures used in the game interface.
 
-.. _portrait: {filename}/plugins/format/object.rst#portrait
+.. _portrait: /plugins/format/object#portrait
 
 Definition
 ----------

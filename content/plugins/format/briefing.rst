@@ -16,9 +16,9 @@ briefings.
 
 `Example briefing <https://github.com/arescentral/antares-data/blob/master/levels/ch01.pn#L127-L133>`_
 
-.. _starmap: {filename}/plugins/format/level.rst#starmap
-.. _solo levels: {filename}/plugins/format/level.rst#solo
-.. _net levels: {filename}/plugins/format/level.rst#net
+.. _starmap: /plugins/format/level#starmap
+.. _solo levels: /plugins/format/level#solo
+.. _net levels: /plugins/format/level#net
 
 .. contents::
    :local:
@@ -53,7 +53,7 @@ If not provided, the briefing is shown centered, without focusing on any
 particular object. To focus on an arbitrary location in space, create an
 invisible object and focus on it.
 
-.. _hidden: {filename}/plugins/format/initial.rst#hide
+.. _hidden: /plugins/format/initial#hide
 
 title
 ~~~~~
@@ -77,7 +77,7 @@ Example                 Meaning
 ``^Pbrf/jump-gate^``    Show the picture_ named ``brf/jump-gate``.
 ======================  ==============================================
 
-.. _portrait: {filename}/plugins/format/object.rst#portrait
+.. _portrait: /plugins/format/object#portrait
 
 If both objects and pictures exist with the given name, the object’s
 portrait is shown. (usually it’s the same image, but this enables the

@@ -26,11 +26,11 @@ html:
 
 .PHONY: html-staging
 html-staging:
-	SITEURL=//staging.arescentral.org $(PELICAN) $(PELICANOPTS)
+	SITEURL=http://staging.arescentral.org $(PELICAN) $(PELICANOPTS)
 
 .PHONY: html-public
 html-public:
-	SITEURL=//arescentral.org $(PELICAN) $(PELICANOPTS)
+	SITEURL=https://arescentral.org $(PELICAN) $(PELICANOPTS)
 
 .PHONY: clean
 clean:

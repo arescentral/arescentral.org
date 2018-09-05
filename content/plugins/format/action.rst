@@ -51,7 +51,7 @@ One exception: when a weapon fires, that action takes place at the
 `weapon’s positions`_ on the firing ship, rather than the center of the
 ship.
 
-.. _weapon’s positions: {filename}/plugins/format/object.rst#weapons
+.. _weapon’s positions: /plugins/format/object#weapons
 
 When
 ~~~~
@@ -79,12 +79,12 @@ on the action:
    arrive.action_             self               object’s target
    =========================  =================  =================
 
-.. _activate.action: {filename}/plugins/format/object.rst#activate
-.. _arrive.action: {filename}/plugins/format/object.rst#arrive
-.. _collide.action: {filename}/plugins/format/object.rst#collide
-.. _destroy.action: {filename}/plugins/format/object.rst#destroy
-.. _create.action: {filename}/plugins/format/object.rst#create
-.. _expire.action: {filename}/plugins/format/object.rst#expire
+.. _activate.action: /plugins/format/object#activate
+.. _arrive.action: /plugins/format/object#arrive
+.. _collide.action: /plugins/format/object#collide
+.. _destroy.action: /plugins/format/object#destroy
+.. _create.action: /plugins/format/object#create
+.. _expire.action: /plugins/format/object#expire
 
 How
 ~~~
@@ -264,11 +264,11 @@ fields according to their type. The action types are:
    zoom_       sets the player’s zoom level
    ==========  =======================================================
 
-.. _max_velocity: {filename}/plugins/format/object.rst#max-velocity
-.. _energy: {filename}/plugins/format/object.rst#energy
-.. _health: {filename}/plugins/format/object.rst#health
-.. _weapon: {filename}/plugins/format/object.rst#weapons
-.. _expires: {filename}/plugins/format/object.rst#expire
+.. _max_velocity: /plugins/format/object#max-velocity
+.. _energy: /plugins/format/object#energy
+.. _health: /plugins/format/object#health
+.. _weapon: /plugins/format/object#weapons
+.. _expires: /plugins/format/object#expire
 
 age
 ~~~
@@ -287,7 +287,7 @@ Modifies the `direct object`_’s expire.after.age_. Picks a random
 duration from ``value``. If ``relative`` is ``true``, adds that duration
 to the object’s age. Otherwise, sets the object’s age to that duration.
 
-.. _expire.after.age: {filename}/plugins/format/object.rst#expire
+.. _expire.after.age: /plugins/format/object#expire
 
 assume
 ~~~~~~
@@ -436,7 +436,7 @@ distances up to the given amount.
 [#create-legacy-random]_ fields is not recommended. They exist only for
 compatibility with some Hera-created scenarios)
 
-.. _target.order: {filename}/plugins/format/object.rst#target
+.. _target.order: /plugins/format/object#target
 
 delay
 ~~~~~
@@ -466,7 +466,7 @@ object’s destroy.die_ is true, removes it from existence.
 
 Destroy actions have no additional fields.
 
-.. _destroy.die: {filename}/plugins/format/object.rst#destroy
+.. _destroy.die: /plugins/format/object#destroy
 
 disable
 ~~~~~~~
@@ -610,9 +610,9 @@ object’s health would be decreased below 0, it is destroyed_.
    collide.damage_ on the projectile, instead of dealing damage from
    its collide.action_.
 
-.. _destroyed: {filename}/plugins/format/object.rst#destroy
-.. _collide.damage: {filename}/plugins/format/object.rst#collide
-.. _collide.action: {filename}/plugins/format/object.rst#collide
+.. _destroyed: /plugins/format/object#destroy
+.. _collide.damage: /plugins/format/object#collide
+.. _collide.action: /plugins/format/object#collide
 
 hold
 ~~~~
@@ -728,7 +728,7 @@ Strings can contain formatting characters like ``\\i``.
 
 ``id`` is optional. It is used only by the `message condition`_.
 
-.. _message condition: {filename}/plugins/format/action.rst#message
+.. _message condition: /plugins/format/action#message
 
 morph
 ~~~~~
@@ -829,9 +829,9 @@ When a player’s occupation count on an object reaches occupy_count_,
 that player takes control over the object. This is used in the `factory
 scenario`_ when EVATs take over stations.
 
-.. _occupy_count: {filename}/plugins/format/object.rst#occupy-count
-.. _destroy.neutralize: {filename}/plugins/format/object.rst#destroy
-.. _target.base: {filename}/plugins/format/object.rst#target
+.. _occupy_count: /plugins/format/object#occupy-count
+.. _destroy.neutralize: /plugins/format/object#destroy
+.. _target.base: /plugins/format/object#target
 
 pay
 ~~~
@@ -951,7 +951,7 @@ Reveals the hidden_ initial_ objects specified by ``initial``.
 “Revealing” actually means creating the object, so revealing an object
 executes its create_ action.
 
-.. _hidden: {filename}/plugins/format/initial.rst#hide
+.. _hidden: /plugins/format/initial#hide
 
 score
 ~~~~~
@@ -1147,8 +1147,8 @@ is ignored.
 
 In a `net level`_, declares victory for ``player``. ``next`` is ignored.
 
-.. _solo level: {filename}/plugins/format/level.rst#solo
-.. _net level: {filename}/plugins/format/level.rst#solo
+.. _solo level: /plugins/format/level#solo
+.. _net level: /plugins/format/level#solo
 
 zoom
 ~~~~

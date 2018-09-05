@@ -8,8 +8,8 @@ sprite is used, the individual images may be frames of an `object’s
 animation`_ or angles in an `object’s rotation`_. It is defined by three
 files: a procyon_ definition, a PNG_ image, and a PNG_ overlay.
 
-.. _object’s animation: {filename}/plugins/format/object.rst#animation
-.. _object’s rotation: {filename}/plugins/format/object.rst#rotation
+.. _object’s animation: /plugins/format/object#animation
+.. _object’s rotation: /plugins/format/object#rotation
 
 *  `Example definition <https://github.com/arescentral/antares-data/blob/master/sprites/ish/cruiser.pn>`_
 *  `Example image <https://github.com/arescentral/antares-data/blob/master/sprites/ish/cruiser/image.png>`_

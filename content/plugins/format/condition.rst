@@ -15,7 +15,7 @@ created during game play.
 Conditions are checked once per second, or whenever a `check action`_
 runs.
 
-.. _check action: {filename}/plugins/format/action.rst#check
+.. _check action: /plugins/format/action#check
 
 `Example condition <https://github.com/arescentral/antares-data/blob/master/levels/ch01.pn#L113-L125>`_
 
@@ -50,7 +50,7 @@ Conditions can be enabled or disabled with the `condition action`_.
 Conditions are also disabled after they trigger, unless they are
 persistent_.
 
-.. _condition action: {filename}/plugins/format/action.rst#condition
+.. _condition action: /plugins/format/action#condition
 
 persistent
 ~~~~~~~~~~
@@ -67,8 +67,8 @@ The `subject object`_ and `direct object`_ that will be used if the
 condition’s action_ executes.
 
 
-.. _subject object: {filename}/plugins/format/action.rst#subject-object
-.. _direct object: {filename}/plugins/format/action.rst#direct-object
+.. _subject object: /plugins/format/action#subject-object
+.. _direct object: /plugins/format/action#direct-object
 
 when
 ~~~~
@@ -186,7 +186,7 @@ line)``.
 
 .. warning:: not net-safe. Use only in `solo levels`_.
 
-.. _solo levels: {filename}/plugins/format/level.rst#solo
+.. _solo levels: /plugins/format/level#solo
 
 count
 ~~~~~
@@ -239,8 +239,8 @@ The comparison really considers whether the object exists or not, so a
 `hidden initial`_ that has yet to be `revealed`_ counts as “destroyed”
 (``true``) for the purposes of this condition.
 
-.. _hidden initial: {filename}/plugins/format/initial.rst#hide
-.. _revealed: {filename}/plugins/format/action.rst#reveal
+.. _hidden initial: /plugins/format/initial#hide
+.. _revealed: /plugins/format/action#reveal
 
 distance
 ~~~~~~~~
@@ -428,7 +428,7 @@ Compares the elapsed game time to ``duration``. If the level has a
 start_time_ setup phase, then positive durations indicate time during
 actual gameplay, and negative durations indicate setup time.
 
-.. _start_time: {filename}/plugins/format/level.rst#start-time
+.. _start_time: /plugins/format/level#start-time
 
 (use of the ``legacy_start_time`` [#time-legacy-start-time]_ field is
 not recommended. It exists only for compatibility with some Hera-created

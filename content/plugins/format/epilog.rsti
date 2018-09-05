@@ -1,83 +1,83 @@
-.. _factory scenario: {filename}/plugins/format/factory.rst
+.. _factory scenario: /plugins/format/factory
 
-.. _procyon: {filename}/plugins/format/types.rst#procyon
+.. _procyon: /plugins/format/types#procyon
 
-.. _boolean: {filename}/plugins/format/types.rst#boolean
-.. _booleans: {filename}/plugins/format/types.rst#boolean
-.. _integer: {filename}/plugins/format/types.rst#integer
-.. _integers: {filename}/plugins/format/types.rst#integer
-.. _number: {filename}/plugins/format/types.rst#number
-.. _numbers: {filename}/plugins/format/types.rst#number
-.. _string: {filename}/plugins/format/types.rst#string
-.. _strings: {filename}/plugins/format/types.rst#string
+.. _boolean: /plugins/format/types#boolean
+.. _booleans: /plugins/format/types#boolean
+.. _integer: /plugins/format/types#integer
+.. _integers: /plugins/format/types#integer
+.. _number: /plugins/format/types#number
+.. _numbers: /plugins/format/types#number
+.. _string: /plugins/format/types#string
+.. _strings: /plugins/format/types#string
 
-.. _array: {filename}/plugins/format/types.rst#array
-.. _arrays: {filename}/plugins/format/types.rst#array
-.. _map: {filename}/plugins/format/types.rst#map
-.. _maps: {filename}/plugins/format/types.rst#map
+.. _array: /plugins/format/types#array
+.. _arrays: /plugins/format/types#array
+.. _map: /plugins/format/types#map
+.. _maps: /plugins/format/types#map
 
-.. _range: {filename}/plugins/format/types.rst#range
-.. _ranges: {filename}/plugins/format/types.rst#range
-.. _distance: {filename}/plugins/format/types.rst#distance
-.. _distances: {filename}/plugins/format/types.rst#distance
-.. _speed: {filename}/plugins/format/types.rst#speed
-.. _speeds: {filename}/plugins/format/types.rst#speed
-.. _acceleration: {filename}/plugins/format/types.rst#acceleration
-.. _accelerations: {filename}/plugins/format/types.rst#acceleration
-.. _angle: {filename}/plugins/format/types.rst#angle
-.. _angles: {filename}/plugins/format/types.rst#angle
-.. _angular speed: {filename}/plugins/format/types.rst#angular-speed
-.. _angular speeds: {filename}/plugins/format/types.rst#angular-speed
-.. _point: {filename}/plugins/format/types.rst#point
-.. _points: {filename}/plugins/format/types.rst#point
-.. _rect: {filename}/plugins/format/types.rst#rect
-.. _rects: {filename}/plugins/format/types.rst#rect
-.. _counter: {filename}/plugins/format/types.rst#counter
-.. _counters: {filename}/plugins/format/types.rst#counter
-.. _duration: {filename}/plugins/format/types.rst#duration
-.. _durations: {filename}/plugins/format/types.rst#duration
-.. _money: {filename}/plugins/format/types.rst#money
-.. _hue: {filename}/plugins/format/types.rst#hue
-.. _hues: {filename}/plugins/format/types.rst#hue
-.. _color: {filename}/plugins/format/types.rst#color
-.. _colors: {filename}/plugins/format/types.rst#color
-.. _tags: {filename}/plugins/format/types.rst#tags
-.. _name: {filename}/plugins/format/types.rst#name
-.. _names: {filename}/plugins/format/types.rst#name
-.. _index: {filename}/plugins/format/types.rst#index
-.. _indexes: {filename}/plugins/format/types.rst#index
-.. _object reference: {filename}/plugins/format/types.rst#object-reference
-.. _object references: {filename}/plugins/format/types.rst#object-reference
-.. _url: {filename}/plugins/format/types.rst#url
+.. _range: /plugins/format/types#range
+.. _ranges: /plugins/format/types#range
+.. _distance: /plugins/format/types#distance
+.. _distances: /plugins/format/types#distance
+.. _speed: /plugins/format/types#speed
+.. _speeds: /plugins/format/types#speed
+.. _acceleration: /plugins/format/types#acceleration
+.. _accelerations: /plugins/format/types#acceleration
+.. _angle: /plugins/format/types#angle
+.. _angles: /plugins/format/types#angle
+.. _angular speed: /plugins/format/types#angular-speed
+.. _angular speeds: /plugins/format/types#angular-speed
+.. _point: /plugins/format/types#point
+.. _points: /plugins/format/types#point
+.. _rect: /plugins/format/types#rect
+.. _rects: /plugins/format/types#rect
+.. _counter: /plugins/format/types#counter
+.. _counters: /plugins/format/types#counter
+.. _duration: /plugins/format/types#duration
+.. _durations: /plugins/format/types#duration
+.. _money: /plugins/format/types#money
+.. _hue: /plugins/format/types#hue
+.. _hues: /plugins/format/types#hue
+.. _color: /plugins/format/types#color
+.. _colors: /plugins/format/types#color
+.. _tags: /plugins/format/types#tags
+.. _name: /plugins/format/types#name
+.. _names: /plugins/format/types#name
+.. _index: /plugins/format/types#index
+.. _indexes: /plugins/format/types#index
+.. _object reference: /plugins/format/types#object-reference
+.. _object references: /plugins/format/types#object-reference
+.. _url: /plugins/format/types#url
 
-.. _info.pn: {filename}/plugins/format/info.rst
-.. _level: {filename}/plugins/format/level.rst
-.. _levels: {filename}/plugins/format/level.rst
-.. _initial: {filename}/plugins/format/initial.rst
-.. _initials: {filename}/plugins/format/initial.rst
-.. _condition: {filename}/plugins/format/condition.rst
-.. _conditions: {filename}/plugins/format/condition.rst
-.. _briefing: {filename}/plugins/format/briefing.rst
-.. _briefings: {filename}/plugins/format/briefing.rst
-.. _object: {filename}/plugins/format/object.rst
-.. _objects: {filename}/plugins/format/object.rst
-.. _action: {filename}/plugins/format/action.rst
-.. _actions: {filename}/plugins/format/action.rst
-.. _race: {filename}/plugins/format/race.rst
-.. _races: {filename}/plugins/format/race.rst
-.. _picture: {filename}/plugins/format/picture.rst
-.. _pictures: {filename}/plugins/format/picture.rst
-.. _sprite: {filename}/plugins/format/sprite.rst
-.. _sprites: {filename}/plugins/format/sprite.rst
-.. _sound: {filename}/plugins/format/sound.rst
-.. _sounds: {filename}/plugins/format/sound.rst
-.. _music: {filename}/plugins/format/music.rst
-.. _font: {filename}/plugins/format/font.rst
-.. _fonts: {filename}/plugins/format/font.rst
-.. _interface: {filename}/plugins/format/interface.rst
-.. _interfaces: {filename}/plugins/format/interface.rst
-.. _replay: {filename}/plugins/format/replay.rst
-.. _replays: {filename}/plugins/format/replay.rst
+.. _info.pn: /plugins/format/info
+.. _level: /plugins/format/level
+.. _levels: /plugins/format/level
+.. _initial: /plugins/format/initial
+.. _initials: /plugins/format/initial
+.. _condition: /plugins/format/condition
+.. _conditions: /plugins/format/condition
+.. _briefing: /plugins/format/briefing
+.. _briefings: /plugins/format/briefing
+.. _object: /plugins/format/object
+.. _objects: /plugins/format/object
+.. _action: /plugins/format/action
+.. _actions: /plugins/format/action
+.. _race: /plugins/format/race
+.. _races: /plugins/format/race
+.. _picture: /plugins/format/picture
+.. _pictures: /plugins/format/picture
+.. _sprite: /plugins/format/sprite
+.. _sprites: /plugins/format/sprite
+.. _sound: /plugins/format/sound
+.. _sounds: /plugins/format/sound
+.. _music: /plugins/format/music
+.. _font: /plugins/format/font
+.. _fonts: /plugins/format/font
+.. _interface: /plugins/format/interface
+.. _interfaces: /plugins/format/interface
+.. _replay: /plugins/format/replay
+.. _replays: /plugins/format/replay
 
 .. _AIFF: https://en.wikipedia.org/wiki/Audio_Interchange_File_Format
 .. _S3M: https://en.wikipedia.org/wiki/S3M_(file_format)

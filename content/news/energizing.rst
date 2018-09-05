@@ -31,6 +31,6 @@ cruiser, that would be 4000 money, or about 1.5% of its purchase cost.
 
 For obvious reasons, this is not recommended.
 
-..  _ares’s representation of "200.000": {filename}/news/the-human-advantage.rst
+..  _ares’s representation of "200.000": /news/the-human-advantage
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

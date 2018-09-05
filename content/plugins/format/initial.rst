@@ -56,8 +56,8 @@ will be an Ishiman heavy destroyer (``ish/hvd``). If the player chooses
 In `solo levels`_, player races are fixed, so it’s recommended (but not
 required) to use ``base: "ish/hvd"`` or ``base: "can/hvd"`` for clarity.
 
-.. _net levels: {filename}/plugins/format/level.rst#net
-.. _solo levels: {filename}/plugins/format/level.rst#solo
+.. _net levels: /plugins/format/level#net
+.. _solo levels: /plugins/format/level#solo
 
 owner
 ~~~~~
@@ -77,7 +77,7 @@ hide
 If ``true``, then the object won’t be created at the beginning of the
 level. It can be explicitly created later by the `reveal action`_.
 
-.. _reveal action: {filename}/plugins/format/action.rst#reveal
+.. _reveal action: /plugins/format/action#reveal
 
 flagship
 ~~~~~~~~
@@ -102,8 +102,8 @@ Together, they lock the object into guard or escort duty.
 The object’s target can still be changed by the `target action`_ or
 `hold action`_.
 
-.. _hold action: {filename}/plugins/format/action.rst#hold
-.. _target action: {filename}/plugins/format/action.rst#target
+.. _hold action: /plugins/format/action#hold
+.. _target action: /plugins/format/action#target
 
 override.name
 ~~~~~~~~~~~~~
@@ -202,7 +202,7 @@ Typical values from the `factory scenario`_ are:
    Minor Outpost   ¤0.25
    ==============  =======
 
-.. _earning_power: {filename}/plugins/format/level.rst#solo-players
+.. _earning_power: /plugins/format/level#solo-players
 
 build
 ~~~~~
@@ -235,7 +235,7 @@ In this case:
 *  No players can build |gro-adj| gateships. ``gro/gateship`` doesn’t
    exist, nor anything like it.
 
-.. _ships: {filename}/plugins/format/race.rst#ships
+.. _ships: /plugins/format/race#ships
 
 .. include:: epilog.rsti
 .. -*- tab-width: 3; indent-tabs-mode: nil; fill-column: 72 -*-
