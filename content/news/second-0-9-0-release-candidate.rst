@@ -32,9 +32,9 @@ The sample plugins have been updated:
 
 ..  _plugin documentation: /plugins/format
 
-..  _Cold Days and Long Nights: http://sfiera.net/~sfiera/Cold-Days-and-Long-Nights-3.0.1.zip
-..  _Footsteps of Pyrrhus: http://sfiera.net/~sfiera/Footsteps-of-Pyrrhus-1.2.0.zip
-..  _The Iron Fist: http://sfiera.net/~sfiera/The-Iron-Fist-1.1.0.zip
-..  _The Rogue: http://sfiera.net/~sfiera/The-Rogue-1.0.4.zip
+..  _Cold Days and Long Nights: https://sfiera.net/~sfiera/Cold-Days-and-Long-Nights-3.0.1.zip
+..  _Footsteps of Pyrrhus: https://sfiera.net/~sfiera/Footsteps-of-Pyrrhus-1.2.0.zip
+..  _The Iron Fist: https://sfiera.net/~sfiera/The-Iron-Fist-1.1.0.zip
+..  _The Rogue: https://sfiera.net/~sfiera/The-Rogue-1.0.4.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

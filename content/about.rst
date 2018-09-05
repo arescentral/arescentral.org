@@ -78,7 +78,7 @@ Except where otherwise noted, text on this site is licensed under the
 This site was written using `Pelican`_ and incorporates the extension
 ``pelican_youtube``, by Kura_.
 
-..  _Pelican: https://getpelican.com/
+..  _Pelican: https://blog.getpelican.com/
 ..  _Kura: https://github.com/kura
 
 ..  include:: epilog.rsti
