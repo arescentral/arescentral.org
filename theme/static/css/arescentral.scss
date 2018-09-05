@@ -187,12 +187,6 @@ a {
     }
 }
 
-.splash {
-    background: url(/_static/splash.png) no-repeat;
-    background-position: center;
-    height: 480px;
-}
-
 #contents {
     display: inline-block;
     ul {
@@ -450,14 +444,6 @@ tr:last-child td {
     background: rgb(112, 0, 0);
 }
 
-@media (max-width: 60em) {
-    .splash {
-        background: url(/_static/splash-three-quarters.png) no-repeat;
-        background-position: center;
-        height: 360px;
-    }
-}
-
 @media (max-width: 50em) {
     #header {
         position: inherit;
@@ -520,11 +506,6 @@ tr:last-child td {
     }
     .image-reference:nth-child(2n+1) .screenshot {
         margin-right: 0;
-    }
-    .splash {
-        background: url(/_static/splash-half.png) no-repeat;
-        background-position: center;
-        height: 240px;
     }
 }
 
