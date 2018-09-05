@@ -1,4 +1,9 @@
-{% set root = output_file.split('/')[:-1][0] %}
+{% set root = output_file.split('/')[0].split('.')[0] %}
+{% if root in ["antares", "plugins"] %}
+  {% set favicon = root %}
+{% else %}
+  {% set favicon = "favicon" %}
+{% endif %}
 <!DOCTYPE html>
 <html lang="{{ DEFAULT_LANG }}">
   <head>
@@ -10,7 +15,7 @@
     {% if FEED_ALL_ATOM %}
     <link href="/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
     {% endif %}
-    <link rel="icon" href="/{{ root or "favicon" }}.ico?v=1"/>
+    <link rel="icon" href="/{{ favicon }}.ico?v=1"/>
     <link rel="manifest" href="/manifest.json">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
