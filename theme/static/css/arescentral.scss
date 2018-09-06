@@ -218,11 +218,9 @@ h6 {
     font-weight: normal;
     margin: 1em 0 0.25em 0;
     line-height: 1em;
-    clear: both;
 }
 h1 {
     font-size: 200%;
-    clear: none;
     margin-top: 0;
 }
 h2 {
@@ -260,14 +258,18 @@ tt {
     border-radius: 2px;
 }
 
-.screenshots .image-reference img {
-    float: left;
-    width: 32%;
-    margin-right: 2%;
-    margin-bottom: 1em;
+.screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.screenshots .image-reference:nth-child(3n) img {
-    margin-right: 0;
+.screenshots .image-reference {
+    flex-basis: 32%;
+    line-height: 0;
+    margin-bottom: 2%;
+}
+.screenshots .image-reference img {
+    width: 100%;
 }
 
 .highlight,
@@ -516,15 +518,9 @@ tr:last-child td {
 }
 
 @media (max-width: 28em) {
-    .screenshots .image-reference img,
-    .screenshots .image-reference:nth-child(3n) img {
-        float: left;
-        width: 48%;
-        margin-right: 4%;
-        margin-bottom: 1em;
-    }
-    .screenshots .image-reference:nth-child(2n) img {
-        margin-right: 0;
+    .screenshots .image-reference {
+        flex-basis: 48%;
+        margin-bottom: 4%;
     }
     .align-right {
         float: none;
