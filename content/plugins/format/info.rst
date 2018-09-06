@@ -3,6 +3,14 @@ info.pn
 
 .. sectnum::
 
+.. figure:: /plugins/format/images/launcher.png
+   :align:  right
+   :alt:    The Antares launcher on Linux and macOS, with information
+            from info.pn.
+
+   The Antares launcher on Linux and macOS, showing information from
+   info.pn: the `factory scenario`_’s title_, author_, and version_.
+
 Every plugin must contain a file named ``info.pn`` at the top level. It
 contains general information about the plugin, including the title_,
 author_, and plugin format_ version.
