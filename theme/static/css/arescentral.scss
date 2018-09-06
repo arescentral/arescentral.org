@@ -260,13 +260,13 @@ tt {
     border-radius: 2px;
 }
 
-.image-reference .screenshot {
+.screenshots .image-reference img {
     float: left;
     width: 32%;
     margin-right: 2%;
     margin-bottom: 1em;
 }
-.image-reference:nth-child(3n+1) .screenshot {
+.screenshots .image-reference:nth-child(3n) img {
     margin-right: 0;
 }
 
@@ -516,14 +516,14 @@ tr:last-child td {
 }
 
 @media (max-width: 28em) {
-    .image-reference .screenshot,
-    .image-reference:nth-child(3n+1) .screenshot {
+    .screenshots .image-reference img,
+    .screenshots .image-reference:nth-child(3n) img {
         float: left;
         width: 48%;
         margin-right: 4%;
         margin-bottom: 1em;
     }
-    .image-reference:nth-child(2n+1) .screenshot {
+    .screenshots .image-reference:nth-child(2n) img {
         margin-right: 0;
     }
     .align-right {
