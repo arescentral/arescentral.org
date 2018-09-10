@@ -217,7 +217,8 @@ h6 {
     color: hsl(0, 0%, 30%);
     font-weight: normal;
     margin: 1em 0 0.25em 0;
-    line-height: 1em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }
 h1 {
     font-size: 200%;
@@ -376,15 +377,22 @@ tr:last-child td {
     margin: 1em;
     box-sizing: border-box;
 }
-.figure img {
-    max-width: 100%;
-}
-.figure img + * {
+.figure img + p {
     margin-top: 0.5em;
 }
 .align-right {
     float: right;
+    clear: right;
     max-width: 50%;
+    margin: 0.5em 0 0.5em 1em;
+}
+.w320 > * {
+    max-width: 100%;
+    width: 320px;
+}
+.w128 > * {
+    max-width: 100%;
+    width: 128px;
 }
 
 .footnote,
@@ -524,9 +532,9 @@ tr:last-child td {
     }
     .align-right {
         float: none;
-        width: 100%;
         max-width: 100%;
-        margin: 1em 0;
+        width: min-content;
+        margin: 0.5em 0;
     }
 }
 
