@@ -35,25 +35,46 @@ A briefing is a procyon_ value with the following fields:
    ====================  ====  ========================================
    Field                 Req?  Type
    ====================  ====  ========================================
-   initial__             no    index_ of an initial_
+   |initial-field|_      no    index_ of an |initial-resource|_
    title_                yes   string_
    content_              yes   string_
    ====================  ====  ========================================
 
-__
-
 initial
 ~~~~~~~
 
-Focuses on the given initial_ object in the system. Generally, the
-object is a ship or base of interest. The initial_ must exist and not be
-hidden_ at the start of the level.
+.. figure:: /plugins/format/images/briefing-freestanding.png
+   :align:     right
+   :figclass:  w320
+   :alt:       “Proteus. The Cantharan Order controls the Proteus
+               System. In your first major offensive move against the
+               Order, you will seize their base on Proteus Gamma.”
+
+   A freestanding briefing point with a null |initial-field|_.
+
+.. figure:: /plugins/format/images/briefing-object.png
+   :align:     right
+   :figclass:  w320
+   :alt:       “Proteus Alpha. The base on Alpha can produce fighters
+               and cruisers”
+
+   A briefing point with a highlighted |initial-field|_.
+
+Focuses on the given |initial-resource|_ object in the system.
+Generally, the object is a ship or base of interest. The initial must
+exist and not be hidden_ at the start of the level.
 
 If not provided, the briefing is shown centered, without focusing on any
 particular object. To focus on an arbitrary location in space, create an
 invisible object and focus on it.
 
 .. _hidden: /plugins/format/initial#hide
+
+.. |initial-field| replace:: initial
+.. _initial-field: #initial
+
+.. |initial-resource| replace:: initial
+.. _initial-resource: /plugins/format/initial
 
 title
 ~~~~~

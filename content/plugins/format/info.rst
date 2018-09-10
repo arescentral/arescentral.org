@@ -4,9 +4,10 @@ info.pn
 .. sectnum::
 
 .. figure:: /plugins/format/images/launcher.png
-   :align:  right
-   :alt:    The Antares launcher on Linux and macOS, with information
-            from info.pn.
+   :figclass:  w320
+   :align:     right
+   :alt:       The Antares launcher on Linux and macOS, with information
+               from info.pn.
 
    The Antares launcher on Linux and macOS, showing information from
    info.pn: the `factory scenario`_’s title_, author_, and version_.

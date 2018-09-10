@@ -218,6 +218,14 @@ easier to create new objects.
 long_name
 ~~~~~~~~~
 
+.. figure:: /plugins/format/images/object-names.png
+   :figclass:  w128
+   :align:     right
+   :alt:       Object names
+
+   The long_name_ and short_name_ for several objects in the `factory
+   scenario`_.
+
 A long-form string_ naming the object. It should be at most 25
 characters, with words capitalized. It is displayed:
 
