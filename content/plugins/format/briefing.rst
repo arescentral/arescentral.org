@@ -44,6 +44,7 @@ initial
 ~~~~~~~
 
 .. figure:: /plugins/format/images/briefing-freestanding.png
+   :target:    /plugins/format/images/briefing-freestanding.png
    :align:     right
    :figclass:  w320
    :alt:       “Proteus. The Cantharan Order controls the Proteus
@@ -53,6 +54,7 @@ initial
    A freestanding briefing point with a null |initial-field|_.
 
 .. figure:: /plugins/format/images/briefing-object.png
+   :target:    /plugins/format/images/briefing-object.png
    :align:     right
    :figclass:  w320
    :alt:       “Proteus Alpha. The base on Alpha can produce fighters

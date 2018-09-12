@@ -4,6 +4,7 @@ info.pn
 .. sectnum::
 
 .. figure:: /plugins/format/images/launcher.png
+   :target:    /plugins/format/images/launcher.png
    :figclass:  w320
    :align:     right
    :alt:       The Antares launcher on Linux and macOS, with information

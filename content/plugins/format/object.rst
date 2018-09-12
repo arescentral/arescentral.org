@@ -219,6 +219,7 @@ long_name
 ~~~~~~~~~
 
 .. figure:: /plugins/format/images/object-names.png
+   :target:    /plugins/format/images/object-names.png
    :figclass:  w128
    :align:     right
    :alt:       Object names
