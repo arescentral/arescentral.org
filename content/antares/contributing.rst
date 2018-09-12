@@ -14,26 +14,26 @@ There are plenty of ways to help out with Antares:
 
 For more detail on how to help, browse the following sections.
 
-*   `Issue Tracking <issue-tracking/>`_
+*   `Issue Tracking </antares/contributing/issue-tracking>`_
 
-    *   `Issue Lifecycle <issue-tracking/#issue-lifecycle>`_
-    *   `Labels <issue-tracking/#labels>`_
+    *   `Issue Lifecycle </antares/contributing/issue-tracking#issue-lifecycle>`_
+    *   `Labels </antares/contributing/issue-tracking#labels>`_
 
-*   `Submitting Patches <patching/>`_
+*   `Submitting Patches </antares/contributing/patching>`_
 
-    *   `Requirements <patching/#requirements>`_
-    *   `Process <patching/#process>`_
+    *   `Requirements </antares/contributing/patching#requirements>`_
+    *   `Process </antares/contributing/patching#process>`_
 
-*   `Building Antares <building/>`_
+*   `Building Antares </antares/contributing/building>`_
 
-    *   `Further reading <building/#further-reading>`_
+    *   `Further reading </antares/contributing/building#further-reading>`_
 
-*   `Style Guidelines <style/>`_
+*   `Style Guidelines </antares/contributing/style>`_
 
-    *   `Formatting <style/#formatting>`_
-    *   `Naming <style/#naming>`_
-    *   `Comments <style/#comments>`_
-    *   `Language Features <style/#language-features>`_
+    *   `Formatting </antares/contributing/style#formatting>`_
+    *   `Naming </antares/contributing/style#naming>`_
+    *   `Comments </antares/contributing/style#comments>`_
+    *   `Language Features </antares/contributing/style#language-features>`_
 
 ..  _issue tracker: https://github.com/arescentral/antares/issues
 ..  _#ares irc channel: irc://irc.afternet.org:6667/#ares
