@@ -121,6 +121,17 @@ following is appropriate:
 status
 ~~~~~~
 
+.. figure:: /plugins/format/images/level-status.png
+   :target:    /plugins/format/images/level-status.png
+   :align:     right
+   :figclass:  w128
+   :alt:       MISSION STATUS
+               Retrieve escape pods
+               Rescued: 2/6
+               Liner secure: N
+
+   The status screen for |ch13|_.
+
 An array_ of status lines. Status lines are shown in the “Mission
 Status” screen of the computer. There are three general kinds of status
 lines:
@@ -335,6 +346,26 @@ start of the level (normally ¤25). If null, the player earns no cash.
 par
 ```
 
+.. figure:: /plugins/format/images/level-par.png
+   :target:    /plugins/format/images/level-par.png
+   :align:     right
+   :figclass:  w320
+   :alt:       You destroyed the Constant Voice of Zom, and the
+               mastermind Som with it.
+               TIME: YOU 2:22, PAR 2:00;
+               LOSSES: YOU 7, PAR 25;
+               KILLS: YOU 13, PAR 10;
+               SCORE: YOU 126, PAR 100.
+
+   The mission debriefing from |ch10|_.
+
+   For being 22 seconds (19%) over the par, 40 points (50 - 19%) are
+   awarded. For losses being under half par, 60 points (the maximum) are
+   awarded. For being 3 kills (30%) over par, 26 points (20 + 30%) are
+   awarded.
+
+   The total score is 40 + 60 + 26 = 126 points.
+
 .. table::
    :widths: auto
 
@@ -366,7 +397,7 @@ par.
 .. note:: if ``losses`` is 0, then it’s impossible to get fewer losses
    than par, so the maximum score is 170.
 
-`Example par <https://github.com/arescentral/antares-data/blob/master/levels/ch01.pn#L160-L163>`_
+`Example par <https://github.com/arescentral/antares-data/blob/master/levels/ch10.pn#L168-L171>`_
 
 skip
 ````
@@ -387,6 +418,15 @@ the message that will be displayed if that happens.
 
 prologue, epilogue
 ``````````````````
+
+.. figure::    /plugins/format/images/level-prologue.png
+   :target:    /plugins/format/images/level-prologue.png
+   :align:     right
+   :figclass:  w225
+   :alt:       Prologue. The Ishimans broadcast their plans to your
+               crew—your crew, once explorers, now reluctant warriors…
+
+   The prologue from |tut1|_.
 
 A text crawl that will be displayed before playing the level
 (``prologue``) or after winning the level (``epilogue``). There are
@@ -417,6 +457,8 @@ images:
    ======================  ==============================================
 
 .. _Ares CLUT: /plugins/format/types#color
+
+`Example prologue <https://github.com/arescentral/antares-data/blob/master/levels/tut1.pn#L705-L726>`_
 
 net
 ~~~

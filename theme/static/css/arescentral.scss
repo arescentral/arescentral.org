@@ -284,6 +284,7 @@ blockquote {
     border-width: 0 0 0 0.75em;
     border-style: solid;
     margin: 1em;
+    overflow: hidden;
 }
 .line-block {
     font: 100% monospace;
@@ -299,6 +300,7 @@ blockquote > *:first-child {
 }
 .admonition > *:last-child,
 .figure > *:last-child,
+.legend > *:last-child,
 blockquote > *:last-child {
     margin-bottom: 0;
 }
@@ -377,7 +379,7 @@ tr:last-child td {
     margin: 1em;
     box-sizing: border-box;
 }
-.figure img + p {
+.figure .caption {
     margin-top: 0.5em;
 }
 .align-right {
@@ -390,6 +392,11 @@ tr:last-child td {
 .w320 p {
     max-width: 100%;
     width: 320px;
+}
+.w225 img,
+.w225 p {
+    max-width: 100%;
+    width: 225px;
 }
 .w128 img,
 .w128 p {
