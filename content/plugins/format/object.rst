@@ -280,8 +280,20 @@ used to be the way that ships were mapped to different races.
 portrait
 ~~~~~~~~
 
+.. figure:: /plugins/format/images/object-portrait.png
+   :target:    /plugins/format/images/object-portrait.png
+   :figclass:  w200
+   :align:     right
+   :alt:       UNS Gunship
+
+   Portrait for the `Human gunship`_.
+
+.. _Human gunship: https://github.com/arescentral/antares-data/blob/master/objects/uns/gunship.pn
+
 The name_ of a picture_ representing this object. If a briefing_
 references this object, this is the picture that the game displays.
+
+Portraits should be 200 pixels wide, and are generally 100 pixels tall.
 
 price
 ~~~~~
