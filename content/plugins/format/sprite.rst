@@ -6,14 +6,21 @@ Sprite
 A sprite is a collection of images used in-game. Depending on how a
 sprite is used, the individual images may be frames of an `object’s
 animation`_ or angles in an `object’s rotation`_. It is defined by three
-files: a procyon_ definition, a PNG_ image, and a PNG_ overlay.
+files:
 
 .. _object’s animation: /plugins/format/object#animation
 .. _object’s rotation: /plugins/format/object#rotation
 
-*  `Example definition <https://github.com/arescentral/antares-data/blob/master/sprites/ish/cruiser.pn>`_
-*  `Example image <https://github.com/arescentral/antares-data/blob/master/sprites/ish/cruiser/image.png>`_
-*  `Example overlay <https://github.com/arescentral/antares-data/blob/master/sprites/ish/cruiser/overlay.png>`_
+*  a procyon_ sprite map (|example-map|_)
+*  a PNG_ sprite image (|example-image|_)
+*  a PNG_ sprite overlay (|example-overlay|_)
+
+.. |example-map| replace:: example
+.. |example-image| replace:: example
+.. |example-overlay| replace:: example
+.. _example-map: https://github.com/arescentral/antares-data/blob/master/sprites/ish/hvd.pn
+.. _example-image: https://github.com/arescentral/antares-data/blob/master/sprites/ish/hvd/image.png
+.. _example-overlay: https://github.com/arescentral/antares-data/blob/master/sprites/ish/hvd/overlay.png
 
 .. contents::
    :local:
@@ -32,7 +39,7 @@ Naming
 ------
 
 A sprite has three associated files in the ``sprites`` directory. The
-sprite definition has the ``.pn`` extension. The sprite image ends in
+sprite map has the ``.pn`` extension. The sprite image ends in
 ``/image.png``. The overlay image ends in ``/overlay.png``.
 
 By convention, sprites have the same name as the object that uses them.
@@ -40,7 +47,7 @@ By convention, sprites have the same name as the object that uses them.
 Definition
 ----------
 
-A sprite’s definition is a procyon_ file with the following fields:
+A sprite map is a procyon_ file with the following fields:
 
 .. table::
    :widths: auto
@@ -51,10 +58,32 @@ A sprite’s definition is a procyon_ file with the following fields:
    frames                yes   array_ of frames_
    ====================  ====  ========================================
 
+A sprite’s image and overlay are PNG_ images. They must have the same
+size. The frames_ in the sprite map reference parts of the image and
+overlay.
+
+By default, only the sprite image is used, and the sprite overlay is
+ignored. The overlay is used to `re-color sprites <#re-coloring>`_ when
+a player_ has a hue_.
+
+.. _player: /plugins/format/level#solo-players
+
 frames
 ~~~~~~
 
-An array_ of frames specifying the individual frames, each with the
+.. figure::    /plugins/format/images/sprite-hvd.png
+   :target:    /plugins/format/images/sprite-hvd.png
+   :align:     right
+   :figclass:  w225
+   :alt:       24 frames of a rotating Ishiman HVD, with the first three
+               frames highlighted.
+
+   Sprite image for the `Ishiman HVD
+   <https://github.com/arescentral/antares-data/blob/master/sprites/ish/hvd.pn>`_.
+   The ``{left, top, right, bottom}`` rectangles for the first three
+   frames are highlighted, with a “+” mark at ``{cx, cy}``.
+
+An array_ of maps_ specifying the individual frames, each with the
 following fields:
 
 .. table::
@@ -71,8 +100,22 @@ following fields:
    cy                    yes   integer_
    ====================  ====  ========================================
 
-The sprite image is bounded by the rectangle contained in ``(left, top,
-right, bottom)``. The center of the sprite is at ``(cx, cy)``.
+The sprite image is bounded by the rect_ contained in ``{left, top,
+right, bottom}``. The center of the sprite is the point_ at ``{cx,
+cy}``. Both are offset from the upper-left-hand corner of the image and
+overlay.
+
+Re-coloring
+~~~~~~~~~~~
+
+A sprite’s overlay image is used to re-color sprites when owned by a
+player_ with a hue_. Re-coloring works as follows:
+
+#. Discard the green, blue, and alpha channels from the overlay.
+#. Map the shade of red to the corresponding shade from the new hue_.
+#. Composite the re-colored overlay atop_ the original sprite.
+
+.. _atop: https://en.wikipedia.org/wiki/Alpha_compositing
 
 .. include:: epilog.rsti
 .. -*- tab-width: 3; indent-tabs-mode: nil; fill-column: 72 -*-
