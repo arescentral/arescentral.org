@@ -111,8 +111,8 @@ Re-coloring
 A sprite’s overlay image is used to re-color sprites when owned by a
 player_ with a hue_. Re-coloring works as follows:
 
-#. Discard the green, blue, and alpha channels from the overlay.
-#. Map the shade of red to the corresponding shade from the new hue_.
+#. Discard the green and blue channels from the overlay.
+#. Map the shade of red to the corresponding of from the new hue_.
 #. Composite the re-colored overlay atop_ the original sprite.
 
 .. _atop: https://en.wikipedia.org/wiki/Alpha_compositing
