@@ -7,20 +7,23 @@ your package manager, if possible. If that’s not possible, you can
 
 ..  _build it yourself: /antares/contributing/building
 
-Debian and Ubuntu
------------------
+Ubuntu
+------
 
-Antares is available through the Debian and Ubuntu package managers. To
-install it, run these commands in a terminal window:
+Antares is available through the Ubuntu package manager. To install it,
+run these commands in a terminal window:
 
 ..  code-block:: sh
 
     $ sudo -s
     $ curl https://raw.githubusercontent.com/sfiera/id/master/sfiera.asc | apt-key add -
-    $ apt-add-repository "http://apt.arescentral.org contrib"
+    $ source /etc/lsb-release
+    $ echo "deb [arch=amd64] http://apt.arescentral.org $DISTRIB_CODENAME contrib" \
+      > /etc/apt/sources.list.d/antares.list
     $ apt-get update
     $ apt-get install antares
     $ exit
+    $
 
 This will install Antares to ``/usr/games/antares``, along with a
 .desktop file.
