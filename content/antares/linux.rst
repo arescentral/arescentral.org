@@ -18,8 +18,7 @@ run these commands in a terminal window:
     $ sudo -s
     $ curl https://raw.githubusercontent.com/sfiera/id/master/sfiera.asc | apt-key add -
     $ source /etc/lsb-release
-    $ echo "deb [arch=amd64] http://apt.arescentral.org $DISTRIB_CODENAME contrib" \
-      > /etc/apt/sources.list.d/antares.list
+    $ echo "deb [arch=amd64] http://apt.arescentral.org $DISTRIB_CODENAME contrib" | tee /etc/apt/sources.list.d/antares.list
     $ apt-get update
     $ apt-get install antares
     $ exit
