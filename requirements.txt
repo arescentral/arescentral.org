@@ -1,0 +1,6 @@
+pelican
+pelican_youtube
+typogrify
+webassets
+pyscss
+procyonlexer
