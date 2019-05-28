@@ -1070,6 +1070,7 @@ Spins the `direct object`_. Requires that:
 
 *  The direct object can turn (``turn_rate`` is not null), *and*
 *  either:
+
    *  the direct object is non-thinking, *or*
    *  the direct object is disabled_.
 
