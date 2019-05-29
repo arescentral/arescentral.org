@@ -2,7 +2,7 @@ Version History
 ===============
 
 *   `1997-08-12 Ares 1.0 Demo <#v1-0-demo>`_
-*   `199?-??-?? Ares 1.0.1 <#v1-0-1-demo>`_
+*   `199?-??-?? Ares 1.0.1 Demo <#v1-0-1-demo>`_
 *   `1998-??-?? Ares 1.0 (Changeling release) <#v1-0>`_
 *   `1999-09-30 Ares 1.1.0 (Initial Ambrosia Software release) <#v1-1-0>`_
 *   `1999-10-19 Ares 1.1.1 (Bug fix release) <#v1-1-1>`_
@@ -49,9 +49,15 @@ game":*
 
 ..  _v1-0-1-demo:
 
-199?-??-?? Ares 1.0.1
----------------------
+1997-10-02 `Ares 1.0.1 Demo`_
+-----------------------------
 
+Changes:
+
+*  Fixed 10/1/97 expiration bug (Ares Demo now has no expiration date)
+*  New mission status screen added to ship computer; especially useful for demo chapter 3
+*  Warping takes some immediate energy, but when you come out of warp, your battery regains the lost energy; you need at least 1/8 immediate energy to go into warp
+*  Some cosmetic changes, font changes
 
 ..  _v1-0:
 
@@ -267,6 +273,7 @@ Changes:
 *   Includes scenario editor Hera 1.0
 
 ..  _Ares 1.0 Demo: http://downloads.arescentral.org/Ares/Ares-1.0-Demo.zip
+..  _Ares 1.0.1 Demo: http://downloads.arescentral.org/Ares/Ares-1.0.1-Demo.zip
 ..  _Ares 1.1.0: http://downloads.arescentral.org/Ares/Ares-1.1.0.zip
 ..  _Ares 1.2.0: http://downloads.arescentral.org/Ares/Ares-1.2.0.zip
 ..  _Ambrosia Software: https://www.ambrosiasw.com/
