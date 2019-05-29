@@ -1,12 +1,9 @@
 Version History
 ===============
 
-*   `1997-08-12 Ares 1.0 Demo <#v1-0-demo>`_
-*   `199?-??-?? Ares 1.0.1 Demo <#v1-0-1-demo>`_
-*   `1998-??-?? Ares 1.0 (Changeling release) <#v1-0>`_
-*   `1999-09-30 Ares 1.1.0 (Initial Ambrosia Software release) <#v1-1-0>`_
-*   `1999-10-19 Ares 1.1.1 (Bug fix release) <#v1-1-1>`_
-*   `2001-04-10 Ares 1.2.0 (Hera release) <#v1-2-0>`_
+.. contents::
+   :local:
+   :backlinks: none
 
 ..  _v1-0-demo:
 
