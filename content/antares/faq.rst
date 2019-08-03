@@ -26,14 +26,7 @@ and `Chris Pickel`_, who ported it to Mac OS X as Antares.
 
 When will Antares 1.0 be released?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-As soon as the `release issues`_ have been resolved. Some of the
-highlights of these issues are:
-
-*   Performance improvements.
-*   Adding support for creating and playing back replays.
-*   Improving the test suite.
-
-..  _release issues: https://github.com/arescentral/antares/issues?q=is%3Aissue+is%3Aopen+-milestone%3ALater+
+As soon as multiplayer_ is (re-)added.
 
 How similar is Antares to Ares?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -54,32 +47,12 @@ Antares currently builds and runs on:
 
 In the future, it may also run on:
 
-*   Windows, with no expected timeline (Issue 79)
+*   Windows_ (`Issue 79`_)
 
 There are no plans to port it to Mac OS Classic, or to any mobile
 platform.
 
-What is the status of multiplayer in Antares?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-None to speak of at present. When it eventually exists, Antares
-multiplayer will likely look very different from Ares multiplayer. Some
-things that will probably change are:
-
-*   Multiplayer will support more than 2 players.
-*   In order to support 3+ players, the lobby will look completely
-    different, with a chat interface more similar to :abbr:`IRC
-    (Internet Relay Chat)`.
-*   Players playing the same race as an opponent will choose their own
-    tint, instead of a tint for each such opponent (Issue 6).
-*   If custom avatars are supported, the mechanism will be different.
-*   The networking protocol will use `state synchronization`_ over
-    :abbr:`UDP (User Datagram Protocol)` instead of input sychronization
-    over NetSprockets.
-*   `GameRanger`_ will not be supported. Another metaserver may replace
-    it.
-
-..  _state synchronization: http://web.archive.org/web/20121024235950/http://nclabs.org/articles/5
-..  _GameRanger: https://www.gameranger.com/
+.. _Issue 79: https://github.com/arescentral/antares/issues/79
 
 Where does the name "Antares" come from?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -87,36 +60,139 @@ Antares is the common name for `α Scorpii`_. Its name means "anti-Ares",
 because although it is a bright red star similar in appearance to Mars
 (Ares), it is something very different.
 
-..  _α Scorpii: https://en.wikipedia.org/wiki/Antares
+.. _α Scorpii: https://en.wikipedia.org/wiki/Antares
 
 Plugins
 -------
 
+What is the status of plugins in Antares?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Plugins are fully supported. However, the format is different from the
+format used in Ares. Several plugins are available on the `Plugins
+page`_.
+
+.. _Plugins page: /plugins
+
 What format does Antares use for plugins?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The Antares plugin format is essentially the same as the traditional
-Ares plugin format, except that instead of storing resources in the
-resource fork, it stores files in a zip archive.  This means that the
-same plugin bundles can be used on all platforms.
+An Antares plugin is a Zip archive with the extension “.antaresplugin”.
+It contains text configuration files, along with images and sounds.
+
+Full details on the format are in the `plugin documentation`_.
+
+.. _plugin documentation: /plugins/format
+
+How do the Antares and Ares plugin formats differ?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+There are three main ways:
+
+*  Ares plugins use the resource fork. Antares plugins are Zip archives.
+*  Ares plugin data is mostly binary. Antares plugin data is mostly
+   text.
+*  Ares plugin data is numbered. Antares plugin data is named.
+
+For example, in Ares, the Ishiman Cruiser is the first 318 bytes of
+'bsob' 500. In Antares, it is the file `objects/ish/cruiser.pn`_.
+
+.. _objects/ish/cruiser.pn: https://github.com/arescentral/antares-data/blob/master/objects/ish/cruiser.pn
 
 How do I use plugins written for Ares with Antares?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 There is no tool for converting a plugin from one format to another. If
-a plugin you want to play is not available for Antares, you can `post a
+a plugin you want to play is not available for Antares, you can `send a
 request`_ for it to be converted manually.
 
-..  _post a request: https://www.ambrosiasw.com/forums/index.php?showtopic=130975
+.. _send a request: mailto:antares-dev@arescentral.org
 
 What tools exist for plugin development?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The best tool at present is `Athena`_, by `Scott McClaugherty`_. Because
-the Antares plugin format is so similar to that used by Ares, it would
-also be possible to do much of the work in Hera (if you'd want to) and
-then have the plugin manually converted.
+Currently, there are no tools for developing Antares plugins. Since the
+files are readable text, building a tool is not a priority, but if you
+are interested in developing one, `talk to the developer`_.
 
-..  _Athena: https://github.com/gamefreak/Athena
-..  _Scott McClaugherty: https://github.com/gamefreak
+.. _talk to the developer: mailto:antares-dev@arescentral.org
 
-..  include:: ../epilog.rsti
+Multiplayer
+-----------
 
-..  -*- tab-width: 4; fill-column: 72 -*-
+What is the status of multiplayer in Antares?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+None to speak of at present. When it eventually exists, Antares
+multiplayer will likely look very different from Ares multiplayer. Some
+things that will probably change are:
+
+*  Multiplayer will support more than 2 players.
+*  In order to support 3+ players, the lobby will look completely
+   different, with a more traditional chatroom interface.
+*  Players playing the same race as an opponent will choose their own
+   tint, instead of a tint for each such opponent (`Issue 6`_).
+*  If custom avatars are supported, the mechanism will be different.
+*  The networking protocol will use `state synchronization`_ over UDP
+   instead of input sychronization over NetSprockets.
+*  `GameRanger`_ will not be supported. Another metaserver may replace
+   it.
+
+.. _Issue 6: https://github.com/arescentral/antares/issues/6
+.. _state synchronization: https://github.com/arescentral/antares/blob/master/doc/net.rst
+.. _GameRanger: https://www.gameranger.com/
+
+When will multiplayer support be released?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+There is no expected timeline for multiplayer support.
+
+Windows
+-------
+
+What is the status of Windows support in Antares?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Antares is not available for Windows.
+
+However, on Linux, some parts of the game can be compiled with mingw and
+run under WINE.
+
+When will Windows support be released?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+There is no expected timeline for Windows support.
+
+Why compile with mingw instead of on Windows?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The main Antares developer doesn’t have a Windows machine and doesn’t
+really know anything about developing for Windows. Compiling with mingw
+was possible without any of that equipment or knowledge.
+
+There’s no real reason it needs to use mingw. As long as Travis_ can
+continue to run the tests, it would be fine to compile natively on
+Windows. However, it’s probably necessary to continue to compile with
+clang_, and to use MSYS2_ for that.
+
+.. _Travis: https://travis-ci.org/
+.. _clang: https://packages.msys2.org/base/mingw-w64-clang
+.. _MSYS2: https://www.msys2.org/
+
+What steps need to be taken?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+A general overview might be:
+
+*  Choose paths for installed application data (`win-dirs.cpp`_), so
+   that it’s possible to build ``antares-ls-scenarios.exe`` and
+   ``antares-install-data.exe``.
+*  Implement the offscreen OpenGL driver, so that it’s possible to build
+   ``build-pix.exe``, ``offscreen.exe``, and ``replay.exe``.
+*  Compile ``antares-glfw.exe``.
+*  Package it properly as a Windows application.
+
+More specifically, in `BUILD.gn`_, there are a bunch of places that
+something like the following appears::
+
+   if (target_os == "win") {
+     group -= [ entry ]
+   }
+
+Any place that appears, it indicates a gap in Windows support.
+
+.. _win-dirs.cpp: https://github.com/arescentral/antares/blob/master/src/config/win-dirs.cpp
+.. _BUILD.gn: https://github.com/arescentral/antares/blob/master/BUILD.gn
+
+.. include:: ../epilog.rsti
+
+.. -*- tab-width: 3; fill-column: 72 -*-
