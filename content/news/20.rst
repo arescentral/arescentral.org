@@ -1,0 +1,15 @@
+20 Years of Ares
+================
+
+:date:      2019-09-18
+:author:    sfiera
+:tags:      misc
+
+Deep in space, war *still* has a name.
+
+This is it.
+
+20 years ago this month, Ambrosia released Ares. In celebration, I’ll be hosting a livestream on Sunday, September 29, starting at `9 PM EDT`_. Tune in `on Twitch`_ for some classic Ares in all its many forms.
+
+.. _9 PM EDT: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Ares+20th+Anniversary+Livestream&iso=20190929T21&p1=43&ah=2
+.. _on Twitch: https://www.twitch.tv/events/SlREPOxtSPG13Z6Its0BhA
