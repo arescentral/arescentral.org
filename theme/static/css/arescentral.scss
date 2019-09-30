@@ -33,7 +33,8 @@
         &[href^="mailto:"] {
             background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M10,2a1,1 0,0,1 1,1v6a1,1 0,0,1 -1,1h-8a1,1 0,0,1 -1,-1v-6a1,1 0,0,1 1,-1zm0,1l-4,3l-4,-3v1l4,3l4,-3z" fill="rgb(#{red($color)}, #{green($color)}, #{blue($color)})"/></svg>') center right no-repeat;
         }
-        &[href$=".zip"] {
+        &[href$=".zip"],
+        &[href$=".sit"] {
             background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12"><path d="M7,1l3,3v6a1,1 0,0,1 -1,1h-6a1,1 0,0,1 -1,-1v-8a1,1 0,0,1 1,-1zm0,1h-2v3h-2l3,3l3,-3h-2zm-4,7v1h6v-1z" fill="rgb(#{red($color)}, #{green($color)}, #{blue($color)})"/></svg>') center right no-repeat;
         }
         &[href^="irc:"],
