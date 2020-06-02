@@ -1,4 +1,3 @@
-PY?=python
 PELICAN?=pelican
 PELICANOPTS?=
 
@@ -43,9 +42,9 @@ regenerate:
 .PHONY: serve
 serve:
 ifdef PORT
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
+	$(PELICAN) -lr $(PORT)
 else
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server
+	$(PELICAN) -lr
 endif
 
 .PHONY: stage
