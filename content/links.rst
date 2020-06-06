@@ -2,8 +2,8 @@ Links
 =====
 
 *   `Ares — Bigger Planet <http://biggerplanet.com/ares>`_
-*   `Ares — Ambrosia Software, Inc. <https://www.ambrosiasw.com/games/ares/>`_
-*   `Ares Web Boards — Ambrosia Software Web Board <https://www.ambrosiasw.com/forums/index.php?showforum=88>`_
+*   `Ares — Ambrosia Software, Inc. <https://web.archive.org/web/20190503165946/https://www.ambrosiasw.com/games/ares/>`_
+*   `Ares Web Boards — Ambrosia Software Web Board <http://asw.forums.cytheraguides.com/>`_
 *   `Ares (video game) — Wikipedia, the free encyclopedia <https://en.wikipedia.org/wiki/Ares_(video_game)>`_
 *   `Ares — Macintosh Garden <http://macintoshgarden.org/games/ares>`_
 

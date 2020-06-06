@@ -61,7 +61,7 @@ Also available: the `Hera source code`_, game data editor for Ares. Most
 of the Hera source files have been dedicated to the |pd|.
 
 ..  _bigger planet: http://biggerplanet.com/
-..  _ambrosia software: https://www.ambrosiasw.com/
+..  _ambrosia software: https://web.archive.org/web/20190618111545/https://www.ambrosiasw.com/
 
 ..  _ares source code: http://downloads.arescentral.org/Ares-Source-GPL2/Ares-Source-GPL2-1.0.zip
 ..  _xsera: https://github.com/prophile/xsera
