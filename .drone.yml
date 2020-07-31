@@ -1,0 +1,18 @@
+---
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: submodule
+  image: drone/git
+  commands:
+  - git submodule update --init
+
+- name: html
+  image: python:3.8
+  commands:
+  - pip3 install -r requirements.txt
+  - pelican
+
+...
