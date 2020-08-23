@@ -30,6 +30,8 @@ More Information
     *   `Building Antares </antares/contributing/building>`_
     *   `Style Guidelines </antares/contributing/style>`_
 
+*   `Version history </antares/changelog>`_
+
 Screenshots
 -----------
 
