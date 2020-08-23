@@ -10,11 +10,6 @@ Before submitting a patch, please check the following:
     branch of the repository.
 2.  Your code conforms to the `style guidelines`_.
 3.  You have run the tests, and all of them pass.
-4.  If you've never committed to Antares before, your first commit must
-    add your name and contact information to the ``AUTHORS`` file.  That
-    commit's description must state your intent to license your work on
-    Antares under the |lgpl3|.  That commit must be a parent of
-    subsequent commits.
 
 If you've fixed a bug, it would be great to add a test to prevent
 regressions in the future.  If you do add a test, consider ordering your
