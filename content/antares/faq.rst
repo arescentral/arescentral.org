@@ -174,10 +174,15 @@ What steps need to be taken?
 A general overview might be:
 
 *  Choose paths for installed application data (`win-dirs.cpp`_), so
-   that it’s possible to build ``antares-ls-scenarios.exe`` and
-   ``antares-install-data.exe``.
-*  Implement the offscreen OpenGL driver, so that it’s possible to build
-   ``build-pix.exe``, ``offscreen.exe``, and ``replay.exe``.
+   that it’s possible to build ``antares-install-data.exe``.
+*  Implement the offscreen OpenGL driver (`Issue 324
+   <https://github.com/arescentral/antares/issues/324>`_), so that it’s
+   possible to build ``build-pix.exe``, ``offscreen.exe``, and
+   ``replay.exe``.
+*  Implement the real video driver (`Issue 323
+   <https://github.com/arescentral/antares/issues/323>`_) and sound
+   driver (`Issue 322
+   <https://github.com/arescentral/antares/issues/322>`_).
 *  Compile ``antares-glfw.exe``.
 *  Package it properly as a Windows application.
 
