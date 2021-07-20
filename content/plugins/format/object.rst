@@ -804,8 +804,6 @@ frame in the animation).
 An animation’s sprite has a ``animation.layer`` and ``animation.scale``.
 These function the same as in rotation_.
 
-.. _tick: /plugins/format/types#duration
-
 ray
 ~~~
 

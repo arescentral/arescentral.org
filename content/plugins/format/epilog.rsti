@@ -16,6 +16,10 @@
 .. _map: /plugins/format/types#map
 .. _maps: /plugins/format/types#map
 
+.. _tick: /plugins/format/types#duration
+.. _ticks: /plugins/format/types#duration
+.. _duration: /plugins/format/types#duration
+.. _durations: /plugins/format/types#duration
 .. _range: /plugins/format/types#range
 .. _ranges: /plugins/format/types#range
 .. _distance: /plugins/format/types#distance
