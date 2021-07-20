@@ -180,17 +180,16 @@ Speed
 ~~~~~
 
 A number_ indicating a change in distance_ over time, in units of
-`px/t`, or pixels-per-`tick <#duration>`_. When the game is zoomed to
-1:1, an object moving at a speed of `5.0 px/t` moves 5 pixels per tick,
-or 300 pixels per second.
+`px/t`, or pixels-per-`tick`_. When the game is zoomed to 1:1, an object
+moving at a speed of `5.0 px/t` moves 5 pixels per tick, or 300 pixels
+per second.
 
 Acceleration
 ~~~~~~~~~~~~
 
 A number_ indicating a change in speed_ over time, in units of `px/t²`,
-or pixels-per-`tick <#duration>`_-squared. An object accelerating at
-`0.05 px/t²` will increase its speed by 0.05 per tick, or 3.0 per
-second.
+or pixels-per-`tick`_-squared. An object accelerating at `0.05 px/t²`
+will increase its speed by 0.05 per tick, or 3.0 per second.
 
 Angle
 ~~~~~
@@ -203,9 +202,9 @@ Angular Speed
 ~~~~~~~~~~~~~
 
 A number_ indicating a change in angle_ over time, in units of `°/t`, or
-degrees-per-`tick <#duration>`_. An object turning at `2.0°/t` will
-change its direction by 2 degrees per tick, or 120 degrees per second,
-making a full rotation in 3 seconds.
+degrees-per-`tick`_. An object turning at `2.0°/t` will change its
+direction by 2 degrees per tick, or 120 degrees per second, making a
+full rotation in 3 seconds.
 
 Point
 ~~~~~
@@ -243,11 +242,11 @@ distances_ or integers_). In a non-empty rect, ``left < right`` and
 Range
 ~~~~~
 
-A number_ or map_ specifying a range of values. If specified as a
-number, then the range contains only that specific value. If specified
-as a map_, then it is a `half-open interval`_ with a ``begin`` and
-``end`` component, containing all values `x` such that `begin ≤ x <
-end`. The following are all valid ranges:
+A number_, duration_, or map_ specifying a range of values. If specified
+as a number or duration, then the range contains only that specific
+value. If specified as a map_, then it is a `half-open interval`_ with a
+``begin`` and ``end`` component, containing all values `x` such that
+`begin ≤ x < end`. The following are all valid ranges:
 
 .. _half-open interval: https://en.wiktionary.org/wiki/half-open_interval
 
