@@ -43,7 +43,7 @@ a terminal:
 ..  _reports: mailto:sfiera@twotaled.com
 ..  |antares-0.8.2~rc1-mac| replace:: Antares 0.8.2~rc1 for Mac OS X 10.7+
 ..  |antares-0.8.2~rc1-src| replace:: Antares 0.8.2~rc1 sources
-..  _antares-0.8.2~rc1-mac: http://downloads.arescentral.org/Antares/antares-mac-0.8.2~rc1.zip
-..  _antares-0.8.2~rc1-src: http://downloads.arescentral.org/Antares/antares-0.8.2~rc1.zip
+..  _antares-0.8.2~rc1-mac: https://downloads.arescentral.org/Antares/antares-mac-0.8.2~rc1.zip
+..  _antares-0.8.2~rc1-src: https://downloads.arescentral.org/Antares/antares-0.8.2~rc1.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

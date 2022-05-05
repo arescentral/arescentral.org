@@ -27,8 +27,8 @@ The sample plugins have been updated:
 ..  _reports: mailto:antares-dev@arescentral.com
 ..  |antares-mac-0.9.0~rc2| replace:: Antares 0.9.0~rc2 for Mac OS X 10.7+
 ..  |antares-0.9.0~rc2| replace:: Antares 0.9.0~rc2 sources
-..  _antares-mac-0.9.0~rc2: http://downloads.arescentral.org/Antares/antares-mac-0.9.0~rc2.zip
-..  _antares-0.9.0~rc2: http://downloads.arescentral.org/Antares/antares-0.9.0~rc2.zip
+..  _antares-mac-0.9.0~rc2: https://downloads.arescentral.org/Antares/antares-mac-0.9.0~rc2.zip
+..  _antares-0.9.0~rc2: https://downloads.arescentral.org/Antares/antares-0.9.0~rc2.zip
 
 ..  _plugin documentation: /plugins/format
 

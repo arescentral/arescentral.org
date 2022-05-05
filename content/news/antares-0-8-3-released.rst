@@ -17,8 +17,8 @@ Footsteps of Pyrrhus plugin:
 
 *   Issue 200 (Scroll text crashes when no background specified)
 
-..  _Antares 0.8.3 sources: http://downloads.arescentral.org/Antares/antares-0.8.3.zip
+..  _Antares 0.8.3 sources: https://downloads.arescentral.org/Antares/antares-0.8.3.zip
 ..  _Antares 0.8.3 for Debian and Ubuntu: /antares/linux/
-..  _Antares 0.8.3 for Mac OS X 10.7+: http://downloads.arescentral.org/Antares/antares-mac-0.8.3.zip
+..  _Antares 0.8.3 for Mac OS X 10.7+: https://downloads.arescentral.org/Antares/antares-mac-0.8.3.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

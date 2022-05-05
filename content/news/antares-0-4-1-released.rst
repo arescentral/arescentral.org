@@ -12,6 +12,6 @@ three issues:
 * Issue 99: Crash drawing bracket on starmap
 * Issue 100: Input laggy in 0.4.0
 
-..  _Antares 0.4.1: http://downloads.arescentral.org/Antares/Antares-0.4.1.zip
+..  _Antares 0.4.1: https://downloads.arescentral.org/Antares/Antares-0.4.1.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

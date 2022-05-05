@@ -21,8 +21,8 @@ interoperability between Antares and `Athena`_.
 load a plugin without first playing the factory scenario. The release
 was scrapped in favor of 0.5.1)
 
-..  _Antares 0.5.1: http://downloads.arescentral.org/Antares/Antares-0.5.1.zip
-..  _Footsteps of Pyrrhus: http://downloads.arescentral.org/Footsteps-of-Pyrrhus/Footsteps-of-Pyrrhus-1.1.0.zip
+..  _Antares 0.5.1: https://downloads.arescentral.org/Antares/Antares-0.5.1.zip
+..  _Footsteps of Pyrrhus: https://downloads.arescentral.org/Footsteps-of-Pyrrhus/Footsteps-of-Pyrrhus-1.1.0.zip
 ..  _Athena: https://github.com/gamefreak/Athena
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

@@ -38,6 +38,6 @@ The full list of bugs fixed:
 * Issue 131 (Mission briefing buttons not clickable)
 * Issue 133 (Bad interaction with sticky keys)
 
-..  _Antares 0.7.0: http://downloads.arescentral.org/Antares/Antares-0.7.0.zip
+..  _Antares 0.7.0: https://downloads.arescentral.org/Antares/Antares-0.7.0.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

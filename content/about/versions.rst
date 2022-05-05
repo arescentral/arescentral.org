@@ -269,9 +269,9 @@ Changes:
     could harm arbitrary enemy ships at any range
 *   Includes scenario editor Hera 1.0
 
-..  _Ares 1.0 Demo: http://downloads.arescentral.org/Ares/Ares-1.0-Demo.zip
-..  _Ares 1.0.1 Demo: http://downloads.arescentral.org/Ares/Ares-1.0.1-Demo.zip
-..  _Ares 1.1.0: http://downloads.arescentral.org/Ares/Ares-1.1.0.zip
-..  _Ares 1.2.0: http://downloads.arescentral.org/Ares/Ares-1.2.0.zip
+..  _Ares 1.0 Demo: https://downloads.arescentral.org/Ares/Ares-1.0-Demo.zip
+..  _Ares 1.0.1 Demo: https://downloads.arescentral.org/Ares/Ares-1.0.1-Demo.zip
+..  _Ares 1.1.0: https://downloads.arescentral.org/Ares/Ares-1.1.0.zip
+..  _Ares 1.2.0: https://downloads.arescentral.org/Ares/Ares-1.2.0.zip
 ..  _Ambrosia Software: https://web.archive.org/web/20190618111545/https://www.ambrosiasw.com/
 ..  _GameRanger: https://www.gameranger.com/

@@ -12,6 +12,6 @@ release fixing two issues:
 * Issue 143 (Shift-8 in main menu level selection)
 
 ..  _report how it works: mailto:sfiera@twotaled.com
-..  _Antares 0.7.3: http://downloads.arescentral.org/Antares/Antares-0.7.3.zip
+..  _Antares 0.7.3: https://downloads.arescentral.org/Antares/Antares-0.7.3.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

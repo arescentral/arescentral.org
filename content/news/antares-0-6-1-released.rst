@@ -11,6 +11,6 @@ fixes two problems present in 0.6.0:
 * Issue 113 (Control, target bars not as wide as minicomputer selection)
 * Issue 126 (Static static on ATI card)
 
-..  _Antares 0.6.1: http://downloads.arescentral.org/Antares/Antares-0.6.1.zip
+..  _Antares 0.6.1: https://downloads.arescentral.org/Antares/Antares-0.6.1.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

@@ -35,7 +35,7 @@ OS X, back to 10.7, and on Linux, integrates better with the system:
 *   Issue 183 (Warn when $PREFIX/share/antares/app is missing)
 *   Issue 182 (.gn missing from 0.8.1 source release)
 
-..  _Antares 0.8.2 sources: http://downloads.arescentral.org/Antares/antares-0.8.2.zip
-..  _Antares 0.8.2 for Mac OS X 10.7+: http://downloads.arescentral.org/Antares/antares-mac-0.8.2.zip
+..  _Antares 0.8.2 sources: https://downloads.arescentral.org/Antares/antares-0.8.2.zip
+..  _Antares 0.8.2 for Mac OS X 10.7+: https://downloads.arescentral.org/Antares/antares-mac-0.8.2.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

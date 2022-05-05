@@ -9,4 +9,4 @@ some of the most sophisticated coding yet seen in a plug-in. Are you ready for i
 
 * Download `Footsteps of Pyrrhus 1.2.0`_
 
-..  _Footsteps of Pyrrhus 1.2.0: http://downloads.arescentral.org/plugins/Footsteps-of-Pyrrhus-1.2.0.zip
+..  _Footsteps of Pyrrhus 1.2.0: https://downloads.arescentral.org/plugins/Footsteps-of-Pyrrhus-1.2.0.zip

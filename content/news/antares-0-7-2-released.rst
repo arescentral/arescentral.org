@@ -23,6 +23,6 @@ Additionally, there's one bugfix and a feature for developers:
 * Issue 73 (Parallelize Antares tests)
 
 ..  _report how it works: mailto:sfiera@twotaled.com
-..  _Antares 0.7.2: http://downloads.arescentral.org/Antares/Antares-0.7.2.zip
+..  _Antares 0.7.2: https://downloads.arescentral.org/Antares/Antares-0.7.2.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

@@ -29,8 +29,8 @@ give it a try, \*25.
 ..  _reports: mailto:antares-dev@arescentral.com
 ..  |antares-mac-0.9.0~rc1| replace:: Antares 0.9.0~rc1 for Mac OS X 10.7+
 ..  |antares-0.9.0~rc1| replace:: Antares 0.9.0~rc1 sources
-..  _antares-mac-0.9.0~rc1: http://downloads.arescentral.org/Antares/antares-mac-0.9.0~rc1.zip
-..  _antares-0.9.0~rc1: http://downloads.arescentral.org/Antares/antares-0.9.0~rc1.zip
+..  _antares-mac-0.9.0~rc1: https://downloads.arescentral.org/Antares/antares-mac-0.9.0~rc1.zip
+..  _antares-0.9.0~rc1: https://downloads.arescentral.org/Antares/antares-0.9.0~rc1.zip
 
 ..  _Cold Days and Long Nights: https://sfiera.net/~sfiera/Cold-Days-and-Long-Nights-3.0.1.zip
 ..  _Footsteps of Pyrrhus: https://sfiera.net/~sfiera/Footsteps-of-Pyrrhus-1.2.0.zip

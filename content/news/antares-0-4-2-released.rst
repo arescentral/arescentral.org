@@ -10,6 +10,6 @@ issue:
 
 * Issue 100: Input laggy in 0.4.1
 
-..  _Antares 0.4.2: http://downloads.arescentral.org/Antares/Antares-0.4.2.zip
+..  _Antares 0.4.2: https://downloads.arescentral.org/Antares/Antares-0.4.2.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

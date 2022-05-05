@@ -63,12 +63,12 @@ of the Hera source files have been dedicated to the |pd|.
 ..  _bigger planet: http://biggerplanet.com/
 ..  _ambrosia software: https://web.archive.org/web/20190618111545/https://www.ambrosiasw.com/
 
-..  _ares source code: http://downloads.arescentral.org/Ares-Source-GPL2/Ares-Source-GPL2-1.0.zip
+..  _ares source code: https://downloads.arescentral.org/Ares-Source-GPL2/Ares-Source-GPL2-1.0.zip
 ..  _xsera: https://github.com/prophile/xsera
-..  _ares media: http://downloads.arescentral.org/Ares-Media-CC/Ares-Media-CC-1.0.zip
-..  _ares models: http://downloads.arescentral.org/Ares-Models-CC/Ares-Models-CC-1.0.zip
-..  _ares movies: http://downloads.arescentral.org/Ares-Movies-CC/Ares-Movies-CC-1.0.zip
-..  _hera source code: http://downloads.arescentral.org/Hera-Source-PublicDomain/Hera-Source-PublicDomain-1.0.zip
+..  _ares media: https://downloads.arescentral.org/Ares-Media-CC/Ares-Media-CC-1.0.zip
+..  _ares models: https://downloads.arescentral.org/Ares-Models-CC/Ares-Models-CC-1.0.zip
+..  _ares movies: https://downloads.arescentral.org/Ares-Movies-CC/Ares-Movies-CC-1.0.zip
+..  _hera source code: https://downloads.arescentral.org/Hera-Source-PublicDomain/Hera-Source-PublicDomain-1.0.zip
 
 This Site
 ---------

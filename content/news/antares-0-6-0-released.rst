@@ -47,8 +47,8 @@ Sadly, this release is not compatible with Mac OS X 10.4 or 10.5.  If
 you are still running one of those versions, `Antares 0.5.1`_ is still
 available.
 
-..  _Antares 0.6.0: http://downloads.arescentral.org/Antares/Antares-0.6.0.zip
+..  _Antares 0.6.0: https://downloads.arescentral.org/Antares/Antares-0.6.0.zip
 ..  _issue tracker: http://code.google.com/p/antares/issues/entry
-..  _Antares 0.5.1: http://downloads.arescentral.org/Antares/Antares-0.5.1.zip
+..  _Antares 0.5.1: https://downloads.arescentral.org/Antares/Antares-0.5.1.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

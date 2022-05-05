@@ -14,5 +14,5 @@ Lamont for all of his insights into the game. The recording is now on YouTube:
 Also available: the collection of documents (text, images, movies, and audio) that I prepared for
 the stream, in `modern zip`_ or `classic StuffIt`_ format.
 
-.. _modern zip: http://downloads.arescentral.org/livestream/ares-docs.zip
-.. _classic StuffIt: http://downloads.arescentral.org/livestream/ares-docs.sit
+.. _modern zip: https://downloads.arescentral.org/livestream/ares-docs.zip
+.. _classic StuffIt: https://downloads.arescentral.org/livestream/ares-docs.sit

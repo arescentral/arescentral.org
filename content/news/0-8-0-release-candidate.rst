@@ -25,7 +25,7 @@ everything works fine).
 ..  _reports: mailto:sfiera@twotaled.com
 ..  |antares-0.8.0rc2-osx| replace:: Antares 0.8.0rc2 for Mac OS X 10.9+
 ..  |antares-0.8.0rc4-src| replace:: Antares 0.8.0rc4 sources
-..  _antares-0.8.0rc2-osx: http://downloads.arescentral.org/Antares/Antares-0.8.0rc2.zip
-..  _antares-0.8.0rc4-src: http://downloads.arescentral.org/Antares/Antares-Source-0.8.0rc4.zip
+..  _antares-0.8.0rc2-osx: https://downloads.arescentral.org/Antares/Antares-0.8.0rc2.zip
+..  _antares-0.8.0rc4-src: https://downloads.arescentral.org/Antares/Antares-Source-0.8.0rc4.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

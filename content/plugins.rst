@@ -12,9 +12,9 @@ Plugins
    *   `The Stars Are Fire`__, by Skyfox
    *   `Vengeance`__, by Mag Steelglass
 
-__ http://downloads.arescentral.org/plugins/The-Audemedon-Crisis-1.0.0.zip
-__ http://downloads.arescentral.org/plugins/Cold-Days-and-Long-Nights-3.0.1.zip
-__ http://downloads.arescentral.org/plugins/The-Iron-Fist-1.1.0.zip
-__ http://downloads.arescentral.org/plugins/The-Rogue-1.0.4.zip
-__ http://downloads.arescentral.org/plugins/Stars-Are-Fire-1.0.zip
-__ http://downloads.arescentral.org/plugins/Vengeance-1.0.zip
+__ https://downloads.arescentral.org/plugins/The-Audemedon-Crisis-1.0.0.zip
+__ https://downloads.arescentral.org/plugins/Cold-Days-and-Long-Nights-3.0.1.zip
+__ https://downloads.arescentral.org/plugins/The-Iron-Fist-1.1.0.zip
+__ https://downloads.arescentral.org/plugins/The-Rogue-1.0.4.zip
+__ https://downloads.arescentral.org/plugins/Stars-Are-Fire-1.0.zip
+__ https://downloads.arescentral.org/plugins/Vengeance-1.0.zip

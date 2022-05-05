@@ -22,7 +22,7 @@ As well as a few bug-fixes:
 *   Issue 111 (Support tabbing out)
 *   Issue 127 (Gameplay stops during mission)
 
-..  _Antares 0.8.1 for Mac OS X 10.9+: http://downloads.arescentral.org/Antares/Antares-0.8.1.zip
-..  _Antares 0.8.1 sources: http://downloads.arescentral.org/Antares/Antares-Source-0.8.1.zip
+..  _Antares 0.8.1 for Mac OS X 10.9+: https://downloads.arescentral.org/Antares/Antares-0.8.1.zip
+..  _Antares 0.8.1 sources: https://downloads.arescentral.org/Antares/Antares-Source-0.8.1.zip
 
 ..  -*- tab-width: 4; fill-column: 72 -*-

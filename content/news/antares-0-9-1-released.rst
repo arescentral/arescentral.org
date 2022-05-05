@@ -15,9 +15,9 @@ and Linux.
 ..  |antares-mac-0.9.1| replace:: Antares 0.9.1 for Mac OS X 10.7+
 ..  |antares-ubuntu-0.9.1| replace:: Antares 0.9.1 for Ubuntu Xenial, Bionic, and Cosmic
 ..  |antares-0.9.1| replace:: Antares 0.9.1 sources
-..  _antares-mac-0.9.1: http://downloads.arescentral.org/Antares/antares-mac-0.9.1.zip
+..  _antares-mac-0.9.1: https://downloads.arescentral.org/Antares/antares-mac-0.9.1.zip
 ..  _antares-ubuntu-0.9.1: /antares/linux
-..  _antares-0.9.1: http://downloads.arescentral.org/Antares/antares-0.9.1.zip
+..  _antares-0.9.1: https://downloads.arescentral.org/Antares/antares-0.9.1.zip
 
 When I posted about the `release candidate
 </news/0-9-1-release-candidate>`_, I claimed that there weren’t any new
