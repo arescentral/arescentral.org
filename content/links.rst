@@ -7,6 +7,11 @@ Links
 *   `Ares (video game) — Wikipedia, the free encyclopedia <https://en.wikipedia.org/wiki/Ares_(video_game)>`_
 *   `Ares — Macintosh Garden <http://macintoshgarden.org/games/ares>`_
 
+Community
+---------
+
+*   `Ares Central on Discord <https://discord.gg/x6XPsP6>`_
+
 Audio and Video
 ---------------
 *   `Ares Gameplay Videos — YouTube <https://www.youtube.com/playlist?list=PLB566F1ACF8B9F80C>`_
