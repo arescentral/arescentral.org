@@ -4,7 +4,7 @@
     $dark: mix($color, black, 66.6666%);
     $darker: mix($color, black, 50%);
     $darkish: mix($color, black, 75%);
-    #header .content {
+    #header {
         border-color: $dark;
     }
     nav {
@@ -80,15 +80,13 @@ body.plugins {
     bottom: 0;
     width: 23em;
     background: #eee;
-    border-width: 0 1px 0 0;
     border-style: solid;
-    border-color: rgba(0, 0, 0, 0.2);
+    border-width: 1em 0 0 0;
     .content {
-        margin: 0 -1px 0 0;
+        height: 100%;
         padding: 0 1.5em;
-        border-width: 0;
-        border-top-width: 1em;
-        border-style: solid;
+        border: solid rgba(0, 0, 0, 0.2);
+        border-width: 0 1px 0 0;
     }
     .home {
         line-height: 0;
@@ -491,13 +489,11 @@ tr:last-child td {
 @media (max-width: 50em) {
     #header {
         position: inherit;
-        top: 0;
-        left: 0;
         width: 100%;
-        border-width: 0 0 1px 0;
+        border-width: 0 0 0 1em;
         .content {
-            border-width: 0 0 0 1em;
-            margin: 0 0 -1px 0;
+            height: auto;
+            border-width: 0 0 1px 0;
             padding: 1em 1em 1em 50%;
             position: relative;
         }
