@@ -18,7 +18,7 @@ jobs:
         with: {path: output}
 
   deploy:
-    if: github.action == 'push' 
+    if: github.event_name == 'push' 
     needs: build
     runs-on: ubuntu-latest
     permissions: {pages: write, id-token: write}
