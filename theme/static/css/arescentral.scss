@@ -549,6 +549,50 @@ tr:last-child td {
     }
 }
 
+@media screen and (prefers-color-scheme: dark) {
+    html {
+        background: black;
+        color: #ccc;
+    }
+    #header {
+        background: #111;
+        .content {
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: hsl(0, 0%, 70%);
+    }
+    table {
+        background: hsl(0, 0%, 10%);
+    }
+    tr:nth-child(10n+1),
+    tr:nth-child(10n+2),
+    tr:nth-child(10n+3),
+    tr:nth-child(10n+4),
+    tr:nth-child(10n+5) {
+        background: hsl(0, 0%, 5%);
+    }
+    tt,
+    .highlight,
+    .line-block,
+    .literal-block,
+    .admonition,
+    #contents,
+    blockquote {
+        background: rgba(255, 255, 255, 0.1);
+    }
+    .figure {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+}
+
 .youtube-16x9 {
     padding-bottom: 56.25%;  /* inverse of 16:9 aspect ratio */
     position: relative;
