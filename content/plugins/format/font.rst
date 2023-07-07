@@ -20,5 +20,38 @@ The five fonts are named:
 *  ``tactical`` (used for in-game status messages)
 *  ``title`` (use for prologues and epilogues)
 
+Samples
+-------
+
+button
+~~~~~~
+
+..  image:: /images/fonts/button.png
+    :alt: Light years from Proxima, zerbilite shockwave jars quadrant
+
+button-small
+~~~~~~~~~~~~
+
+..  image:: /images/fonts/button-small.png
+    :alt: Light years from Proxima, zerbilite shockwave jars quadrant
+
+computer
+~~~~~~~~
+
+..  image:: /images/fonts/computer.png
+    :alt: Light years from Proxima, zerbilite shockwave jars quadrant
+
+tactical
+~~~~~~~~
+
+..  image:: /images/fonts/tactical.png
+    :alt: Light years from Proxima, zerbilite shockwave jars quadrant
+
+title
+~~~~~
+
+..  image:: /images/fonts/title.png
+    :alt: Light years from Proxima, zerbilite shockwave jars quadrant
+
 .. include:: epilog.rsti
 .. -*- tab-width: 3; indent-tabs-mode: nil; fill-column: 72 -*-
