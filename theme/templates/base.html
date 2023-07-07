@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8" />
     <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
-    {% assets filters="pyscss", output="css/main.css", "css/arescentral.scss", "css/pygment.css" %}
+    {% assets filters="pyscss,cssmin", output="css/main.css", "css/arescentral.scss", "css/pygment.css" %}
     <link rel="stylesheet" href="{{ ASSET_URL }}">
     {% endassets %}
     {% if FEED_ALL_ATOM %}

@@ -4,4 +4,5 @@ pelican_webassets
 typogrify
 webassets
 pyscss
+cssmin
 procyonlexer
