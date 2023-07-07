@@ -32,7 +32,7 @@ USE_FOLDER_AS_CATEGORY  = False
 DIRECT_TEMPLATES        = ["index"]
 
 PLUGIN_PATHS      = ["plugins"]
-PLUGINS           = ["pelican_youtube", "assets"]
+PLUGINS           = ["pelican_youtube", "pelican.plugins.webassets"]
 DOCUTILS_SETTINGS = {"tab_width": 2}
 
 MENUITEMS = [
