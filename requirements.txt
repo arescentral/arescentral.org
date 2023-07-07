@@ -1,5 +1,6 @@
 pelican
 pelican_youtube
+pelican_webassets
 typogrify
 webassets
 pyscss
