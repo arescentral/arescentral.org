@@ -28,14 +28,7 @@ Development
     +   `sfiera/antares — GitHub <https://github.com/sfiera/antares>`_
     +   `Antares (video game): Project Summary — Open Hub <https://www.openhub.net/p/antares>`_
 
-*   Xsera
-
-    +   `Xsera Development — Google Groups <https://groups.google.com/group/xsera-dev>`_
-    +   `adam000/xsera — GitHub <https://github.com/adam000/xsera>`_
-    +   `prophile/xsera — GitHub <https://github.com/prophile/xsera>`_
-    +   `Xsera: Project Summary — Open Hub <https://www.openhub.net/p/xsera>`_
-
 *   Plugins
 
-    +   `gamefreak/Athena — GitHub <https://github.com/gamefreak/Athena>`_
+    +   `Antares Reference </plugins/format>`_
     +   `Hera Reference <https://hera.arescentral.org/>`_
