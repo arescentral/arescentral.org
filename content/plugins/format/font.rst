@@ -1,8 +1,14 @@
 Font
 ====
 
+.. sectnum::
+
 Antares has five built-in fonts. In the future, it might be possible to
 replace them, but for now, it isn’t supported.
+
+.. contents::
+   :local:
+   :backlinks: none
 
 Do I need it?
 -------------
