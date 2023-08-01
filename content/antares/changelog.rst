@@ -12,6 +12,8 @@ Antares remains under development. Prerelease versions are available here, bugs 
 
 *  Download `Antares (prerelease) for Mac OS X 10.7+
    <https://downloads.arescentral.org/Antares/antares-mac-git.zip>`__
+*  Download `Antares (prerelease) for Windows
+   <https://downloads.arescentral.org/Antares/antares-win-git.zip>`__
 *  Download the `Antares (prerelease) sources
    <https://downloads.arescentral.org/Antares/antares-git.zip>`__
 
