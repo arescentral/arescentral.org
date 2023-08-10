@@ -427,15 +427,22 @@ tags that the filter maps to false.
 Tag matching is used so that some things happen only under certain
 conditions. For example:
 
-*  Asteroids are only engaged by astrominers, because astrominers
+*  Asteroids_ are only engaged by astrominers_, because astrominers
    specify ``tags: {miner: true}`` and asteroids specify ``engaged:
    {if: {tags: {miner: true}}}``.
-*  Transports only land on planets, because planets specify ``tags:
+*  Transports_ only land on planets_, because planets specify ``tags:
    {planet: true}`` and transports’ arrive actions specify ``if:
    {planet: true}``.
-*  Obish prisoners only attempt to board the Obish transport, because
-   the Obish transport specifies ``tags: {rescue: true}`` and the
-   prisoners specify ``engages: {if: {tags: {rescue: true}}}``.
+*  `Obish prisoners`_ only attempt to board the `Obish transport`_,
+   because the Obish transport specifies ``tags: {rescue: true}`` and
+   the prisoners specify ``engages: {if: {tags: {rescue: true}}}``.
+
+.. _asteroids: https://github.com/arescentral/antares-data/blob/master/objects/ast/regular/big.pn#L50-L52
+.. _astrominers: https://github.com/arescentral/antares-data/blob/master/objects/ish/etc/astrominer.pn#L5
+.. _transports: https://github.com/arescentral/antares-data/blob/master/objects/tpl/transport.pn#L28-L30
+.. _planets: https://github.com/arescentral/antares-data/blob/master/objects/tpl/planet.pn#L2
+.. _obish prisoners: https://github.com/arescentral/antares-data/blob/master/objects/obi/etc/obiard/turning.pn#L38-L39
+.. _obish transport: https://github.com/arescentral/antares-data/blob/master/objects/obi/etc/transport/rescue.pn#L3
 
 Name
 ~~~~
