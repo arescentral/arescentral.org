@@ -166,7 +166,7 @@ If override.direct_ is used, the filters apply to the new direct object.
 However, reflexive_ doesn’t make the filters apply to the `subject
 object`_; they still apply to the direct object.
 
-For example, a transport’s “arrive” action specifies:
+For example, a `transport`_’s “arrive” action specifies:
 
 .. include:: pn/action-if.pn
    :code: procyon
@@ -180,6 +180,8 @@ planet. It will never:
 
 (use of the ``attributes`` [#attributes]_ field is not recommended. It
 exists only for compatibility with some Hera-created scenarios)
+
+.. _transport: https://github.com/arescentral/antares-data/blob/master/objects/tpl/transport.pn#L28-L30
 
 .. _override.direct:
 
