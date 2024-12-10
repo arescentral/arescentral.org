@@ -45,7 +45,7 @@ Open source release
 -------------------
 
 The `Ares source code`_ is licensed under the |gpl2| and the |lgpl3|.
-This code forms the spriritual basis for `Xsera`_, and is directly
+This code forms the spiritual basis for `Xsera`_, and is directly
 adapted in `Antares`_.
 
 The `Ares media`_ (text, images, sounds, and music) and `Ares models`_
